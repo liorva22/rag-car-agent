@@ -1,0 +1,40 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: car
+      POSTGRES_PASSWORD: car
+      POSTGRES_DB: car
+    ports:
+      - "127.0.0.1:${DB_PORT:-5438}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U car"]
+      interval: 2s
+      retries: 30
+
+  # One-shot: loads the 9k-record corpus + committed embeddings into Postgres (skips if already loaded).
+  seed:
+    build: .
+    command: ["python", "-m", "carrag.seed"]
+    environment:
+      DATABASE_URL: postgresql://car:car@db:5432/car
+    depends_on:
+      db:
+        condition: service_healthy
+
+  app:
+    build: .
+    environment:
+      MOCK_MODE: ${MOCK_MODE:-1}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      DATABASE_URL: postgresql://car:car@db:5432/car
+    ports:
+      - "127.0.0.1:${APP_PORT:-8106}:8000"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+
+volumes:
+  pgdata:

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAG Car Agent</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1b1f24; --muted:#5d6672; --line:#dde1e6; --accent:#0b5fff;
+          --recall:#c62828; --complaint:#b26a00; --fuel:#1b7f3b; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width: 900px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
+  form { display:flex; gap:8px; flex-wrap:wrap; }
+  input[type=text] { flex:1 1 320px; padding:10px 12px; border:1px solid var(--line); border-radius:8px; font:inherit; }
+  select, button { padding:10px 12px; border-radius:8px; border:1px solid var(--line); font:inherit; background:var(--card); }
+  button { background:var(--accent); color:#fff; border-color:var(--accent); cursor:pointer; }
+  label.f { display:flex; align-items:center; gap:6px; font-size:14px; color:var(--muted); }
+  .examples { margin:10px 0 20px; display:flex; gap:6px; flex-wrap:wrap; }
+  .examples button { background:var(--card); color:var(--ink); border-color:var(--line); font-size:13px; padding:6px 10px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:12px; }
+  .answer { white-space: pre-wrap; }
+  .refused { border-left:4px solid var(--muted); }
+  .meta { color:var(--muted); font-size:13px; margin-top:10px; }
+  .doc { border-top:1px solid var(--line); padding:10px 0; }
+  .doc:first-child { border-top:0; }
+  .doc.cited { background: #f0f5ff; margin: 0 -16px; padding: 10px 16px; }
+  .tag { display:inline-block; font-size:11px; font-weight:600; color:#fff; padding:1px 7px; border-radius:10px; margin-right:6px; text-transform:uppercase; }
+  .tag.recall { background:var(--recall); } .tag.complaint { background:var(--complaint); } .tag.fuel { background:var(--fuel); }
+  .doc p { margin:6px 0 0; font-size:13.5px; color:#333; max-height: 4.5em; overflow:hidden; }
+  a { color: var(--accent); }
+  cite { font-style: normal; font-size: 12px; background:#eef2ff; padding: 0 4px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>RAG Car Agent</h1>
+  <p class="sub" id="stats">Answers from NHTSA recalls, NHTSA owner complaints and EPA fuel-economy data, 2015–2024 models, with citations.</p>
+  <form id="f">
+    <input type="text" id="q" placeholder="e.g. Are there airbag recalls on a 2018 Honda Accord?" required minlength="3" maxlength="500">
+    <select id="mode" aria-label="Retrieval mode">
+      <option value="hybrid_rerank">hybrid + rerank</option>
+      <option value="hybrid">hybrid</option>
+      <option value="dense">dense</option>
+      <option value="keyword">keyword</option>
+    </select>
+    <label class="f"><input type="checkbox" id="filters" checked> vehicle filters</label>
+    <button type="submit">Ask</button>
+  </form>
+  <div class="examples" id="ex"></div>
+  <div id="out"></div>
+</main>
+<script>
+const EXAMPLES = ["Are there any fuel pump recalls on the 2019 Toyota Camry?",
+  "Have other owners of a 2016 Ford Focus reported transmission shuddering?",
+  "What is the combined MPG of a 2021 RAV4 Hybrid?",
+  "What's the recommended oil change interval for a 2018 Civic?",
+  "Is there a recall on the 2017 BMW X5?"];
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+EXAMPLES.forEach(e => { const b = document.createElement("button"); b.type = "button"; b.textContent = e;
+  b.onclick = () => { $("q").value = e; run(); }; $("ex").appendChild(b); });
+fetch("/api/stats").then(r => r.json()).then(s => {
+  const n = Object.entries(s.docs).map(([k, v]) => `${v.toLocaleString()} ${k}`).join(" · ");
+  $("stats").textContent = `Index: ${n} records · ${s.mode} mode · citations link to the source record.`;
+});
+$("f").onsubmit = (e) => { e.preventDefault(); run(); };
+async function run() {
+  $("out").innerHTML = '<div class="card">Searching…</div>';
+  const r = await fetch("/api/ask", { method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ question: $("q").value, mode: $("mode").value, use_filters: $("filters").checked }) });
+  if (!r.ok) { $("out").innerHTML = `<div class="card">Error ${r.status}</div>`; return; }
+  const a = await r.json();
+  const cited = new Set(a.citations);
+  const answer = esc(a.answer).replace(/\[?((?:recall|complaint|fuel):[A-Za-z0-9]+)\]?/g, '<cite>$1</cite>');
+  const f = a.filters; const t = a.timings;
+  const meta = [`filter: ${f.tag ? f.tag.replaceAll("|", " ") : "none"}${f.source ? " · " + f.source : ""}`,
+    `${t.total_ms} ms total`, Object.entries(t).filter(([k]) => k !== "total_ms").map(([k, v]) => `${k.replace("_ms", "")} ${v} ms`).join(", "),
+    a.model ? `${a.model} · ${a.input_tokens + a.output_tokens} tokens · $${a.cost_usd.toFixed(4)}` : "no model call"].join(" · ");
+  const docs = a.docs.map((d, i) => `<div class="doc ${cited.has(d.id) ? "cited" : ""}">
+      <span class="tag ${d.source}">${d.source}</span><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>
+      ${a.scores ? `<span class="meta"> · rerank ${a.scores[i].toFixed(2)}</span>` : ""}
+      <p>${esc(d.text)}</p></div>`).join("");
+  $("out").innerHTML = `<div class="card ${a.refused ? "refused" : ""}"><div class="answer">${a.refused ? "<b>Not in my sources.</b> " : ""}${answer}</div>
+    <div class="meta">${esc(meta)}</div></div>
+    <div class="card"><b>Retrieved records</b> (cited ones highlighted)${docs || "<p>none</p>"}</div>`;
+}
+</script>
+</body>
+</html>
