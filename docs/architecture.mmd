@@ -1,0 +1,15 @@
+flowchart LR
+    q([Owner question]) --> f[Rule-based filters<br/>make / model / year / record type]
+    f -->|unknown vehicle| refuse1[Refuse: NOT_IN_SOURCES<br/>no model call]
+    f --> kw[Postgres full-text<br/>tsvector, top 50]
+    f --> dn[pgvector cosine<br/>bge-small, top 50]
+    kw --> rrf[Reciprocal rank fusion]
+    dn --> rrf
+    rrf --> rr[Cross-encoder rerank<br/>MiniLM, top 30 to 6]
+    rr --> ans{Answerer}
+    ans -->|live| claude[(claude-sonnet-5-5<br/>cited answer or NOT_IN_SOURCES)]
+    ans -.->|MOCK_MODE=1| mock[Extractive mock<br/>first sentences of top record]
+    claude --> out([Answer + citations<br/>validated against retrieved ids])
+    mock --> out
+    pg[(Postgres + pgvector<br/>9,168 docs: recalls, complaints, EPA)] --- kw
+    pg --- dn
