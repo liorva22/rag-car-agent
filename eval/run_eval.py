@@ -161,30 +161,23 @@ def eval_answers(n_workers: int = 6) -> dict:
                     row |= {"correct": bool(v["correct"]), "faithful": bool(v["faithful"]), "judge_notes": (re.search(r'"notes":\s*"(.*)', text) or [0, ""])[1][:200]}
                 else:
                     row["judge_unparsed"] = text[:200]
-        else:
-            row["kind"] = q["kind"]
         return row
 
     with ThreadPoolExecutor(1 if is_mock() else n_workers) as ex:
         rows = list(ex.map(run, qs))
 
-    ans, una = [r for r in rows if r["answerable"]], [r for r in rows if not r["answerable"]]
+    ans = rows
     graded = [r for r in ans if "correct" in r]
     summary = {
         "mode": "mock" if is_mock() else "live",
         "answer_model": "mock-extractive" if is_mock() else llm.model,
         "n_answerable": len(ans),
-        "n_unanswerable": len(una),
         "answered": mean(not r["refused"] for r in ans),
         "false_refusal_rate": mean(r["refused"] for r in ans),
         "gold_in_context": mean(r["gold_in_context"] for r in ans),
         "gold_cited": mean(r["gold_cited"] for r in ans),
         "answers_with_citation": mean(bool(r["citations"]) for r in ans if not r["refused"]),
         "invalid_citation_answers": sum(bool(r["invalid_citations"]) for r in rows),
-        "correct_refusal_rate": mean(r["refused"] for r in una),
-        "correct_refusal_by_kind": {
-            k: mean(r["refused"] for r in una if r["kind"] == k) for k in sorted({r["kind"] for r in una})
-        },
         "p50_ms": pct([r["timings"]["total_ms"] for r in rows], 0.5),
         "p95_ms": pct([r["timings"]["total_ms"] for r in rows], 0.95),
         "answer_cost_usd": round(sum(r["cost_usd"] for r in rows), 4),

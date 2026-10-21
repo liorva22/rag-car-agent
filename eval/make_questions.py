@@ -3,7 +3,6 @@
     python eval/make_questions.py            # needs ANTHROPIC_API_KEY, ~$0.5
 
 - 200 answerable questions, each written from one sampled record (its gold record), stratified by record type.
-- 30 unanswerable questions: uncovered makes, covered vehicles but off-topic, covered models in uncovered years.
 """
 
 import json
@@ -33,17 +32,6 @@ don't mention record ids or campaign numbers.
 transmission only if needed to pick this configuration.
 
 Reply with JSON only: {"question": "...", "answer": "..."}"""
-
-UNANSWERABLE = """Write 30 questions car owners might ask a recall / complaint / fuel-economy assistant that its index \
-CANNOT answer. The index only covers model years 2015-2024 of: {models}.
-
-- 10 about makes not in the list (e.g. BMW, Lexus, Volkswagen), any year.
-- 10 about vehicles in the list but topics outside recalls, owner complaints and EPA fuel economy: maintenance \
-schedules, prices, insurance, towing how-to, tire pressure, resale value.
-- 10 about models in the list but model years 2005-2012.
-
-Vary phrasing. Reply with JSON only: {{"questions": [{{"question": "...", "kind": "uncovered_make|off_topic|uncovered_year"}}]}}"""
-
 
 def parse_json(text: str):
     text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```")
@@ -81,18 +69,11 @@ def main() -> int:
         answerable = list(ex.map(gen, picks))
     answerable = [{"id": f"a{n:03d}", **q} for n, q in enumerate(answerable)]
 
-    models = sorted({" ".join(v.split("|")[:2]) for d in docs for v in d["vehicles"]})
-    text, i, o = llm(UNANSWERABLE.format(models=", ".join(models)), "Write the 30 questions.", max_tokens=4000)
-    spent[0] += cost(MODEL, i, o)
-    unanswerable = [
-        {"id": f"u{n:03d}", "question": q["question"], "kind": q["kind"], "gold": None, "answerable": False}
-        for n, q in enumerate(parse_json(text)["questions"])
-    ]
     OUT.write_text(
-        json.dumps({"generator": MODEL, "cost_usd": round(spent[0], 4), "questions": answerable + unanswerable}, indent=2),
+        json.dumps({"generator": MODEL, "cost_usd": round(spent[0], 4), "questions": answerable}, indent=2),
         encoding="utf-8",
     )
-    print(f"wrote {len(answerable)} + {len(unanswerable)} questions, ${spent[0]:.4f}")
+    print(f"wrote {len(answerable)} questions, ${spent[0]:.4f}")
     return 0
 
 

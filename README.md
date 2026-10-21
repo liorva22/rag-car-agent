@@ -43,7 +43,7 @@ flowchart LR
 
 ## Key results
 
-Evaluated on 230 questions in [`eval/questions.json`](eval/questions.json): 200 answerable (80 recall, 70 complaint, 50 fuel; each written by Claude from one sampled record, which is that question's gold record) and 30 unanswerable. **The questions were written by an AI model, not by car owners**, and the generator saw the gold record, so questions can echo its wording. Treat absolute numbers as optimistic.
+Evaluated on the 200 questions in [`eval/questions.json`](eval/questions.json) (80 recall, 70 complaint, 50 fuel). Each was written by Claude from one sampled record, which is that question's gold record. **The questions were written by an AI model, not by car owners**, and the generator saw the gold record, so questions can echo its wording. Treat absolute numbers as optimistic.
 
 ### Retrieval (offline, no API; [`results/retrieval.json`](results/retrieval.json))
 
@@ -74,17 +74,15 @@ Evaluated on 230 questions in [`eval/questions.json`](eval/questions.json): 200 
 | Gold record in the 6 records given to the answerer | 99.5% |
 | Answers that cite the gold record | 86.0% |
 | Answers with a citation / invalid (made-up) citations | 100% / 0 |
-| Correct refusal on the 30 unanswerable questions | **73.3%** |
-| ...uncovered make / uncovered model year / off-topic | 100% / 100% / **20%** |
+| p50 / p95 latency (retrieval + rerank, mock answer) | 984 ms / 1,471 ms |
 
 **Honest scope.**
-- The mock answerer pastes the first two sentences of the top record, so **answer correctness and faithfulness are not measured in mock mode**, only retrieval, citation plumbing and refusal.
-- It refuses only when the vehicle isn't indexed. Off-topic questions about indexed cars ("oil change interval for a 2018 Civic") get an unrelated complaint pasted back ([screenshot](docs/img/mock_offtopic_miss.png)). The cross-encoder scores of the other results are visibly low there (-1.4 against 3.4 for the top hit), but I did not tune a threshold on the eval set, so `REFUSE_BELOW` defaults to 0.
-- The real model is expected to refuse these. That is what the live eval below is for.
+- The mock answerer pastes the first two sentences of the top record, so **answer correctness and faithfulness are not measured in mock mode**, only retrieval and citation plumbing.
+- **Refusal behavior is not evaluated.** An earlier version of the eval had 30 unanswerable questions. I removed them: the mock only refuses when the vehicle isn't indexed (that path is covered by unit tests), and the live model's refusals can't be measured without API credit. In mock mode an off-topic question about an indexed car ("oil change interval for a 2018 Civic") gets an unrelated complaint pasted back ([screenshot](docs/img/mock_offtopic_miss.png)). `REFUSE_BELOW` defaults to 0 and is untuned.
 
 ### Live answers (Claude Sonnet writes, Claude Haiku judges): **not run**
 
-`python eval/run_eval.py answers` is implemented (correctness and faithfulness judged by Haiku against the gold reference, refusal rate, cost per query), but the API credit ran out before a run completed. **There are no live numbers in this repo, and none are claimed.** Spend so far: $0.58 generating the questions, plus failed live attempts that saved no results.
+`python eval/run_eval.py answers` is implemented (correctness and faithfulness judged by Haiku against the gold reference, cost per query), but the API credit ran out before a run completed. **There are no live numbers in this repo, and none are claimed.** Spend so far: $0.58 generating the questions (including the 30 removed ones), plus failed live attempts that saved no results.
 
 ## Tech stack
 
@@ -146,7 +144,7 @@ The tests cover filter extraction (aliases, ambiguity, unknown vehicles), tag le
 
 - **Filters beat model upgrades.** Rule-based vehicle filters moved hit@5 more than any retriever change, and an unknown-vehicle check refuses a whole class of questions without a model call.
 - **AND-ed full-text queries return nothing for natural questions.** `plainto_tsquery` needs the `&` rewritten to `|`, then rank decides.
-- **Mock refusal is only as good as its signal.** Refusing on "vehicle not indexed" catches the easy cases and misses off-topic questions, so the live eval is the number that matters.
-- **Next:** run the live eval once credit is available; tune or replace the mock refusal threshold on a held-out split; add HNSW past ~100k rows; hand-write part of the eval set so it isn't all model-generated.
+- **Mock refusal is only as good as its signal.** Refusing on "vehicle not indexed" catches the easy cases and misses off-topic questions, and nothing here measures how the live model refuses.
+- **Next:** run the live eval once credit is available and add unanswerable questions back to measure refusals; add HNSW past ~100k rows; hand-write part of the eval set so it isn't all model-generated.
 
 **One-page pitch:** [docs/PITCH.md](docs/PITCH.md) · **Design log:** [docs/DECISIONS.md](docs/DECISIONS.md)

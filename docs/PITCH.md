@@ -21,12 +21,12 @@ See the README diagram:
 
 ## What I'd do differently
 - **Run the live eval.** The API credit ran out before a live run finished, so there is no measured answer correctness, faithfulness or real refusal rate. That is the most important missing number.
-- **A better eval set.** The 230 questions were written by Claude from the gold records, so they flatter retrieval. Part of the set should be hand-written or taken from real owner phrasing.
-- **A real mock refusal rule.** The mock refuses only on unknown vehicles and catches 20% of off-topic questions (100% of the rest). A cross-encoder score threshold looks promising (-1.4 against 3.4 in one example) but I didn't tune it on the eval set, so it is off.
+- **A better eval set.** The 200 questions were written by Claude from the gold records, so they flatter retrieval. Part of the set should be hand-written or taken from real owner phrasing.
+- **Measure refusals.** I dropped the 30 unanswerable questions I had generated: the mock can't refuse them meaningfully (it refuses only unknown vehicles) and the live run didn't happen. The system is built to refuse, but the repo has no measured refusal rate.
 - **Latency.** Reranking is 1 s p50 on CPU. A smaller candidate set, a GPU or a hosted reranker would fix it.
 
 ## Interview talking points
 - Why filters beat a bigger model here (keyword hit@5 0.65 to 0.965), and what each retrieval stage buys (the table in the README).
 - Why `plainto_tsquery` returns nothing for natural questions and how OR-ing fixes it.
 - How refusal is split between code (unknown vehicle) and the model (`NOT_IN_SOURCES`), and how citations are validated.
-- Being upfront that the eval set is AI-written and the live run didn't happen.
+- Being upfront that the eval set is AI-written, the live run didn't happen and refusals aren't measured.

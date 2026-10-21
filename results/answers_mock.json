@@ -3,21 +3,14 @@
     "mode": "mock",
     "answer_model": "mock-extractive",
     "n_answerable": 200,
-    "n_unanswerable": 30,
     "answered": 1.0,
     "false_refusal_rate": 0.0,
     "gold_in_context": 0.995,
     "gold_cited": 0.86,
     "answers_with_citation": 1.0,
     "invalid_citation_answers": 0,
-    "correct_refusal_rate": 0.7333,
-    "correct_refusal_by_kind": {
-      "off_topic": 0.2,
-      "uncovered_make": 1.0,
-      "uncovered_year": 1.0
-    },
-    "p50_ms": 1036.2,
-    "p95_ms": 1960.1,
+    "p50_ms": 983.5,
+    "p95_ms": 1470.5,
     "answer_cost_usd": 0.0,
     "judge_cost_usd": 0,
     "cost_per_query_usd": 0.0
@@ -31,10 +24,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 112.77,
-        "dense_ms": 146.39,
-        "rerank_ms": 1204.36,
-        "total_ms": 1476.7
+        "keyword_ms": 66.84,
+        "dense_ms": 22.37,
+        "rerank_ms": 872.13,
+        "total_ms": 963.9
       },
       "model": "mock",
       "input_tokens": 1802,
@@ -63,10 +56,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 36.42,
-        "dense_ms": 54.67,
-        "rerank_ms": 687.78,
-        "total_ms": 824.1
+        "keyword_ms": 13.94,
+        "dense_ms": 38.02,
+        "rerank_ms": 588.38,
+        "total_ms": 675.1
       },
       "model": "mock",
       "input_tokens": 1443,
@@ -94,10 +87,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 64.81,
-        "dense_ms": 70.42,
-        "rerank_ms": 959.54,
-        "total_ms": 1160.6
+        "keyword_ms": 53.85,
+        "dense_ms": 84.01,
+        "rerank_ms": 671.18,
+        "total_ms": 839.6
       },
       "model": "mock",
       "input_tokens": 1537,
@@ -126,10 +119,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 49.01,
-        "dense_ms": 51.92,
-        "rerank_ms": 1462.75,
-        "total_ms": 1573.7
+        "keyword_ms": 28.2,
+        "dense_ms": 52.02,
+        "rerank_ms": 1050.38,
+        "total_ms": 1133.2
       },
       "model": "mock",
       "input_tokens": 1652,
@@ -158,10 +151,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 27.56,
-        "dense_ms": 52.3,
-        "rerank_ms": 649.2,
-        "total_ms": 734.3
+        "keyword_ms": 14.78,
+        "dense_ms": 38.51,
+        "rerank_ms": 631.88,
+        "total_ms": 704.5
       },
       "model": "mock",
       "input_tokens": 1685,
@@ -190,10 +183,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 15.33,
-        "dense_ms": 67.4,
-        "rerank_ms": 597.93,
-        "total_ms": 709.9
+        "keyword_ms": 30.27,
+        "dense_ms": 59.86,
+        "rerank_ms": 567.56,
+        "total_ms": 684.5
       },
       "model": "mock",
       "input_tokens": 1406,
@@ -219,10 +212,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.59,
-        "dense_ms": 58.05,
-        "rerank_ms": 911.0,
-        "total_ms": 1002.0
+        "keyword_ms": 49.26,
+        "dense_ms": 36.99,
+        "rerank_ms": 967.1,
+        "total_ms": 1055.6
       },
       "model": "mock",
       "input_tokens": 1832,
@@ -251,10 +244,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 23.75,
-        "dense_ms": 34.98,
-        "rerank_ms": 528.26,
-        "total_ms": 619.9
+        "keyword_ms": 16.25,
+        "dense_ms": 41.58,
+        "rerank_ms": 449.12,
+        "total_ms": 524.9
       },
       "model": "mock",
       "input_tokens": 1463,
@@ -281,10 +274,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 49.28,
-        "dense_ms": 85.66,
-        "rerank_ms": 719.82,
-        "total_ms": 856.8
+        "keyword_ms": 52.06,
+        "dense_ms": 28.34,
+        "rerank_ms": 579.64,
+        "total_ms": 662.0
       },
       "model": "mock",
       "input_tokens": 1838,
@@ -313,10 +306,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.95,
-        "dense_ms": 37.18,
-        "rerank_ms": 574.83,
-        "total_ms": 665.1
+        "keyword_ms": 35.64,
+        "dense_ms": 47.11,
+        "rerank_ms": 425.71,
+        "total_ms": 551.9
       },
       "model": "mock",
       "input_tokens": 1202,
@@ -343,10 +336,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 23.53,
-        "dense_ms": 53.45,
-        "rerank_ms": 780.68,
-        "total_ms": 860.1
+        "keyword_ms": 49.67,
+        "dense_ms": 69.27,
+        "rerank_ms": 857.12,
+        "total_ms": 978.7
       },
       "model": "mock",
       "input_tokens": 1773,
@@ -375,10 +368,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.67,
-        "dense_ms": 36.53,
-        "rerank_ms": 1085.8,
-        "total_ms": 1134.4
+        "keyword_ms": 15.82,
+        "dense_ms": 38.0,
+        "rerank_ms": 1004.48,
+        "total_ms": 1060.5
       },
       "model": "mock",
       "input_tokens": 1772,
@@ -407,10 +400,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.29,
-        "dense_ms": 50.75,
-        "rerank_ms": 883.29,
-        "total_ms": 943.3
+        "keyword_ms": 10.33,
+        "dense_ms": 48.2,
+        "rerank_ms": 887.98,
+        "total_ms": 949.0
       },
       "model": "mock",
       "input_tokens": 1796,
@@ -439,10 +432,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.83,
-        "dense_ms": 75.37,
-        "rerank_ms": 845.8,
-        "total_ms": 931.5
+        "keyword_ms": 14.39,
+        "dense_ms": 37.2,
+        "rerank_ms": 798.22,
+        "total_ms": 852.3
       },
       "model": "mock",
       "input_tokens": 1789,
@@ -471,10 +464,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.78,
-        "dense_ms": 38.51,
-        "rerank_ms": 1051.06,
-        "total_ms": 1099.6
+        "keyword_ms": 14.73,
+        "dense_ms": 51.2,
+        "rerank_ms": 1138.86,
+        "total_ms": 1207.2
       },
       "model": "mock",
       "input_tokens": 1847,
@@ -503,10 +496,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.53,
-        "dense_ms": 41.38,
-        "rerank_ms": 494.41,
-        "total_ms": 581.0
+        "keyword_ms": 12.53,
+        "dense_ms": 46.07,
+        "rerank_ms": 367.58,
+        "total_ms": 460.0
       },
       "model": "mock",
       "input_tokens": 1081,
@@ -532,10 +525,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 34.14,
-        "dense_ms": 71.88,
-        "rerank_ms": 593.66,
-        "total_ms": 735.9
+        "keyword_ms": 53.65,
+        "dense_ms": 65.75,
+        "rerank_ms": 619.11,
+        "total_ms": 773.0
       },
       "model": "mock",
       "input_tokens": 1539,
@@ -563,10 +556,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 34.9,
-        "dense_ms": 45.74,
-        "rerank_ms": 745.26,
-        "total_ms": 829.3
+        "keyword_ms": 31.4,
+        "dense_ms": 51.86,
+        "rerank_ms": 821.12,
+        "total_ms": 907.7
       },
       "model": "mock",
       "input_tokens": 2268,
@@ -595,10 +588,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.7,
-        "dense_ms": 44.56,
-        "rerank_ms": 500.16,
-        "total_ms": 591.3
+        "keyword_ms": 15.62,
+        "dense_ms": 48.4,
+        "rerank_ms": 695.15,
+        "total_ms": 765.3
       },
       "model": "mock",
       "input_tokens": 1763,
@@ -627,10 +620,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 38.69,
-        "dense_ms": 58.2,
-        "rerank_ms": 710.34,
-        "total_ms": 809.6
+        "keyword_ms": 32.03,
+        "dense_ms": 39.52,
+        "rerank_ms": 897.24,
+        "total_ms": 971.4
       },
       "model": "mock",
       "input_tokens": 1614,
@@ -659,10 +652,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.9,
-        "dense_ms": 51.35,
-        "rerank_ms": 486.49,
-        "total_ms": 572.7
+        "keyword_ms": 11.92,
+        "dense_ms": 44.41,
+        "rerank_ms": 417.94,
+        "total_ms": 504.9
       },
       "model": "mock",
       "input_tokens": 1407,
@@ -690,10 +683,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 28.56,
-        "dense_ms": 72.82,
-        "rerank_ms": 1034.04,
-        "total_ms": 1137.7
+        "keyword_ms": 47.37,
+        "dense_ms": 74.93,
+        "rerank_ms": 1194.66,
+        "total_ms": 1319.0
       },
       "model": "mock",
       "input_tokens": 1631,
@@ -722,10 +715,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.94,
-        "dense_ms": 33.53,
-        "rerank_ms": 465.83,
-        "total_ms": 534.4
+        "keyword_ms": 12.38,
+        "dense_ms": 50.46,
+        "rerank_ms": 283.72,
+        "total_ms": 393.5
       },
       "model": "mock",
       "input_tokens": 1219,
@@ -752,10 +745,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 42.38,
-        "dense_ms": 70.51,
-        "rerank_ms": 1054.17,
-        "total_ms": 1170.7
+        "keyword_ms": 60.04,
+        "dense_ms": 89.65,
+        "rerank_ms": 1081.11,
+        "total_ms": 1233.2
       },
       "model": "mock",
       "input_tokens": 1710,
@@ -784,10 +777,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.86,
-        "dense_ms": 35.59,
-        "rerank_ms": 1146.82,
-        "total_ms": 1192.5
+        "keyword_ms": 11.64,
+        "dense_ms": 50.1,
+        "rerank_ms": 1112.45,
+        "total_ms": 1176.4
       },
       "model": "mock",
       "input_tokens": 1756,
@@ -816,10 +809,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.99,
-        "dense_ms": 66.36,
-        "rerank_ms": 236.8,
-        "total_ms": 336.9
+        "keyword_ms": 14.64,
+        "dense_ms": 35.61,
+        "rerank_ms": 362.74,
+        "total_ms": 440.8
       },
       "model": "mock",
       "input_tokens": 798,
@@ -845,10 +838,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.42,
-        "dense_ms": 90.13,
-        "rerank_ms": 535.38,
-        "total_ms": 683.1
+        "keyword_ms": 34.02,
+        "dense_ms": 39.32,
+        "rerank_ms": 374.05,
+        "total_ms": 480.8
       },
       "model": "mock",
       "input_tokens": 1097,
@@ -875,10 +868,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.7,
-        "dense_ms": 94.48,
-        "rerank_ms": 906.11,
-        "total_ms": 1014.0
+        "keyword_ms": 30.15,
+        "dense_ms": 67.24,
+        "rerank_ms": 883.89,
+        "total_ms": 983.5
       },
       "model": "mock",
       "input_tokens": 1678,
@@ -907,10 +900,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.45,
-        "dense_ms": 36.67,
-        "rerank_ms": 895.26,
-        "total_ms": 944.8
+        "keyword_ms": 11.35,
+        "dense_ms": 67.28,
+        "rerank_ms": 937.13,
+        "total_ms": 1018.2
       },
       "model": "mock",
       "input_tokens": 1654,
@@ -939,10 +932,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.44,
-        "dense_ms": 52.79,
-        "rerank_ms": 1330.67,
-        "total_ms": 1397.5
+        "keyword_ms": 14.5,
+        "dense_ms": 50.17,
+        "rerank_ms": 1434.18,
+        "total_ms": 1501.1
       },
       "model": "mock",
       "input_tokens": 1520,
@@ -971,10 +964,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.57,
-        "dense_ms": 36.18,
-        "rerank_ms": 729.65,
-        "total_ms": 774.7
+        "keyword_ms": 17.25,
+        "dense_ms": 49.89,
+        "rerank_ms": 778.99,
+        "total_ms": 848.5
       },
       "model": "mock",
       "input_tokens": 1897,
@@ -1003,10 +996,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.62,
-        "dense_ms": 81.71,
-        "rerank_ms": 1014.61,
-        "total_ms": 1105.6
+        "keyword_ms": 11.5,
+        "dense_ms": 45.56,
+        "rerank_ms": 967.01,
+        "total_ms": 1026.6
       },
       "model": "mock",
       "input_tokens": 1603,
@@ -1035,10 +1028,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.09,
-        "dense_ms": 45.09,
-        "rerank_ms": 523.0,
-        "total_ms": 605.4
+        "keyword_ms": 7.02,
+        "dense_ms": 51.18,
+        "rerank_ms": 652.66,
+        "total_ms": 737.8
       },
       "model": "mock",
       "input_tokens": 1599,
@@ -1067,10 +1060,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 35.69,
-        "dense_ms": 72.24,
-        "rerank_ms": 1289.24,
-        "total_ms": 1399.4
+        "keyword_ms": 27.39,
+        "dense_ms": 68.74,
+        "rerank_ms": 1300.59,
+        "total_ms": 1399.0
       },
       "model": "mock",
       "input_tokens": 1733,
@@ -1099,10 +1092,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.94,
-        "dense_ms": 40.69,
-        "rerank_ms": 398.44,
-        "total_ms": 486.1
+        "keyword_ms": 12.74,
+        "dense_ms": 54.32,
+        "rerank_ms": 412.11,
+        "total_ms": 515.9
       },
       "model": "mock",
       "input_tokens": 1190,
@@ -1129,10 +1122,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 38.56,
-        "dense_ms": 53.84,
-        "rerank_ms": 1466.13,
-        "total_ms": 1560.9
+        "keyword_ms": 49.46,
+        "dense_ms": 117.6,
+        "rerank_ms": 1455.52,
+        "total_ms": 1625.4
       },
       "model": "mock",
       "input_tokens": 1567,
@@ -1161,10 +1154,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.99,
-        "dense_ms": 33.82,
-        "rerank_ms": 791.04,
-        "total_ms": 833.8
+        "keyword_ms": 5.68,
+        "dense_ms": 39.25,
+        "rerank_ms": 936.07,
+        "total_ms": 986.4
       },
       "model": "mock",
       "input_tokens": 1475,
@@ -1193,10 +1186,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.51,
-        "dense_ms": 40.04,
-        "rerank_ms": 725.53,
-        "total_ms": 773.3
+        "keyword_ms": 19.49,
+        "dense_ms": 60.82,
+        "rerank_ms": 759.54,
+        "total_ms": 845.8
       },
       "model": "mock",
       "input_tokens": 1542,
@@ -1224,10 +1217,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.05,
-        "dense_ms": 50.06,
-        "rerank_ms": 666.54,
-        "total_ms": 739.1
+        "keyword_ms": 7.84,
+        "dense_ms": 38.49,
+        "rerank_ms": 667.24,
+        "total_ms": 715.7
       },
       "model": "mock",
       "input_tokens": 1640,
@@ -1256,10 +1249,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.2,
-        "dense_ms": 52.08,
-        "rerank_ms": 1228.3,
-        "total_ms": 1293.9
+        "keyword_ms": 8.51,
+        "dense_ms": 109.0,
+        "rerank_ms": 1284.24,
+        "total_ms": 1404.0
       },
       "model": "mock",
       "input_tokens": 1726,
@@ -1288,10 +1281,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.7,
-        "dense_ms": 34.26,
-        "rerank_ms": 862.22,
-        "total_ms": 905.6
+        "keyword_ms": 8.49,
+        "dense_ms": 57.1,
+        "rerank_ms": 918.49,
+        "total_ms": 996.3
       },
       "model": "mock",
       "input_tokens": 1721,
@@ -1320,10 +1313,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.71,
-        "dense_ms": 50.49,
-        "rerank_ms": 738.62,
-        "total_ms": 800.3
+        "keyword_ms": 13.98,
+        "dense_ms": 40.07,
+        "rerank_ms": 619.43,
+        "total_ms": 705.1
       },
       "model": "mock",
       "input_tokens": 1899,
@@ -1352,10 +1345,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.53,
-        "dense_ms": 38.45,
-        "rerank_ms": 784.83,
-        "total_ms": 833.4
+        "keyword_ms": 47.38,
+        "dense_ms": 114.18,
+        "rerank_ms": 744.09,
+        "total_ms": 908.0
       },
       "model": "mock",
       "input_tokens": 1999,
@@ -1384,10 +1377,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.08,
-        "dense_ms": 36.36,
-        "rerank_ms": 1213.2,
-        "total_ms": 1259.1
+        "keyword_ms": 9.51,
+        "dense_ms": 43.65,
+        "rerank_ms": 1267.38,
+        "total_ms": 1323.0
       },
       "model": "mock",
       "input_tokens": 1652,
@@ -1416,10 +1409,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.16,
-        "dense_ms": 52.69,
-        "rerank_ms": 425.88,
-        "total_ms": 516.9
+        "keyword_ms": 6.43,
+        "dense_ms": 53.88,
+        "rerank_ms": 505.97,
+        "total_ms": 611.3
       },
       "model": "mock",
       "input_tokens": 1204,
@@ -1446,10 +1439,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 32.95,
-        "dense_ms": 41.6,
-        "rerank_ms": 294.0,
-        "total_ms": 387.9
+        "keyword_ms": 32.09,
+        "dense_ms": 57.2,
+        "rerank_ms": 273.26,
+        "total_ms": 389.1
       },
       "model": "mock",
       "input_tokens": 859,
@@ -1475,10 +1468,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 40.95,
-        "dense_ms": 46.99,
-        "rerank_ms": 611.97,
-        "total_ms": 718.8
+        "keyword_ms": 56.05,
+        "dense_ms": 85.98,
+        "rerank_ms": 615.82,
+        "total_ms": 783.7
       },
       "model": "mock",
       "input_tokens": 1538,
@@ -1506,10 +1499,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 15.89,
-        "dense_ms": 36.01,
-        "rerank_ms": 955.95,
-        "total_ms": 1013.4
+        "keyword_ms": 19.86,
+        "dense_ms": 39.6,
+        "rerank_ms": 829.83,
+        "total_ms": 891.9
       },
       "model": "mock",
       "input_tokens": 2022,
@@ -1538,10 +1531,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.53,
-        "dense_ms": 39.27,
-        "rerank_ms": 1480.25,
-        "total_ms": 1532.6
+        "keyword_ms": 9.46,
+        "dense_ms": 35.36,
+        "rerank_ms": 1422.48,
+        "total_ms": 1470.5
       },
       "model": "mock",
       "input_tokens": 1545,
@@ -1570,10 +1563,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.66,
-        "dense_ms": 51.69,
-        "rerank_ms": 764.1,
-        "total_ms": 824.6
+        "keyword_ms": 8.24,
+        "dense_ms": 41.83,
+        "rerank_ms": 740.97,
+        "total_ms": 794.0
       },
       "model": "mock",
       "input_tokens": 2079,
@@ -1602,10 +1595,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.02,
-        "dense_ms": 87.41,
-        "rerank_ms": 782.93,
-        "total_ms": 879.9
+        "keyword_ms": 7.94,
+        "dense_ms": 44.93,
+        "rerank_ms": 848.88,
+        "total_ms": 912.6
       },
       "model": "mock",
       "input_tokens": 2106,
@@ -1634,10 +1627,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.08,
-        "dense_ms": 45.97,
-        "rerank_ms": 737.72,
-        "total_ms": 791.1
+        "keyword_ms": 11.94,
+        "dense_ms": 38.46,
+        "rerank_ms": 794.34,
+        "total_ms": 847.0
       },
       "model": "mock",
       "input_tokens": 2211,
@@ -1666,10 +1659,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.68,
-        "dense_ms": 40.96,
-        "rerank_ms": 798.04,
-        "total_ms": 849.5
+        "keyword_ms": 8.2,
+        "dense_ms": 35.45,
+        "rerank_ms": 857.07,
+        "total_ms": 905.0
       },
       "model": "mock",
       "input_tokens": 1730,
@@ -1698,10 +1691,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.93,
-        "dense_ms": 36.64,
-        "rerank_ms": 1225.17,
-        "total_ms": 1275.7
+        "keyword_ms": 19.35,
+        "dense_ms": 39.71,
+        "rerank_ms": 1323.8,
+        "total_ms": 1385.8
       },
       "model": "mock",
       "input_tokens": 1904,
@@ -1730,10 +1723,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.85,
-        "dense_ms": 46.67,
-        "rerank_ms": 1142.72,
-        "total_ms": 1198.6
+        "keyword_ms": 23.21,
+        "dense_ms": 38.5,
+        "rerank_ms": 1205.84,
+        "total_ms": 1270.3
       },
       "model": "mock",
       "input_tokens": 1662,
@@ -1762,10 +1755,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.53,
-        "dense_ms": 38.24,
-        "rerank_ms": 1138.38,
-        "total_ms": 1186.7
+        "keyword_ms": 14.33,
+        "dense_ms": 52.36,
+        "rerank_ms": 1272.72,
+        "total_ms": 1342.0
       },
       "model": "mock",
       "input_tokens": 1845,
@@ -1794,10 +1787,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.4,
-        "dense_ms": 35.92,
-        "rerank_ms": 1083.16,
-        "total_ms": 1138.9
+        "keyword_ms": 16.13,
+        "dense_ms": 42.46,
+        "rerank_ms": 993.05,
+        "total_ms": 1054.0
       },
       "model": "mock",
       "input_tokens": 1835,
@@ -1826,10 +1819,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.7,
-        "dense_ms": 37.82,
-        "rerank_ms": 1382.09,
-        "total_ms": 1435.3
+        "keyword_ms": 7.01,
+        "dense_ms": 35.73,
+        "rerank_ms": 1423.53,
+        "total_ms": 1468.9
       },
       "model": "mock",
       "input_tokens": 1467,
@@ -1858,10 +1851,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.3,
-        "dense_ms": 43.7,
-        "rerank_ms": 815.07,
-        "total_ms": 868.7
+        "keyword_ms": 8.33,
+        "dense_ms": 35.24,
+        "rerank_ms": 758.69,
+        "total_ms": 804.6
       },
       "model": "mock",
       "input_tokens": 1733,
@@ -1890,10 +1883,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.25,
-        "dense_ms": 39.4,
-        "rerank_ms": 1322.7,
-        "total_ms": 1376.0
+        "keyword_ms": 18.9,
+        "dense_ms": 49.64,
+        "rerank_ms": 1408.06,
+        "total_ms": 1479.4
       },
       "model": "mock",
       "input_tokens": 1842,
@@ -1922,10 +1915,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.52,
-        "dense_ms": 47.69,
-        "rerank_ms": 796.09,
-        "total_ms": 852.8
+        "keyword_ms": 8.97,
+        "dense_ms": 36.38,
+        "rerank_ms": 870.37,
+        "total_ms": 918.0
       },
       "model": "mock",
       "input_tokens": 1712,
@@ -1954,10 +1947,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.94,
-        "dense_ms": 34.5,
-        "rerank_ms": 1052.68,
-        "total_ms": 1097.6
+        "keyword_ms": 8.52,
+        "dense_ms": 40.52,
+        "rerank_ms": 1135.53,
+        "total_ms": 1187.8
       },
       "model": "mock",
       "input_tokens": 1661,
@@ -1986,10 +1979,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.24,
-        "dense_ms": 51.5,
-        "rerank_ms": 85.91,
-        "total_ms": 193.8
+        "keyword_ms": 10.95,
+        "dense_ms": 37.78,
+        "rerank_ms": 181.38,
+        "total_ms": 265.4
       },
       "model": "mock",
       "input_tokens": 418,
@@ -2013,10 +2006,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 43.74,
-        "dense_ms": 59.85,
-        "rerank_ms": 897.04,
-        "total_ms": 1003.5
+        "keyword_ms": 18.37,
+        "dense_ms": 53.91,
+        "rerank_ms": 959.47,
+        "total_ms": 1036.9
       },
       "model": "mock",
       "input_tokens": 2202,
@@ -2045,10 +2038,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.84,
-        "dense_ms": 42.48,
-        "rerank_ms": 882.26,
-        "total_ms": 934.1
+        "keyword_ms": 9.11,
+        "dense_ms": 41.02,
+        "rerank_ms": 1006.41,
+        "total_ms": 1059.2
       },
       "model": "mock",
       "input_tokens": 1958,
@@ -2077,10 +2070,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 5.85,
-        "dense_ms": 43.33,
-        "rerank_ms": 935.08,
-        "total_ms": 986.8
+        "keyword_ms": 12.57,
+        "dense_ms": 71.14,
+        "rerank_ms": 1167.17,
+        "total_ms": 1259.3
       },
       "model": "mock",
       "input_tokens": 1886,
@@ -2109,10 +2102,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.69,
-        "dense_ms": 44.15,
-        "rerank_ms": 712.19,
-        "total_ms": 765.6
+        "keyword_ms": 13.31,
+        "dense_ms": 39.51,
+        "rerank_ms": 945.53,
+        "total_ms": 1003.8
       },
       "model": "mock",
       "input_tokens": 1692,
@@ -2141,10 +2134,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.36,
-        "dense_ms": 86.97,
-        "rerank_ms": 447.95,
-        "total_ms": 571.2
+        "keyword_ms": 18.53,
+        "dense_ms": 45.56,
+        "rerank_ms": 470.91,
+        "total_ms": 568.1
       },
       "model": "mock",
       "input_tokens": 1061,
@@ -2170,10 +2163,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.8,
-        "dense_ms": 38.37,
-        "rerank_ms": 316.61,
-        "total_ms": 403.9
+        "keyword_ms": 18.28,
+        "dense_ms": 98.6,
+        "rerank_ms": 290.39,
+        "total_ms": 433.5
       },
       "model": "mock",
       "input_tokens": 948,
@@ -2199,10 +2192,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.97,
-        "dense_ms": 58.99,
-        "rerank_ms": 694.05,
-        "total_ms": 787.4
+        "keyword_ms": 31.93,
+        "dense_ms": 74.68,
+        "rerank_ms": 686.94,
+        "total_ms": 795.9
       },
       "model": "mock",
       "input_tokens": 1688,
@@ -2230,10 +2223,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 18.93,
-        "dense_ms": 68.85,
-        "rerank_ms": 340.89,
-        "total_ms": 445.7
+        "keyword_ms": 10.88,
+        "dense_ms": 59.2,
+        "rerank_ms": 505.92,
+        "total_ms": 687.2
       },
       "model": "mock",
       "input_tokens": 992,
@@ -2259,10 +2252,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 19.72,
-        "dense_ms": 57.58,
-        "rerank_ms": 1220.9,
-        "total_ms": 1300.7
+        "keyword_ms": 46.99,
+        "dense_ms": 53.44,
+        "rerank_ms": 1624.54,
+        "total_ms": 1738.3
       },
       "model": "mock",
       "input_tokens": 1693,
@@ -2291,10 +2284,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 6.79,
-        "dense_ms": 41.63,
-        "rerank_ms": 842.39,
-        "total_ms": 894.3
+        "keyword_ms": 14.4,
+        "dense_ms": 47.96,
+        "rerank_ms": 913.21,
+        "total_ms": 978.0
       },
       "model": "mock",
       "input_tokens": 1812,
@@ -2323,10 +2316,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 16.08,
-        "dense_ms": 51.3,
-        "rerank_ms": 715.13,
-        "total_ms": 800.1
+        "keyword_ms": 20.18,
+        "dense_ms": 36.47,
+        "rerank_ms": 653.86,
+        "total_ms": 713.4
       },
       "model": "mock",
       "input_tokens": 1418,
@@ -2354,10 +2347,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 13.4,
-        "dense_ms": 49.95,
-        "rerank_ms": 855.35,
-        "total_ms": 921.8
+        "keyword_ms": 9.32,
+        "dense_ms": 53.66,
+        "rerank_ms": 858.42,
+        "total_ms": 923.8
       },
       "model": "mock",
       "input_tokens": 1824,
@@ -2386,10 +2379,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.95,
-        "dense_ms": 36.96,
-        "rerank_ms": 142.53,
-        "total_ms": 218.4
+        "keyword_ms": 14.13,
+        "dense_ms": 48.85,
+        "rerank_ms": 122.5,
+        "total_ms": 216.7
       },
       "model": "mock",
       "input_tokens": 455,
@@ -2413,10 +2406,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 21.97,
-        "dense_ms": 69.55,
-        "rerank_ms": 686.65,
-        "total_ms": 780.3
+        "keyword_ms": 26.8,
+        "dense_ms": 62.01,
+        "rerank_ms": 691.86,
+        "total_ms": 785.2
       },
       "model": "mock",
       "input_tokens": 1792,
@@ -2445,10 +2438,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.36,
-        "dense_ms": 36.96,
-        "rerank_ms": 655.56,
-        "total_ms": 708.9
+        "keyword_ms": 21.92,
+        "dense_ms": 61.32,
+        "rerank_ms": 613.37,
+        "total_ms": 728.8
       },
       "model": "mock",
       "input_tokens": 1597,
@@ -2476,10 +2469,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.3,
-        "dense_ms": 112.43,
-        "rerank_ms": 1164.44,
-        "total_ms": 1287.6
+        "keyword_ms": 31.45,
+        "dense_ms": 51.86,
+        "rerank_ms": 1188.05,
+        "total_ms": 1273.9
       },
       "model": "mock",
       "input_tokens": 1686,
@@ -2508,10 +2501,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.92,
-        "dense_ms": 36.7,
-        "rerank_ms": 858.52,
-        "total_ms": 914.1
+        "keyword_ms": 11.38,
+        "dense_ms": 39.78,
+        "rerank_ms": 1012.77,
+        "total_ms": 1067.1
       },
       "model": "mock",
       "input_tokens": 1744,
@@ -2540,10 +2533,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.52,
-        "dense_ms": 51.11,
-        "rerank_ms": 1215.37,
-        "total_ms": 1282.0
+        "keyword_ms": 14.22,
+        "dense_ms": 52.0,
+        "rerank_ms": 1230.14,
+        "total_ms": 1299.0
       },
       "model": "mock",
       "input_tokens": 1262,
@@ -2572,10 +2565,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.36,
-        "dense_ms": 45.05,
-        "rerank_ms": 872.07,
-        "total_ms": 933.1
+        "keyword_ms": 18.27,
+        "dense_ms": 54.03,
+        "rerank_ms": 866.3,
+        "total_ms": 941.6
       },
       "model": "mock",
       "input_tokens": 1444,
@@ -2604,10 +2597,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.22,
-        "dense_ms": 51.35,
-        "rerank_ms": 1325.99,
-        "total_ms": 1397.5
+        "keyword_ms": 15.43,
+        "dense_ms": 46.59,
+        "rerank_ms": 1324.53,
+        "total_ms": 1390.9
       },
       "model": "mock",
       "input_tokens": 1491,
@@ -2636,10 +2629,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 14.74,
-        "dense_ms": 38.8,
-        "rerank_ms": 1000.65,
-        "total_ms": 1056.7
+        "keyword_ms": 15.58,
+        "dense_ms": 45.21,
+        "rerank_ms": 1083.17,
+        "total_ms": 1146.3
       },
       "model": "mock",
       "input_tokens": 1450,
@@ -2668,10 +2661,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.41,
-        "dense_ms": 44.54,
-        "rerank_ms": 1219.25,
-        "total_ms": 1277.6
+        "keyword_ms": 10.83,
+        "dense_ms": 84.86,
+        "rerank_ms": 1235.11,
+        "total_ms": 1333.2
       },
       "model": "mock",
       "input_tokens": 1051,
@@ -2700,10 +2693,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.67,
-        "dense_ms": 42.6,
-        "rerank_ms": 1271.11,
-        "total_ms": 1328.1
+        "keyword_ms": 10.91,
+        "dense_ms": 44.43,
+        "rerank_ms": 1307.14,
+        "total_ms": 1365.1
       },
       "model": "mock",
       "input_tokens": 1095,
@@ -2732,10 +2725,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.55,
-        "dense_ms": 50.86,
-        "rerank_ms": 1180.01,
-        "total_ms": 1241.0
+        "keyword_ms": 9.94,
+        "dense_ms": 38.92,
+        "rerank_ms": 1213.76,
+        "total_ms": 1265.3
       },
       "model": "mock",
       "input_tokens": 1425,
@@ -2764,10 +2757,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.05,
-        "dense_ms": 39.78,
-        "rerank_ms": 1238.17,
-        "total_ms": 1290.1
+        "keyword_ms": 9.34,
+        "dense_ms": 54.05,
+        "rerank_ms": 1261.03,
+        "total_ms": 1327.8
       },
       "model": "mock",
       "input_tokens": 1608,
@@ -2796,10 +2789,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 16.14,
-        "dense_ms": 42.94,
-        "rerank_ms": 1120.94,
-        "total_ms": 1182.3
+        "keyword_ms": 26.29,
+        "dense_ms": 42.02,
+        "rerank_ms": 1193.38,
+        "total_ms": 1264.3
       },
       "model": "mock",
       "input_tokens": 1297,
@@ -2828,10 +2821,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.03,
-        "dense_ms": 49.84,
-        "rerank_ms": 1108.86,
-        "total_ms": 1169.1
+        "keyword_ms": 11.1,
+        "dense_ms": 43.29,
+        "rerank_ms": 1173.79,
+        "total_ms": 1230.8
       },
       "model": "mock",
       "input_tokens": 1446,
@@ -2860,10 +2853,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 14.83,
-        "dense_ms": 57.53,
-        "rerank_ms": 946.68,
-        "total_ms": 1021.4
+        "keyword_ms": 12.05,
+        "dense_ms": 34.74,
+        "rerank_ms": 961.6,
+        "total_ms": 1010.8
       },
       "model": "mock",
       "input_tokens": 1263,
@@ -2892,10 +2885,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.82,
-        "dense_ms": 40.64,
-        "rerank_ms": 1098.26,
-        "total_ms": 1150.3
+        "keyword_ms": 9.49,
+        "dense_ms": 46.04,
+        "rerank_ms": 1238.86,
+        "total_ms": 1296.8
       },
       "model": "mock",
       "input_tokens": 1548,
@@ -2924,10 +2917,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.0,
-        "dense_ms": 36.54,
-        "rerank_ms": 1180.72,
-        "total_ms": 1230.7
+        "keyword_ms": 11.41,
+        "dense_ms": 41.12,
+        "rerank_ms": 1185.61,
+        "total_ms": 1241.2
       },
       "model": "mock",
       "input_tokens": 2096,
@@ -2956,10 +2949,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.73,
-        "dense_ms": 54.57,
-        "rerank_ms": 1168.41,
-        "total_ms": 1233.4
+        "keyword_ms": 11.49,
+        "dense_ms": 43.02,
+        "rerank_ms": 1115.66,
+        "total_ms": 1172.9
       },
       "model": "mock",
       "input_tokens": 1568,
@@ -2988,10 +2981,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.43,
-        "dense_ms": 42.07,
-        "rerank_ms": 1067.92,
-        "total_ms": 1121.0
+        "keyword_ms": 9.1,
+        "dense_ms": 35.64,
+        "rerank_ms": 1000.25,
+        "total_ms": 1047.6
       },
       "model": "mock",
       "input_tokens": 1222,
@@ -3020,10 +3013,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.06,
-        "dense_ms": 37.15,
-        "rerank_ms": 1070.59,
-        "total_ms": 1117.3
+        "keyword_ms": 9.3,
+        "dense_ms": 38.32,
+        "rerank_ms": 995.85,
+        "total_ms": 1046.1
       },
       "model": "mock",
       "input_tokens": 1636,
@@ -3052,10 +3045,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.35,
-        "dense_ms": 51.15,
-        "rerank_ms": 1394.35,
-        "total_ms": 1457.2
+        "keyword_ms": 13.1,
+        "dense_ms": 42.75,
+        "rerank_ms": 1274.87,
+        "total_ms": 1333.7
       },
       "model": "mock",
       "input_tokens": 1534,
@@ -3084,10 +3077,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.11,
-        "dense_ms": 43.89,
-        "rerank_ms": 903.72,
-        "total_ms": 962.0
+        "keyword_ms": 13.28,
+        "dense_ms": 40.62,
+        "rerank_ms": 921.42,
+        "total_ms": 977.7
       },
       "model": "mock",
       "input_tokens": 965,
@@ -3116,10 +3109,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.56,
-        "dense_ms": 42.4,
-        "rerank_ms": 1222.36,
-        "total_ms": 1277.4
+        "keyword_ms": 9.96,
+        "dense_ms": 52.17,
+        "rerank_ms": 1172.07,
+        "total_ms": 1236.6
       },
       "model": "mock",
       "input_tokens": 1516,
@@ -3148,10 +3141,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.33,
-        "dense_ms": 49.78,
-        "rerank_ms": 1064.43,
-        "total_ms": 1128.5
+        "keyword_ms": 13.32,
+        "dense_ms": 37.16,
+        "rerank_ms": 1066.87,
+        "total_ms": 1126.3
       },
       "model": "mock",
       "input_tokens": 1512,
@@ -3180,10 +3173,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.78,
-        "dense_ms": 39.66,
-        "rerank_ms": 1188.47,
-        "total_ms": 1242.8
+        "keyword_ms": 22.9,
+        "dense_ms": 49.01,
+        "rerank_ms": 1240.2,
+        "total_ms": 1314.8
       },
       "model": "mock",
       "input_tokens": 1931,
@@ -3212,10 +3205,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.3,
-        "dense_ms": 43.55,
-        "rerank_ms": 1210.24,
-        "total_ms": 1266.7
+        "keyword_ms": 9.63,
+        "dense_ms": 47.54,
+        "rerank_ms": 1186.03,
+        "total_ms": 1245.8
       },
       "model": "mock",
       "input_tokens": 1267,
@@ -3244,10 +3237,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.85,
-        "dense_ms": 49.51,
-        "rerank_ms": 1145.12,
-        "total_ms": 1207.8
+        "keyword_ms": 10.44,
+        "dense_ms": 54.83,
+        "rerank_ms": 1159.16,
+        "total_ms": 1227.1
       },
       "model": "mock",
       "input_tokens": 1359,
@@ -3276,10 +3269,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.45,
-        "dense_ms": 45.09,
-        "rerank_ms": 1159.06,
-        "total_ms": 1216.0
+        "keyword_ms": 8.9,
+        "dense_ms": 36.79,
+        "rerank_ms": 1060.88,
+        "total_ms": 1109.0
       },
       "model": "mock",
       "input_tokens": 1391,
@@ -3308,10 +3301,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.42,
-        "dense_ms": 35.69,
-        "rerank_ms": 1102.35,
-        "total_ms": 1150.7
+        "keyword_ms": 15.69,
+        "dense_ms": 43.93,
+        "rerank_ms": 1158.77,
+        "total_ms": 1222.1
       },
       "model": "mock",
       "input_tokens": 1147,
@@ -3340,10 +3333,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.18,
-        "dense_ms": 46.57,
-        "rerank_ms": 1254.67,
-        "total_ms": 1317.4
+        "keyword_ms": 13.03,
+        "dense_ms": 48.37,
+        "rerank_ms": 1170.37,
+        "total_ms": 1234.2
       },
       "model": "mock",
       "input_tokens": 1594,
@@ -3372,10 +3365,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.77,
-        "dense_ms": 36.29,
-        "rerank_ms": 1164.38,
-        "total_ms": 1214.2
+        "keyword_ms": 20.29,
+        "dense_ms": 52.04,
+        "rerank_ms": 1197.27,
+        "total_ms": 1273.0
       },
       "model": "mock",
       "input_tokens": 2118,
@@ -3404,10 +3397,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.27,
-        "dense_ms": 37.69,
-        "rerank_ms": 1087.58,
-        "total_ms": 1137.1
+        "keyword_ms": 20.3,
+        "dense_ms": 37.27,
+        "rerank_ms": 1165.41,
+        "total_ms": 1225.8
       },
       "model": "mock",
       "input_tokens": 1720,
@@ -3436,10 +3429,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 7.05,
-        "dense_ms": 51.84,
-        "rerank_ms": 901.57,
-        "total_ms": 963.0
+        "keyword_ms": 9.07,
+        "dense_ms": 53.43,
+        "rerank_ms": 965.54,
+        "total_ms": 1031.0
       },
       "model": "mock",
       "input_tokens": 1114,
@@ -3468,10 +3461,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.33,
-        "dense_ms": 51.35,
-        "rerank_ms": 1177.3,
-        "total_ms": 1243.6
+        "keyword_ms": 21.22,
+        "dense_ms": 43.64,
+        "rerank_ms": 1231.6,
+        "total_ms": 1299.9
       },
       "model": "mock",
       "input_tokens": 2194,
@@ -3500,10 +3493,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 12.66,
-        "dense_ms": 40.88,
-        "rerank_ms": 1177.63,
-        "total_ms": 1233.7
+        "keyword_ms": 12.21,
+        "dense_ms": 51.72,
+        "rerank_ms": 1203.66,
+        "total_ms": 1270.1
       },
       "model": "mock",
       "input_tokens": 1699,
@@ -3532,10 +3525,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 21.49,
-        "dense_ms": 53.27,
-        "rerank_ms": 1895.19,
-        "total_ms": 1972.4
+        "keyword_ms": 23.97,
+        "dense_ms": 52.12,
+        "rerank_ms": 1947.42,
+        "total_ms": 2027.0
       },
       "model": "mock",
       "input_tokens": 1730,
@@ -3564,10 +3557,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.26,
-        "dense_ms": 49.87,
-        "rerank_ms": 1276.24,
-        "total_ms": 1355.1
+        "keyword_ms": 17.16,
+        "dense_ms": 40.64,
+        "rerank_ms": 1126.9,
+        "total_ms": 1187.2
       },
       "model": "mock",
       "input_tokens": 1409,
@@ -3596,10 +3589,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.81,
-        "dense_ms": 50.31,
-        "rerank_ms": 1167.34,
-        "total_ms": 1230.0
+        "keyword_ms": 10.21,
+        "dense_ms": 46.82,
+        "rerank_ms": 1157.43,
+        "total_ms": 1216.7
       },
       "model": "mock",
       "input_tokens": 1193,
@@ -3628,10 +3621,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.78,
-        "dense_ms": 46.69,
-        "rerank_ms": 1230.56,
-        "total_ms": 1291.0
+        "keyword_ms": 9.57,
+        "dense_ms": 54.7,
+        "rerank_ms": 1268.09,
+        "total_ms": 1334.9
       },
       "model": "mock",
       "input_tokens": 1648,
@@ -3660,10 +3653,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.42,
-        "dense_ms": 53.56,
-        "rerank_ms": 1153.25,
-        "total_ms": 1220.8
+        "keyword_ms": 13.25,
+        "dense_ms": 43.15,
+        "rerank_ms": 1287.67,
+        "total_ms": 1347.0
       },
       "model": "mock",
       "input_tokens": 1665,
@@ -3692,10 +3685,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 18.07,
-        "dense_ms": 47.94,
-        "rerank_ms": 1421.3,
-        "total_ms": 1490.3
+        "keyword_ms": 20.75,
+        "dense_ms": 48.7,
+        "rerank_ms": 1423.53,
+        "total_ms": 1495.3
       },
       "model": "mock",
       "input_tokens": 1385,
@@ -3724,10 +3717,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 17.73,
-        "dense_ms": 45.87,
-        "rerank_ms": 1586.02,
-        "total_ms": 1652.3
+        "keyword_ms": 38.36,
+        "dense_ms": 57.68,
+        "rerank_ms": 1694.59,
+        "total_ms": 1793.1
       },
       "model": "mock",
       "input_tokens": 1982,
@@ -3756,10 +3749,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.03,
-        "dense_ms": 42.81,
-        "rerank_ms": 1098.69,
-        "total_ms": 1155.3
+        "keyword_ms": 12.01,
+        "dense_ms": 47.81,
+        "rerank_ms": 1222.02,
+        "total_ms": 1284.6
       },
       "model": "mock",
       "input_tokens": 1552,
@@ -3788,10 +3781,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 8.56,
-        "dense_ms": 48.52,
-        "rerank_ms": 1123.46,
-        "total_ms": 1183.2
+        "keyword_ms": 10.8,
+        "dense_ms": 47.72,
+        "rerank_ms": 1339.36,
+        "total_ms": 1400.5
       },
       "model": "mock",
       "input_tokens": 1376,
@@ -3820,10 +3813,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 27.1,
-        "dense_ms": 43.52,
-        "rerank_ms": 1241.08,
-        "total_ms": 1314.4
+        "keyword_ms": 11.44,
+        "dense_ms": 50.47,
+        "rerank_ms": 1210.63,
+        "total_ms": 1276.1
       },
       "model": "mock",
       "input_tokens": 1471,
@@ -3852,10 +3845,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 13.34,
-        "dense_ms": 36.5,
-        "rerank_ms": 1053.42,
-        "total_ms": 1105.8
+        "keyword_ms": 8.68,
+        "dense_ms": 53.11,
+        "rerank_ms": 1117.47,
+        "total_ms": 1181.9
       },
       "model": "mock",
       "input_tokens": 1393,
@@ -3884,10 +3877,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 18.11,
-        "dense_ms": 49.99,
-        "rerank_ms": 1188.71,
-        "total_ms": 1259.3
+        "keyword_ms": 10.82,
+        "dense_ms": 49.42,
+        "rerank_ms": 1157.78,
+        "total_ms": 1221.5
       },
       "model": "mock",
       "input_tokens": 1368,
@@ -3916,10 +3909,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.22,
-        "dense_ms": 79.8,
-        "rerank_ms": 960.49,
-        "total_ms": 1053.1
+        "keyword_ms": 22.26,
+        "dense_ms": 43.35,
+        "rerank_ms": 1035.81,
+        "total_ms": 1103.8
       },
       "model": "mock",
       "input_tokens": 998,
@@ -3948,10 +3941,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 17.2,
-        "dense_ms": 43.79,
-        "rerank_ms": 923.99,
-        "total_ms": 987.4
+        "keyword_ms": 11.8,
+        "dense_ms": 50.09,
+        "rerank_ms": 906.19,
+        "total_ms": 970.9
       },
       "model": "mock",
       "input_tokens": 1242,
@@ -3980,10 +3973,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 9.64,
-        "dense_ms": 39.78,
-        "rerank_ms": 1097.76,
-        "total_ms": 1149.7
+        "keyword_ms": 14.1,
+        "dense_ms": 48.04,
+        "rerank_ms": 1160.79,
+        "total_ms": 1225.3
       },
       "model": "mock",
       "input_tokens": 1665,
@@ -4012,10 +4005,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.45,
-        "dense_ms": 46.25,
-        "rerank_ms": 1146.33,
-        "total_ms": 1205.5
+        "keyword_ms": 18.72,
+        "dense_ms": 47.77,
+        "rerank_ms": 1170.54,
+        "total_ms": 1240.2
       },
       "model": "mock",
       "input_tokens": 1381,
@@ -4044,10 +4037,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.57,
-        "dense_ms": 51.24,
-        "rerank_ms": 1210.79,
-        "total_ms": 1276.4
+        "keyword_ms": 12.27,
+        "dense_ms": 56.27,
+        "rerank_ms": 1245.91,
+        "total_ms": 1317.1
       },
       "model": "mock",
       "input_tokens": 1625,
@@ -4076,10 +4069,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.45,
-        "dense_ms": 46.7,
-        "rerank_ms": 1090.6,
-        "total_ms": 1166.7
+        "keyword_ms": 11.97,
+        "dense_ms": 42.71,
+        "rerank_ms": 1106.07,
+        "total_ms": 1163.4
       },
       "model": "mock",
       "input_tokens": 1605,
@@ -4108,10 +4101,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 16.5,
-        "dense_ms": 60.36,
-        "rerank_ms": 956.94,
-        "total_ms": 1036.2
+        "keyword_ms": 12.62,
+        "dense_ms": 44.43,
+        "rerank_ms": 895.84,
+        "total_ms": 955.3
       },
       "model": "mock",
       "input_tokens": 1325,
@@ -4140,10 +4133,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 20.48,
-        "dense_ms": 61.24,
-        "rerank_ms": 2042.88,
-        "total_ms": 2128.9
+        "keyword_ms": 19.85,
+        "dense_ms": 58.71,
+        "rerank_ms": 1601.12,
+        "total_ms": 1682.4
       },
       "model": "mock",
       "input_tokens": 1064,
@@ -4172,10 +4165,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 10.95,
-        "dense_ms": 116.42,
-        "rerank_ms": 1741.84,
-        "total_ms": 1874.0
+        "keyword_ms": 8.15,
+        "dense_ms": 46.76,
+        "rerank_ms": 1204.88,
+        "total_ms": 1262.4
       },
       "model": "mock",
       "input_tokens": 1402,
@@ -4204,10 +4197,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 26.84,
-        "dense_ms": 60.48,
-        "rerank_ms": 1756.04,
-        "total_ms": 1848.4
+        "keyword_ms": 8.37,
+        "dense_ms": 38.27,
+        "rerank_ms": 1167.82,
+        "total_ms": 1217.1
       },
       "model": "mock",
       "input_tokens": 1508,
@@ -4236,10 +4229,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 21.91,
-        "dense_ms": 63.63,
-        "rerank_ms": 1838.72,
-        "total_ms": 1928.5
+        "keyword_ms": 8.69,
+        "dense_ms": 43.95,
+        "rerank_ms": 1160.55,
+        "total_ms": 1215.5
       },
       "model": "mock",
       "input_tokens": 1770,
@@ -4268,10 +4261,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 21.65,
-        "dense_ms": 65.9,
-        "rerank_ms": 1794.11,
-        "total_ms": 1903.6
+        "keyword_ms": 8.52,
+        "dense_ms": 41.09,
+        "rerank_ms": 977.87,
+        "total_ms": 1030.0
       },
       "model": "mock",
       "input_tokens": 1245,
@@ -4300,10 +4293,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 114.43,
-        "dense_ms": 136.78,
-        "rerank_ms": 3003.32,
-        "total_ms": 3274.9
+        "keyword_ms": 21.3,
+        "dense_ms": 59.1,
+        "rerank_ms": 1417.36,
+        "total_ms": 1500.8
       },
       "model": "mock",
       "input_tokens": 1999,
@@ -4332,10 +4325,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 41.17,
-        "dense_ms": 94.74,
-        "rerank_ms": 2097.94,
-        "total_ms": 2245.2
+        "keyword_ms": 10.22,
+        "dense_ms": 42.85,
+        "rerank_ms": 1096.88,
+        "total_ms": 1152.7
       },
       "model": "mock",
       "input_tokens": 1300,
@@ -4364,10 +4357,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 70.93,
-        "dense_ms": 98.72,
-        "rerank_ms": 2500.17,
-        "total_ms": 2674.7
+        "keyword_ms": 10.73,
+        "dense_ms": 41.56,
+        "rerank_ms": 1227.89,
+        "total_ms": 1283.0
       },
       "model": "mock",
       "input_tokens": 1798,
@@ -4396,10 +4389,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.7,
-        "dense_ms": 95.11,
-        "rerank_ms": 2179.97,
-        "total_ms": 2316.0
+        "keyword_ms": 11.2,
+        "dense_ms": 35.98,
+        "rerank_ms": 1189.94,
+        "total_ms": 1239.9
       },
       "model": "mock",
       "input_tokens": 1990,
@@ -4428,10 +4421,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 69.46,
-        "dense_ms": 187.32,
-        "rerank_ms": 2022.6,
-        "total_ms": 2284.3
+        "keyword_ms": 10.04,
+        "dense_ms": 52.54,
+        "rerank_ms": 1278.36,
+        "total_ms": 1343.9
       },
       "model": "mock",
       "input_tokens": 1385,
@@ -4460,10 +4453,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 56.95,
-        "dense_ms": 80.06,
-        "rerank_ms": 1733.07,
-        "total_ms": 1875.3
+        "keyword_ms": 11.44,
+        "dense_ms": 44.09,
+        "rerank_ms": 1044.27,
+        "total_ms": 1102.5
       },
       "model": "mock",
       "input_tokens": 1893,
@@ -4492,10 +4485,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.21,
-        "dense_ms": 84.69,
-        "rerank_ms": 1585.65,
-        "total_ms": 1719.5
+        "keyword_ms": 13.78,
+        "dense_ms": 45.33,
+        "rerank_ms": 1096.15,
+        "total_ms": 1157.8
       },
       "model": "mock",
       "input_tokens": 1799,
@@ -4524,10 +4517,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 53.36,
-        "dense_ms": 112.29,
-        "rerank_ms": 1702.1,
-        "total_ms": 1872.7
+        "keyword_ms": 10.36,
+        "dense_ms": 46.92,
+        "rerank_ms": 1176.49,
+        "total_ms": 1236.3
       },
       "model": "mock",
       "input_tokens": 1369,
@@ -4556,10 +4549,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 56.38,
-        "dense_ms": 122.8,
-        "rerank_ms": 2173.99,
-        "total_ms": 2357.4
+        "keyword_ms": 9.45,
+        "dense_ms": 61.91,
+        "rerank_ms": 1250.92,
+        "total_ms": 1324.9
       },
       "model": "mock",
       "input_tokens": 1296,
@@ -4588,10 +4581,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 38.13,
-        "dense_ms": 132.94,
-        "rerank_ms": 1685.19,
-        "total_ms": 1867.3
+        "keyword_ms": 9.04,
+        "dense_ms": 43.76,
+        "rerank_ms": 1164.69,
+        "total_ms": 1222.5
       },
       "model": "mock",
       "input_tokens": 1841,
@@ -4620,10 +4613,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 55.18,
-        "dense_ms": 95.76,
-        "rerank_ms": 1804.04,
-        "total_ms": 1960.1
+        "keyword_ms": 13.67,
+        "dense_ms": 70.66,
+        "rerank_ms": 1305.15,
+        "total_ms": 1392.2
       },
       "model": "mock",
       "input_tokens": 1588,
@@ -4652,10 +4645,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 58.64,
-        "dense_ms": 97.03,
-        "rerank_ms": 1688.78,
-        "total_ms": 1850.8
+        "keyword_ms": 13.71,
+        "dense_ms": 131.9,
+        "rerank_ms": 1152.16,
+        "total_ms": 1300.5
       },
       "model": "mock",
       "input_tokens": 1672,
@@ -4684,10 +4677,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 36.56,
-        "dense_ms": 83.05,
-        "rerank_ms": 1590.78,
-        "total_ms": 1715.5
+        "keyword_ms": 8.8,
+        "dense_ms": 53.14,
+        "rerank_ms": 1088.1,
+        "total_ms": 1152.6
       },
       "model": "mock",
       "input_tokens": 1342,
@@ -4716,10 +4709,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.59,
-        "dense_ms": 126.18,
-        "rerank_ms": 1770.11,
-        "total_ms": 1926.0
+        "keyword_ms": 7.15,
+        "dense_ms": 42.48,
+        "rerank_ms": 1103.84,
+        "total_ms": 1156.3
       },
       "model": "mock",
       "input_tokens": 1167,
@@ -4748,10 +4741,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.17,
-        "dense_ms": 78.77,
-        "rerank_ms": 1810.43,
-        "total_ms": 1938.0
+        "keyword_ms": 11.55,
+        "dense_ms": 52.21,
+        "rerank_ms": 1206.23,
+        "total_ms": 1272.9
       },
       "model": "mock",
       "input_tokens": 1778,
@@ -4780,10 +4773,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 17.11,
-        "dense_ms": 89.85,
-        "rerank_ms": 497.18,
-        "total_ms": 632.6
+        "keyword_ms": 11.43,
+        "dense_ms": 91.05,
+        "rerank_ms": 428.0,
+        "total_ms": 563.2
       },
       "model": "mock",
       "input_tokens": 799,
@@ -4812,10 +4805,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.53,
-        "dense_ms": 113.15,
-        "rerank_ms": 1149.73,
-        "total_ms": 1311.7
+        "keyword_ms": 49.88,
+        "dense_ms": 116.1,
+        "rerank_ms": 976.94,
+        "total_ms": 1145.3
       },
       "model": "mock",
       "input_tokens": 856,
@@ -4844,10 +4837,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 23.3,
-        "dense_ms": 57.47,
-        "rerank_ms": 215.54,
-        "total_ms": 325.0
+        "keyword_ms": 7.7,
+        "dense_ms": 47.41,
+        "rerank_ms": 465.11,
+        "total_ms": 554.6
       },
       "model": "mock",
       "input_tokens": 612,
@@ -4874,10 +4867,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.98,
-        "dense_ms": 51.73,
-        "rerank_ms": 1046.56,
-        "total_ms": 1147.5
+        "keyword_ms": 56.32,
+        "dense_ms": 51.49,
+        "rerank_ms": 736.47,
+        "total_ms": 847.6
       },
       "model": "mock",
       "input_tokens": 856,
@@ -4906,10 +4899,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 14.09,
-        "dense_ms": 62.97,
-        "rerank_ms": 459.07,
-        "total_ms": 569.7
+        "keyword_ms": 10.48,
+        "dense_ms": 89.4,
+        "rerank_ms": 249.19,
+        "total_ms": 385.2
       },
       "model": "mock",
       "input_tokens": 617,
@@ -4936,10 +4929,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.42,
-        "dense_ms": 64.32,
-        "rerank_ms": 551.56,
-        "total_ms": 671.1
+        "keyword_ms": 55.21,
+        "dense_ms": 81.46,
+        "rerank_ms": 476.57,
+        "total_ms": 648.2
       },
       "model": "mock",
       "input_tokens": 928,
@@ -4968,10 +4961,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 43.26,
-        "dense_ms": 120.38,
-        "rerank_ms": 963.51,
-        "total_ms": 1132.5
+        "keyword_ms": 51.8,
+        "dense_ms": 111.49,
+        "rerank_ms": 778.33,
+        "total_ms": 943.8
       },
       "model": "mock",
       "input_tokens": 832,
@@ -5000,10 +4993,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 42.92,
-        "dense_ms": 54.55,
-        "rerank_ms": 726.89,
-        "total_ms": 849.8
+        "keyword_ms": 7.37,
+        "dense_ms": 55.64,
+        "rerank_ms": 783.1,
+        "total_ms": 848.2
       },
       "model": "mock",
       "input_tokens": 838,
@@ -5032,10 +5025,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 26.78,
-        "dense_ms": 70.72,
-        "rerank_ms": 790.41,
-        "total_ms": 891.3
+        "keyword_ms": 8.81,
+        "dense_ms": 41.18,
+        "rerank_ms": 627.24,
+        "total_ms": 715.5
       },
       "model": "mock",
       "input_tokens": 860,
@@ -5064,10 +5057,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.78,
-        "dense_ms": 60.99,
-        "rerank_ms": 598.02,
-        "total_ms": 721.8
+        "keyword_ms": 55.24,
+        "dense_ms": 53.54,
+        "rerank_ms": 149.87,
+        "total_ms": 280.3
       },
       "model": "mock",
       "input_tokens": 729,
@@ -5095,10 +5088,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 58.76,
-        "dense_ms": 105.27,
-        "rerank_ms": 1186.68,
-        "total_ms": 1354.5
+        "keyword_ms": 29.55,
+        "dense_ms": 96.67,
+        "rerank_ms": 832.15,
+        "total_ms": 964.5
       },
       "model": "mock",
       "input_tokens": 851,
@@ -5127,10 +5120,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 24.13,
-        "dense_ms": 51.9,
-        "rerank_ms": 496.63,
-        "total_ms": 616.9
+        "keyword_ms": 27.17,
+        "dense_ms": 39.08,
+        "rerank_ms": 366.27,
+        "total_ms": 463.1
       },
       "model": "mock",
       "input_tokens": 823,
@@ -5159,10 +5152,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 42.88,
-        "dense_ms": 75.95,
-        "rerank_ms": 922.94,
-        "total_ms": 1045.2
+        "keyword_ms": 29.13,
+        "dense_ms": 47.48,
+        "rerank_ms": 581.89,
+        "total_ms": 712.9
       },
       "model": "mock",
       "input_tokens": 869,
@@ -5191,10 +5184,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.98,
-        "dense_ms": 39.93,
-        "rerank_ms": 453.23,
-        "total_ms": 536.5
+        "keyword_ms": 34.32,
+        "dense_ms": 44.97,
+        "rerank_ms": 430.09,
+        "total_ms": 539.4
       },
       "model": "mock",
       "input_tokens": 829,
@@ -5223,10 +5216,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 45.62,
-        "dense_ms": 73.65,
-        "rerank_ms": 272.09,
-        "total_ms": 416.8
+        "keyword_ms": 39.7,
+        "dense_ms": 65.32,
+        "rerank_ms": 205.97,
+        "total_ms": 328.7
       },
       "model": "mock",
       "input_tokens": 611,
@@ -5253,10 +5246,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 43.05,
-        "dense_ms": 89.04,
-        "rerank_ms": 311.91,
-        "total_ms": 470.1
+        "keyword_ms": 34.51,
+        "dense_ms": 55.81,
+        "rerank_ms": 341.39,
+        "total_ms": 450.0
       },
       "model": "mock",
       "input_tokens": 607,
@@ -5283,10 +5276,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 43.27,
-        "dense_ms": 105.86,
-        "rerank_ms": 756.93,
-        "total_ms": 913.0
+        "keyword_ms": 23.21,
+        "dense_ms": 50.02,
+        "rerank_ms": 604.19,
+        "total_ms": 708.6
       },
       "model": "mock",
       "input_tokens": 803,
@@ -5315,10 +5308,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 24.17,
-        "dense_ms": 39.17,
-        "rerank_ms": 927.82,
-        "total_ms": 995.2
+        "keyword_ms": 12.64,
+        "dense_ms": 52.52,
+        "rerank_ms": 788.5,
+        "total_ms": 857.1
       },
       "model": "mock",
       "input_tokens": 829,
@@ -5347,10 +5340,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 26.97,
-        "dense_ms": 49.7,
-        "rerank_ms": 250.42,
-        "total_ms": 348.4
+        "keyword_ms": 9.63,
+        "dense_ms": 36.65,
+        "rerank_ms": 144.58,
+        "total_ms": 220.1
       },
       "model": "mock",
       "input_tokens": 437,
@@ -5375,10 +5368,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 60.98,
-        "dense_ms": 86.21,
-        "rerank_ms": 610.77,
-        "total_ms": 782.4
+        "keyword_ms": 25.83,
+        "dense_ms": 80.86,
+        "rerank_ms": 413.13,
+        "total_ms": 552.5
       },
       "model": "mock",
       "input_tokens": 790,
@@ -5407,10 +5400,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 48.8,
-        "dense_ms": 100.34,
-        "rerank_ms": 233.95,
-        "total_ms": 411.9
+        "keyword_ms": 36.67,
+        "dense_ms": 72.32,
+        "rerank_ms": 149.46,
+        "total_ms": 291.2
       },
       "model": "mock",
       "input_tokens": 535,
@@ -5436,10 +5429,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 36.08,
-        "dense_ms": 68.77,
-        "rerank_ms": 540.84,
-        "total_ms": 668.9
+        "keyword_ms": 47.28,
+        "dense_ms": 67.72,
+        "rerank_ms": 398.21,
+        "total_ms": 534.9
       },
       "model": "mock",
       "input_tokens": 814,
@@ -5468,10 +5461,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 26.91,
-        "dense_ms": 74.73,
-        "rerank_ms": 585.92,
-        "total_ms": 720.1
+        "keyword_ms": 26.82,
+        "dense_ms": 98.21,
+        "rerank_ms": 430.68,
+        "total_ms": 596.8
       },
       "model": "mock",
       "input_tokens": 826,
@@ -5500,10 +5493,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.1,
-        "dense_ms": 65.39,
-        "rerank_ms": 1033.0,
-        "total_ms": 1148.4
+        "keyword_ms": 43.56,
+        "dense_ms": 85.3,
+        "rerank_ms": 846.28,
+        "total_ms": 977.6
       },
       "model": "mock",
       "input_tokens": 861,
@@ -5532,10 +5525,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 20.34,
-        "dense_ms": 190.41,
-        "rerank_ms": 815.84,
-        "total_ms": 1061.4
+        "keyword_ms": 26.73,
+        "dense_ms": 35.99,
+        "rerank_ms": 466.05,
+        "total_ms": 558.3
       },
       "model": "mock",
       "input_tokens": 808,
@@ -5564,10 +5557,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 52.04,
-        "dense_ms": 147.32,
-        "rerank_ms": 472.97,
-        "total_ms": 712.2
+        "keyword_ms": 25.11,
+        "dense_ms": 43.11,
+        "rerank_ms": 299.31,
+        "total_ms": 387.4
       },
       "model": "mock",
       "input_tokens": 830,
@@ -5596,10 +5589,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 43.2,
-        "dense_ms": 96.05,
-        "rerank_ms": 649.61,
-        "total_ms": 817.8
+        "keyword_ms": 17.94,
+        "dense_ms": 54.95,
+        "rerank_ms": 338.83,
+        "total_ms": 443.9
       },
       "model": "mock",
       "input_tokens": 913,
@@ -5628,10 +5621,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 49.02,
-        "dense_ms": 113.14,
-        "rerank_ms": 764.5,
-        "total_ms": 931.3
+        "keyword_ms": 33.95,
+        "dense_ms": 81.09,
+        "rerank_ms": 583.54,
+        "total_ms": 705.4
       },
       "model": "mock",
       "input_tokens": 879,
@@ -5660,10 +5653,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.13,
-        "dense_ms": 95.24,
-        "rerank_ms": 318.95,
-        "total_ms": 477.0
+        "keyword_ms": 11.15,
+        "dense_ms": 65.05,
+        "rerank_ms": 327.0,
+        "total_ms": 426.7
       },
       "model": "mock",
       "input_tokens": 846,
@@ -5692,10 +5685,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.4,
-        "dense_ms": 92.57,
-        "rerank_ms": 479.46,
-        "total_ms": 641.9
+        "keyword_ms": 21.02,
+        "dense_ms": 44.74,
+        "rerank_ms": 222.61,
+        "total_ms": 291.5
       },
       "model": "mock",
       "input_tokens": 802,
@@ -5724,10 +5717,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 52.55,
-        "dense_ms": 72.3,
-        "rerank_ms": 537.36,
-        "total_ms": 690.6
+        "keyword_ms": 11.07,
+        "dense_ms": 42.67,
+        "rerank_ms": 330.65,
+        "total_ms": 402.5
       },
       "model": "mock",
       "input_tokens": 827,
@@ -5756,10 +5749,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 44.25,
-        "dense_ms": 86.32,
-        "rerank_ms": 815.52,
-        "total_ms": 952.4
+        "keyword_ms": 41.15,
+        "dense_ms": 35.45,
+        "rerank_ms": 644.58,
+        "total_ms": 756.4
       },
       "model": "mock",
       "input_tokens": 879,
@@ -5788,10 +5781,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 30.58,
-        "dense_ms": 45.83,
-        "rerank_ms": 1062.1,
-        "total_ms": 1142.4
+        "keyword_ms": 45.56,
+        "dense_ms": 135.42,
+        "rerank_ms": 857.42,
+        "total_ms": 1040.9
       },
       "model": "mock",
       "input_tokens": 859,
@@ -5820,10 +5813,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 26.84,
-        "dense_ms": 59.37,
-        "rerank_ms": 405.35,
-        "total_ms": 535.0
+        "keyword_ms": 10.24,
+        "dense_ms": 42.27,
+        "rerank_ms": 281.97,
+        "total_ms": 363.9
       },
       "model": "mock",
       "input_tokens": 750,
@@ -5851,10 +5844,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 42.92,
-        "dense_ms": 57.44,
-        "rerank_ms": 355.25,
-        "total_ms": 476.5
+        "keyword_ms": 35.55,
+        "dense_ms": 100.41,
+        "rerank_ms": 349.67,
+        "total_ms": 528.3
       },
       "model": "mock",
       "input_tokens": 842,
@@ -5883,10 +5876,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 34.77,
-        "dense_ms": 54.3,
-        "rerank_ms": 446.65,
-        "total_ms": 563.9
+        "keyword_ms": 28.41,
+        "dense_ms": 57.16,
+        "rerank_ms": 482.07,
+        "total_ms": 592.0
       },
       "model": "mock",
       "input_tokens": 795,
@@ -5915,10 +5908,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 37.74,
-        "dense_ms": 43.99,
-        "rerank_ms": 480.54,
-        "total_ms": 583.3
+        "keyword_ms": 33.28,
+        "dense_ms": 107.08,
+        "rerank_ms": 499.96,
+        "total_ms": 670.1
       },
       "model": "mock",
       "input_tokens": 839,
@@ -5947,10 +5940,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 35.67,
-        "dense_ms": 51.14,
-        "rerank_ms": 318.04,
-        "total_ms": 426.7
+        "keyword_ms": 34.62,
+        "dense_ms": 73.39,
+        "rerank_ms": 205.13,
+        "total_ms": 347.5
       },
       "model": "mock",
       "input_tokens": 673,
@@ -5977,10 +5970,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 25.93,
-        "dense_ms": 102.77,
-        "rerank_ms": 202.59,
-        "total_ms": 358.6
+        "keyword_ms": 42.58,
+        "dense_ms": 56.41,
+        "rerank_ms": 120.56,
+        "total_ms": 245.2
       },
       "model": "mock",
       "input_tokens": 428,
@@ -6005,10 +5998,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 57.31,
-        "dense_ms": 108.96,
-        "rerank_ms": 523.9,
-        "total_ms": 706.7
+        "keyword_ms": 37.18,
+        "dense_ms": 60.67,
+        "rerank_ms": 342.05,
+        "total_ms": 459.8
       },
       "model": "mock",
       "input_tokens": 802,
@@ -6037,10 +6030,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 17.29,
-        "dense_ms": 95.23,
-        "rerank_ms": 717.08,
-        "total_ms": 839.7
+        "keyword_ms": 34.62,
+        "dense_ms": 106.14,
+        "rerank_ms": 617.24,
+        "total_ms": 790.9
       },
       "model": "mock",
       "input_tokens": 810,
@@ -6069,10 +6062,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 11.69,
-        "dense_ms": 46.04,
-        "rerank_ms": 532.02,
-        "total_ms": 616.7
+        "keyword_ms": 15.72,
+        "dense_ms": 89.42,
+        "rerank_ms": 278.87,
+        "total_ms": 420.9
       },
       "model": "mock",
       "input_tokens": 822,
@@ -6101,10 +6094,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 34.76,
-        "dense_ms": 111.11,
-        "rerank_ms": 586.65,
-        "total_ms": 762.4
+        "keyword_ms": 51.48,
+        "dense_ms": 67.45,
+        "rerank_ms": 384.57,
+        "total_ms": 525.4
       },
       "model": "mock",
       "input_tokens": 829,
@@ -6133,10 +6126,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 40.91,
-        "dense_ms": 88.92,
-        "rerank_ms": 305.52,
-        "total_ms": 454.6
+        "keyword_ms": 30.17,
+        "dense_ms": 57.98,
+        "rerank_ms": 281.08,
+        "total_ms": 385.0
       },
       "model": "mock",
       "input_tokens": 811,
@@ -6165,10 +6158,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 23.53,
-        "dense_ms": 59.71,
-        "rerank_ms": 255.53,
-        "total_ms": 362.9
+        "keyword_ms": 19.11,
+        "dense_ms": 80.59,
+        "rerank_ms": 198.72,
+        "total_ms": 325.8
       },
       "model": "mock",
       "input_tokens": 530,
@@ -6194,10 +6187,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 22.06,
-        "dense_ms": 102.65,
-        "rerank_ms": 826.7,
-        "total_ms": 954.2
+        "keyword_ms": 33.61,
+        "dense_ms": 52.25,
+        "rerank_ms": 760.76,
+        "total_ms": 850.9
       },
       "model": "mock",
       "input_tokens": 841,
@@ -6226,10 +6219,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 22.48,
-        "dense_ms": 38.97,
-        "rerank_ms": 262.84,
-        "total_ms": 357.5
+        "keyword_ms": 16.93,
+        "dense_ms": 39.75,
+        "rerank_ms": 217.43,
+        "total_ms": 310.9
       },
       "model": "mock",
       "input_tokens": 514,
@@ -6255,10 +6248,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 38.6,
-        "dense_ms": 64.35,
-        "rerank_ms": 275.06,
-        "total_ms": 400.0
+        "keyword_ms": 31.19,
+        "dense_ms": 107.78,
+        "rerank_ms": 162.61,
+        "total_ms": 329.6
       },
       "model": "mock",
       "input_tokens": 422,
@@ -6283,10 +6276,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 46.24,
-        "dense_ms": 64.66,
-        "rerank_ms": 884.23,
-        "total_ms": 1008.3
+        "keyword_ms": 40.01,
+        "dense_ms": 41.92,
+        "rerank_ms": 847.16,
+        "total_ms": 931.5
       },
       "model": "mock",
       "input_tokens": 881,
@@ -6315,10 +6308,10 @@
       ],
       "invalid_citations": [],
       "timings": {
-        "keyword_ms": 24.48,
-        "dense_ms": 43.89,
-        "rerank_ms": 222.71,
-        "total_ms": 319.5
+        "keyword_ms": 11.59,
+        "dense_ms": 35.85,
+        "rerank_ms": 314.07,
+        "total_ms": 387.2
       },
       "model": "mock",
       "input_tokens": 649,
@@ -6336,790 +6329,6 @@
       "source": "fuel",
       "gold_in_context": true,
       "gold_cited": true
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 63.65,
-        "dense_ms": 46.25,
-        "rerank_ms": 2275.75,
-        "total_ms": 2392.6
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u000",
-      "question": "Are there any open recalls on my 2019 BMW 330i?",
-      "answerable": false,
-      "context": [
-        "recall:20V184000",
-        "recall:19V814000",
-        "recall:19V347000",
-        "recall:20V012000",
-        "recall:21V932000",
-        "recall:19V720000"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 71.02,
-        "dense_ms": 67.27,
-        "rerank_ms": 856.94,
-        "total_ms": 997.9
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u001",
-      "question": "What's the EPA combined MPG for a 2021 Volkswagen Golf GTI?",
-      "answerable": false,
-      "context": [
-        "fuel:42790",
-        "fuel:43284",
-        "fuel:43480",
-        "fuel:43285",
-        "fuel:43288",
-        "fuel:43292"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 115.56,
-        "dense_ms": 120.62,
-        "rerank_ms": 1774.01,
-        "total_ms": 2013.3
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u002",
-      "question": "My 2017 Lexus RX 350 has a rattling noise from the dash. Are other owners complaining about this?",
-      "answerable": false,
-      "context": [
-        "complaint:11484070",
-        "complaint:11296920",
-        "complaint:11494303",
-        "complaint:11669894",
-        "complaint:11390931",
-        "complaint:11736447"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 46.52,
-        "dense_ms": 40.87,
-        "rerank_ms": 1953.29,
-        "total_ms": 2043.5
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u003",
-      "question": "Did Mercedes-Benz recall the 2020 C300 for airbag problems?",
-      "answerable": false,
-      "context": [
-        "recall:20V374000",
-        "recall:20V497000",
-        "recall:19V407000",
-        "recall:24V064000",
-        "recall:20V734000",
-        "recall:20V633000"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 46.13,
-        "dense_ms": 68.92,
-        "rerank_ms": 791.6,
-        "total_ms": 909.1
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u004",
-      "question": "How many miles per gallon does a 2016 Dodge Charger get on the highway?",
-      "answerable": false,
-      "context": [
-        "fuel:36978",
-        "fuel:36553",
-        "fuel:36546",
-        "fuel:36542",
-        "fuel:36543",
-        "fuel:36548"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 29.57,
-        "dense_ms": 89.25,
-        "rerank_ms": 1444.19,
-        "total_ms": 1565.7
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u005",
-      "question": "I own a 2022 Audi Q5 and the infotainment screen keeps freezing. Is there a recall?",
-      "answerable": false,
-      "context": [
-        "recall:25V744000",
-        "recall:22V296000",
-        "recall:26V489000",
-        "recall:25V315000",
-        "recall:22V772000",
-        "recall:22V527000"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 41.3,
-        "dense_ms": 68.98,
-        "rerank_ms": 786.07,
-        "total_ms": 898.8
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u006",
-      "question": "Which is more fuel efficient, a 2018 Acura MDX or a 2018 Infiniti QX60?",
-      "answerable": false,
-      "context": [
-        "fuel:39777",
-        "fuel:40521",
-        "fuel:38881",
-        "fuel:39297",
-        "fuel:39299",
-        "fuel:38880"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 22.52,
-        "dense_ms": 36.33,
-        "rerank_ms": 1767.04,
-        "total_ms": 1828.7
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u007",
-      "question": "Has there been a safety recall for the 2023 Rivian R1T?",
-      "answerable": false,
-      "context": [
-        "recall:25V040000",
-        "recall:23V480000",
-        "recall:26V054000",
-        "recall:22V859000",
-        "recall:23V022000",
-        "recall:23V059000"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 63.32,
-        "dense_ms": 111.14,
-        "rerank_ms": 1382.68,
-        "total_ms": 1560.5
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u008",
-      "question": "Any complaints about transmission failure on the 2015 Mini Cooper?",
-      "answerable": false,
-      "context": [
-        "complaint:11221596",
-        "complaint:11483555",
-        "complaint:11436924",
-        "complaint:11325185",
-        "complaint:11504531",
-        "complaint:11085039"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 27.31,
-        "dense_ms": 52.24,
-        "rerank_ms": 1260.05,
-        "total_ms": 1342.5
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u009",
-      "question": "Is my 2020 Volvo XC90 affected by any recall for seat belts?",
-      "answerable": false,
-      "context": [
-        "recall:20V549000",
-        "recall:25V093000",
-        "recall:26V159000",
-        "recall:21V649000",
-        "recall:19V877000",
-        "recall:23V158000"
-      ],
-      "kind": "uncovered_make"
-    },
-    {
-      "answer": "The 12-volt battery has gone totally dead twice. Replaced the battery 2 times. [complaint:11582159]",
-      "refused": false,
-      "citations": [
-        "complaint:11582159"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 5.5,
-        "dense_ms": 49.46,
-        "rerank_ms": 1836.22,
-        "total_ms": 1894.1
-      },
-      "model": "mock",
-      "input_tokens": 1761,
-      "output_tokens": 24,
-      "cost_usd": 0.0,
-      "id": "u010",
-      "question": "How often should I change the oil in my 2020 Toyota Camry?",
-      "answerable": false,
-      "context": [
-        "complaint:11582159",
-        "complaint:11724323",
-        "complaint:11359920",
-        "complaint:11703172",
-        "complaint:11707221",
-        "complaint:11507948"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "2019 Honda CR-V FWD (Small Sport Utility Vehicle 2WD). Engine: 1.5 L 4-cylinder. Transmission: Automatic (variable gear ratios). Drive: Front-Wheel Drive. Fuel: Regular. EPA fuel economy: 28 city / 34 highway / 30 combined MPG. Estimated annual fuel cost: $2250. [fuel:40853]",
-      "refused": false,
-      "citations": [
-        "fuel:40853"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 7.42,
-        "dense_ms": 99.62,
-        "rerank_ms": 1547.56,
-        "total_ms": 1656.9
-      },
-      "model": "mock",
-      "input_tokens": 960,
-      "output_tokens": 68,
-      "cost_usd": 0.0,
-      "id": "u011",
-      "question": "What's the average price of a used 2019 Honda CR-V in my area?",
-      "answerable": false,
-      "context": [
-        "fuel:40853",
-        "fuel:40858",
-        "fuel:40852",
-        "fuel:40857",
-        "complaint:11652814",
-        "complaint:11350916"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "No record in the index matches this question closely enough.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 19.84,
-        "dense_ms": 43.86,
-        "rerank_ms": 1338.63,
-        "total_ms": 1405.0
-      },
-      "model": "mock",
-      "input_tokens": 811,
-      "output_tokens": 18,
-      "cost_usd": 0.0,
-      "id": "u012",
-      "question": "How much does insurance usually cost for a 2022 Ford F-150?",
-      "answerable": false,
-      "context": [
-        "fuel:44867",
-        "fuel:44869",
-        "fuel:44865",
-        "fuel:44868",
-        "fuel:44866",
-        "fuel:44873"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "The fuel tank evap system has stopped working and is not venting the fuel tank properly. When I take the gas cap off there is a lot of pressure released. [complaint:11428271]",
-      "refused": false,
-      "citations": [
-        "complaint:11428271"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 5.42,
-        "dense_ms": 53.01,
-        "rerank_ms": 1446.93,
-        "total_ms": 1509.3
-      },
-      "model": "mock",
-      "input_tokens": 1431,
-      "output_tokens": 43,
-      "cost_usd": 0.0,
-      "id": "u013",
-      "question": "What's the correct tire pressure for a 2018 Subaru Outback?",
-      "answerable": false,
-      "context": [
-        "complaint:11428271",
-        "recall:21V587000",
-        "complaint:11547483",
-        "recall:18V773000",
-        "complaint:11242971",
-        "fuel:38857"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "No record in the index matches this question closely enough.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 9.34,
-        "dense_ms": 40.74,
-        "rerank_ms": 1246.45,
-        "total_ms": 1300.0
-      },
-      "model": "mock",
-      "input_tokens": 1332,
-      "output_tokens": 18,
-      "cost_usd": 0.0,
-      "id": "u014",
-      "question": "How do I set up a trailer hitch and weight distribution for towing with my 2021 Ram 1500?",
-      "answerable": false,
-      "context": [
-        "complaint:11519062",
-        "complaint:11415233",
-        "complaint:11494608",
-        "recall:21V438000",
-        "recall:21V918000",
-        "complaint:11503591"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "18-20 year same model and trim were recalled for fuel pump. Mine a 2017 has same symptoms died on highway going 75 almost life threatening. [complaint:11576104]",
-      "refused": false,
-      "citations": [
-        "complaint:11576104"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 4.87,
-        "dense_ms": 44.6,
-        "rerank_ms": 1400.08,
-        "total_ms": 1452.1
-      },
-      "model": "mock",
-      "input_tokens": 1173,
-      "output_tokens": 40,
-      "cost_usd": 0.0,
-      "id": "u015",
-      "question": "What will my 2017 Mazda CX-5 be worth in three years?",
-      "answerable": false,
-      "context": [
-        "complaint:11576104",
-        "complaint:11494318",
-        "complaint:11298941",
-        "fuel:38568",
-        "complaint:11152161",
-        "fuel:38566"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "I AM STARTING TO HAVE ISSUES WITH MY CAR BURNING OIL WITH NO LEAKS. I HAVEN'T EVEN BEEN A MONTH (1,000) MILES AND MY CAR LITERALLY HAD NO OIL. [complaint:11373890]",
-      "refused": false,
-      "citations": [
-        "complaint:11373890"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 11.62,
-        "dense_ms": 43.6,
-        "rerank_ms": 1621.47,
-        "total_ms": 1679.3
-      },
-      "model": "mock",
-      "input_tokens": 1637,
-      "output_tokens": 40,
-      "cost_usd": 0.0,
-      "id": "u016",
-      "question": "When is the 60,000-mile service due on a 2016 Hyundai Sonata and what does it include?",
-      "answerable": false,
-      "context": [
-        "complaint:11373890",
-        "recall:16V615000",
-        "complaint:11453245",
-        "recall:16V726000",
-        "complaint:11540631",
-        "recall:16V232000"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "When pulling out into traffic the car started to go, RPMs spiked all the way and the car just died\u2026 I shut it off, and all was fine\u2026. Then I stopped to get gas, and when the auto stop/start kicked in, the car didn\u2019t restart\u2026 the oil pressure light turned on, battery light, and check engine light all at the same time. [complaint:11420702]",
-      "refused": false,
-      "citations": [
-        "complaint:11420702"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 6.9,
-        "dense_ms": 64.16,
-        "rerank_ms": 1349.5,
-        "total_ms": 1423.8
-      },
-      "model": "mock",
-      "input_tokens": 1623,
-      "output_tokens": 84,
-      "cost_usd": 0.0,
-      "id": "u017",
-      "question": "How do I reset the maintenance light on my 2020 Kia Soul?",
-      "answerable": false,
-      "context": [
-        "complaint:11420702",
-        "complaint:11614490",
-        "complaint:11527356",
-        "complaint:11496572",
-        "complaint:11268199",
-        "complaint:11500128"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "The contact rented a 2023 Tesla Model 3. The contact stated that while driving at approximately 50-60 MPH, the vehicle lost motive power. [complaint:11562401]",
-      "refused": false,
-      "citations": [
-        "complaint:11562401"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 11.01,
-        "dense_ms": 36.85,
-        "rerank_ms": 1498.37,
-        "total_ms": 1549.1
-      },
-      "model": "mock",
-      "input_tokens": 1527,
-      "output_tokens": 39,
-      "cost_usd": 0.0,
-      "id": "u018",
-      "question": "Is a 2023 Tesla Model 3 cheaper to insure than a 2023 Toyota Prius?",
-      "answerable": false,
-      "context": [
-        "complaint:11562401",
-        "complaint:11521848",
-        "complaint:11626215",
-        "recall:23V838000",
-        "complaint:11530026",
-        "complaint:11535686"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "THE JEEP WANDERS ALL OVER THE ROAD. IT IS HARD TO STAY IN MY LANE ESPECIALLY WHEN GOING 50 MPH OR GREATER. [complaint:11258607]",
-      "refused": false,
-      "citations": [
-        "complaint:11258607"
-      ],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 6.17,
-        "dense_ms": 54.36,
-        "rerank_ms": 1207.76,
-        "total_ms": 1271.0
-      },
-      "model": "mock",
-      "input_tokens": 1502,
-      "output_tokens": 31,
-      "cost_usd": 0.0,
-      "id": "u019",
-      "question": "What's the best way to jump-start a 2019 Jeep Wrangler?",
-      "answerable": false,
-      "context": [
-        "complaint:11258607",
-        "complaint:11281369",
-        "complaint:11257909",
-        "complaint:11289593",
-        "complaint:11667675",
-        "complaint:11257078"
-      ],
-      "kind": "off_topic"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 5.45,
-        "dense_ms": 40.68,
-        "total_ms": 86.8
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u020",
-      "question": "Are there any recalls on my 2008 Honda Accord?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 35.48,
-        "dense_ms": 45.06,
-        "total_ms": 116.6
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u021",
-      "question": "What was the EPA fuel economy for a 2010 Toyota Corolla?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 130.57,
-        "dense_ms": 76.74,
-        "rerank_ms": 1634.48,
-        "total_ms": 1844.9
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u022",
-      "question": "Do 2006 Ford F-150s have a lot of complaints about spark plugs blowing out?",
-      "answerable": false,
-      "context": [
-        "complaint:11763679",
-        "complaint:11760926",
-        "complaint:11770470",
-        "complaint:11755664",
-        "complaint:11718965",
-        "complaint:11769693"
-      ],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 6.61,
-        "dense_ms": 37.93,
-        "total_ms": 77.9
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u023",
-      "question": "Was the 2011 Chevrolet Silverado 1500 recalled for anything related to the brakes?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 27.95,
-        "dense_ms": 44.71,
-        "total_ms": 104.1
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u024",
-      "question": "How many MPG did a 2007 Toyota Prius get in the city?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 32.42,
-        "dense_ms": 41.58,
-        "total_ms": 111.3
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u025",
-      "question": "My 2012 Nissan Altima has CVT problems. Are other owners reporting this?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 42.37,
-        "dense_ms": 76.38,
-        "total_ms": 148.2
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u026",
-      "question": "Is there an airbag recall for a 2005 Honda Civic?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 28.38,
-        "dense_ms": 43.44,
-        "total_ms": 106.5
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u027",
-      "question": "What are the common complaints for the 2009 Jeep Grand Cherokee?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 33.6,
-        "dense_ms": 75.98,
-        "total_ms": 138.7
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u028",
-      "question": "Gas mileage for a 2011 Ford Escape with the V6?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
-    },
-    {
-      "answer": "The index has no records for that vehicle.",
-      "refused": true,
-      "citations": [],
-      "invalid_citations": [],
-      "timings": {
-        "keyword_ms": 18.9,
-        "dense_ms": 12.98,
-        "total_ms": 33.1
-      },
-      "model": null,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cost_usd": 0.0,
-      "id": "u029",
-      "question": "Did the 2008 Subaru Forester have any recalls for head gaskets or engine issues?",
-      "answerable": false,
-      "context": [],
-      "kind": "uncovered_year"
     }
   ]
 }
