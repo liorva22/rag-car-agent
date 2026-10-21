@@ -33,6 +33,7 @@ transmission only if needed to pick this configuration.
 
 Reply with JSON only: {"question": "...", "answer": "..."}"""
 
+
 def parse_json(text: str):
     text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```")
     return json.loads(text)

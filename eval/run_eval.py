@@ -155,10 +155,18 @@ def eval_answers(n_workers: int = 6) -> dict:
                 )
                 text, i, o = judge(JUDGE, prompt, max_tokens=300)
                 # the verdicts come before the notes, so they survive a note that breaks the JSON (stray quote, cut-off)
-                v = {k: b == "true" for k in ("correct", "faithful") if (b := (re.search(rf'"{k}":\s*(true|false)', text) or [0, ""])[1])}
+                v = {
+                    k: b == "true"
+                    for k in ("correct", "faithful")
+                    if (b := (re.search(rf'"{k}":\s*(true|false)', text) or [0, ""])[1])
+                }
                 row["judge_cost_usd"] = cost(JUDGE_MODEL, i, o)
                 if "correct" in v and "faithful" in v:
-                    row |= {"correct": bool(v["correct"]), "faithful": bool(v["faithful"]), "judge_notes": (re.search(r'"notes":\s*"(.*)', text) or [0, ""])[1][:200]}
+                    row |= {
+                        "correct": bool(v["correct"]),
+                        "faithful": bool(v["faithful"]),
+                        "judge_notes": (re.search(r'"notes":\s*"(.*)', text) or [0, ""])[1][:200],
+                    }
                 else:
                     row["judge_unparsed"] = text[:200]
         return row

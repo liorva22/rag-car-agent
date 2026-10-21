@@ -34,4 +34,4 @@ jobs:
       # Retrieval regression gate on the committed eval set (no API key: retrieval is fully local).
       - run: |
           python eval/run_eval.py retrieval --out /tmp/retrieval.json
-          python -c "import json; c=json.load(open('/tmp/retrieval.json'))['configs']['hybrid_rerank+filters']; assert c['hit@5']>=GATE, c"
+          python -c "import json; c=json.load(open('/tmp/retrieval.json'))['configs']['hybrid_rerank+filters']; assert c['hit@5']>=0.95, c"
