@@ -1,0 +1,123 @@
+{
+  "n_questions": 200,
+  "configs": {
+    "keyword": {
+      "hit@1": 0.27,
+      "hit@5": 0.65,
+      "hit@10": 0.78,
+      "mrr@10": 0.42,
+      "ndcg@10": 0.4969,
+      "p50_ms": 212.6,
+      "p95_ms": 372.7,
+      "hit@5_by_source": {
+        "recall": 0.7125,
+        "complaint": 0.4286,
+        "fuel": 0.86
+      }
+    },
+    "dense": {
+      "hit@1": 0.585,
+      "hit@5": 0.86,
+      "hit@10": 0.93,
+      "mrr@10": 0.6994,
+      "ndcg@10": 0.7407,
+      "p50_ms": 43.6,
+      "p95_ms": 65.4,
+      "hit@5_by_source": {
+        "recall": 0.825,
+        "complaint": 0.8571,
+        "fuel": 0.92
+      }
+    },
+    "hybrid": {
+      "hit@1": 0.66,
+      "hit@5": 0.91,
+      "hit@10": 0.96,
+      "mrr@10": 0.7655,
+      "ndcg@10": 0.7984,
+      "p50_ms": 308.7,
+      "p95_ms": 624.7,
+      "hit@5_by_source": {
+        "recall": 0.925,
+        "complaint": 0.8429,
+        "fuel": 0.98
+      }
+    },
+    "hybrid_rerank": {
+      "hit@1": 0.79,
+      "hit@5": 0.97,
+      "hit@10": 0.985,
+      "mrr@10": 0.8683,
+      "ndcg@10": 0.8872,
+      "p50_ms": 2125.4,
+      "p95_ms": 3404.0,
+      "hit@5_by_source": {
+        "recall": 0.9875,
+        "complaint": 0.9429,
+        "fuel": 0.98
+      }
+    },
+    "keyword+filters": {
+      "hit@1": 0.715,
+      "hit@5": 0.965,
+      "hit@10": 0.985,
+      "mrr@10": 0.8229,
+      "ndcg@10": 0.8533,
+      "p50_ms": 8.3,
+      "p95_ms": 19.9,
+      "hit@5_by_source": {
+        "recall": 0.975,
+        "complaint": 0.9286,
+        "fuel": 1.0
+      }
+    },
+    "dense+filters": {
+      "hit@1": 0.745,
+      "hit@5": 0.97,
+      "hit@10": 1.0,
+      "mrr@10": 0.8387,
+      "ndcg@10": 0.8679,
+      "p50_ms": 17.2,
+      "p95_ms": 21.9,
+      "hit@5_by_source": {
+        "recall": 0.9875,
+        "complaint": 0.9429,
+        "fuel": 0.98
+      }
+    },
+    "hybrid+filters": {
+      "hit@1": 0.77,
+      "hit@5": 0.985,
+      "hit@10": 1.0,
+      "mrr@10": 0.8624,
+      "ndcg@10": 0.8854,
+      "p50_ms": 25.1,
+      "p95_ms": 40.1,
+      "hit@5_by_source": {
+        "recall": 0.9875,
+        "complaint": 0.9714,
+        "fuel": 1.0
+      }
+    },
+    "hybrid_rerank+filters": {
+      "hit@1": 0.86,
+      "hit@5": 0.99,
+      "hit@10": 0.995,
+      "mrr@10": 0.9183,
+      "ndcg@10": 0.9288,
+      "p50_ms": 1032.0,
+      "p95_ms": 1760.0,
+      "hit@5_by_source": {
+        "recall": 1.0,
+        "complaint": 0.9857,
+        "fuel": 0.98
+      }
+    }
+  },
+  "filter_extraction": {
+    "vehicle_tag_found": 1.0,
+    "tag_matches_gold_vehicle": 0.995,
+    "source_hint_found": 0.98,
+    "source_hint_correct_when_found": 1.0
+  }
+}

@@ -1,0 +1,37 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: car
+          POSTGRES_PASSWORD: car
+          POSTGRES_DB: car
+        ports: ["5432:5432"]
+        options: --health-cmd "pg_isready -U car" --health-interval 2s --health-retries 30
+    env:
+      MOCK_MODE: "1"
+      DATABASE_URL: postgresql://car:car@localhost:5432/car
+      FASTEMBED_CACHE_PATH: /home/runner/.cache/fastembed
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: /home/runner/.cache/fastembed
+          key: fastembed-bge-small-minilm-l6
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: python -m carrag.seed
+      - run: pytest -q
+      # Retrieval regression gate on the committed eval set (no API key: retrieval is fully local).
+      - run: |
+          python eval/run_eval.py retrieval --out /tmp/retrieval.json
+          python -c "import json; c=json.load(open('/tmp/retrieval.json'))['configs']['hybrid_rerank+filters']; assert c['hit@5']>=GATE, c"

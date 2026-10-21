@@ -1,0 +1,2016 @@
+{
+  "generator": "claude-sonnet-5-5",
+  "cost_usd": 0.5841,
+  "questions": [
+    {
+      "id": "a000",
+      "question": "Is there a recall on my 2024 Jeep Wrangler because the driver's air bag might not go off in a crash?",
+      "reference": "Yes. Certain 2023-2024 Jeep Wrangler vehicles, among other Stellantis models, were recalled because the steering column control module may not be welded properly, which can keep the driver's air bag from deploying. Dealers will inspect and replace the module as necessary, free of charge.",
+      "gold": "recall:24V199000",
+      "vehicle": "JEEP|WRANGLER|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a001",
+      "question": "Is there a recall on my 2017 Jeep Wrangler for a problem with the fuel tank that could cause a leak if the vehicle rolls over?",
+      "reference": "Yes. Chrysler (FCA US) recalled certain 2017 Wrangler vehicles built November 1-3, 2016, because the fuel tank may have a cracked or broken control valve. This can cause a fuel leak in a rollover, debris in the tank, or over-fueling, and a leak near an ignition source raises fire risk. Dealers will inspect the tank and replace the tank and sending unit as needed, free of charge.",
+      "gold": "recall:16V849000",
+      "vehicle": "JEEP|WRANGLER|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a002",
+      "question": "My 2016 Sorento's front passenger seat belt sometimes won't click into the buckle. Is there a recall for this, and what will be done to fix it?",
+      "reference": "Yes. Kia recalled certain 2016 Sorentos built Oct 23 to Dec 10, 2014, because the front passenger seat belt buckle latch assembly may prevent the belt from fastening, which raises injury risk in a crash. Dealers will replace the front passenger buckle cover free of charge.",
+      "gold": "recall:15V446000",
+      "vehicle": "KIA|SORENTO|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a003",
+      "question": "Is there a recall on my 2023 Jeep Grand Cherokee because the back seat headrests might not stay locked up in position?",
+      "reference": "Yes. Certain 2023-2024 Grand Cherokee and Grand Cherokee L vehicles may have second-row head restraints that don't lock upright, which violates FMVSS 202 and raises injury risk in a crash. Dealers will inspect and replace both second-row head restraints as needed, free of charge.",
+      "gold": "recall:25V472000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a004",
+      "question": "Has there been a recall on my 2020 Subaru Outback related to the brake pedal bracket bolt being loose or missing, and what will the dealer do about it?",
+      "reference": "Yes, Subaru recalled certain 2020 Outback and Legacy vehicles because the brake pedal mounting bracket bolt may be missing or not tightened enough, which can deform the area over time and reduce braking performance. Dealers will inspect the hardware and replace the hardware or brake pedal assembly as needed, free of charge.",
+      "gold": "recall:19V664000",
+      "vehicle": "SUBARU|OUTBACK|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a005",
+      "question": "Is there a recall on my 2019 Highlander because the tire and load capacity sticker could become unreadable?",
+      "reference": "Yes. Gulf States Toyota recalled certain 2019 Highlanders and other Toyota models because the load capacity label text may become illegible, which violates FMVSS 110. Dealers will provide a corrected label free of charge.",
+      "gold": "recall:19V244000",
+      "vehicle": "TOYOTA|HIGHLANDER|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a006",
+      "question": "Is there a recall on my 2019 Honda Pilot because a trim panel on the side pillar might get in the way of the side curtain airbag in a crash?",
+      "reference": "Yes. Honda recalled certain 2019 Pilot and Ridgeline vehicles because the mounting holes for the right center pillar trim clip may be oversized, so the panel could come loose and interfere with curtain airbag deployment. Dealers will install a bracket on the right center pillar to hold the clip, free of charge.",
+      "gold": "recall:18V848000",
+      "vehicle": "HONDA|PILOT|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a007",
+      "question": "Is there a recall on my 2016 Ford Escape because the driver's knee airbag might not deploy properly in a crash?",
+      "reference": "Yes. Certain 2016 Escapes had driver's knee airbag modules built without the inflator gas generant, so the airbag may not inflate and the driver faces higher injury risk. Dealers will replace the driver's knee airbag free of charge.",
+      "gold": "recall:17V398000",
+      "vehicle": "FORD|ESCAPE|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a008",
+      "question": "Is there a recall on the side curtain air bags in my 2018 Chevrolet Silverado 1500 Crew Cab, and what's the fix?",
+      "reference": "Yes. GM is recalling certain 2018 Silverado 1500 Crew Cabs because the roof-rail air bag inflator end cap may detach or the inflator may rupture, which can send fragments into the cabin and risk injury. Dealers will replace the left and right roof-rail air bag modules free of charge.",
+      "gold": "recall:25V432000",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a009",
+      "question": "Is there a recall on my 2017 Subaru Outback related to the knee guard not being attached properly to the steering beam, and what will the dealer do about it?",
+      "reference": "Yes, Subaru recalled certain 2017 Legacy and Outback vehicles built Sept 21-23, 2016, because the knee guard bracket may not be properly attached to the steering beam, which could reduce lower-body protection in a crash if the driver is unbelted. Dealers will inspect the knee guard welding and replace the steering beam if needed, free of charge.",
+      "gold": "recall:16V716000",
+      "vehicle": "SUBARU|OUTBACK|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a010",
+      "question": "Is there a recall on my 2020 Jeep Wrangler because the gauge cluster could short out and stop showing the speedometer or warning lights?",
+      "reference": "Yes. Certain 2018-2024 Jeep Wranglers (and 2020-2024 Gladiators) were recalled because the instrument panel cluster can develop an internal short circuit and fail, which could leave the speedometer and warning lights blank and raise crash risk. Dealers will replace the cluster free of charge.",
+      "gold": "recall:24V652000",
+      "vehicle": "JEEP|WRANGLER|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a011",
+      "question": "Is there a recall on my 2022 Ford Escape with the 1.5L engine because a fuel injector could crack and leak? What will the dealer do about it?",
+      "reference": "Yes. Ford is recalling 2020-2022 Escape vehicles with the 1.5L engine because a fuel injector may crack and leak fuel in the engine compartment, which raises the risk of fire. Dealers will update the engine control software as an interim fix, and the final remedy, expected around July 2026, is replacing the high-pressure fuel rail and fuel injectors free of charge.",
+      "gold": "recall:25V467000",
+      "vehicle": "FORD|ESCAPE|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a012",
+      "question": "Is there a recall on my 2023 Jeep Wrangler with the manual transmission because the clutch could overheat and break apart?",
+      "reference": "Yes. Certain 2018-2023 Wranglers with manual transmissions are recalled because the clutch pressure plate may overheat and fracture, which can cause a fire, debris on the road, or loss of drive. Dealers will replace the clutch assembly and update the software for free, and vehicles fixed under the earlier recall need the new remedy.",
+      "gold": "recall:23V116000",
+      "vehicle": "JEEP|WRANGLER|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a013",
+      "question": "Is there a recall on my 2016 F-150 about the driver's seat back not being welded well enough? I have the manual recline seat.",
+      "reference": "Yes. Ford recalled certain 2016 F-150 and Explorer vehicles with a manual recline driver's seat because the seat back frame may have insufficient welds, so it may not restrain the occupant in a crash. Dealers will inspect and, if necessary, replace the seat back frame for free.",
+      "gold": "recall:16V475000",
+      "vehicle": "FORD|F-150|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a014",
+      "question": "Is there a recall on my 2022 Ford Explorer plug-in hybrid about the high voltage battery possibly failing or catching fire?",
+      "reference": "Yes. Ford recalled 2020-2022 Explorer and Aviator vehicles with the 3.0L PHEV because a manufacturing defect in battery cells can cause an internal short circuit, leading to loss of drive power or a fire risk. Dealers will run a BECM diagnostic test and replace the high voltage battery pack if needed, free of charge.",
+      "gold": "recall:23V626000",
+      "vehicle": "FORD|EXPLORER|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a015",
+      "question": "Is there a recall on my 2017 Hyundai Tucson for engine parts wearing out early, and what will the dealer do about it?",
+      "reference": "Yes, Hyundai recalled certain 2017 Tucson vehicles because the connecting rod bearings can wear prematurely and damage the engine, raising the risk of stalling or fire. Dealers will inspect the engine, replace it if bearing damage is found, and install a knock sensor detection software update, all free of charge.",
+      "gold": "recall:21V727000",
+      "vehicle": "HYUNDAI|TUCSON|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a016",
+      "question": "Is there a recall on my 2015 Subaru Outback for transmission fluid leaking near the driveshaft that could cause a fire?",
+      "reference": "Yes. Certain 2015-2016 Legacy and Outback vehicles built in July 2015 may leak transmission oil from a deformed seal cap on the propeller shaft yoke. If the oil reaches the exhaust pipe it could cause a fire. Dealers will replace the propeller shaft free of charge.",
+      "gold": "recall:15V502000",
+      "vehicle": "SUBARU|OUTBACK|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a017",
+      "question": "Is there a recall on my 2015 Jeep Grand Cherokee because the rear suspension arms could break from bad metal treatment?",
+      "reference": "Yes. Certain 2015 Grand Cherokees (and Dodge Durangos) built June 12-20, 2015 may have rear lower control arms that were incorrectly heat treated and could fracture, causing ride height changes, loss of rear stability and reduced braking. Dealers will inspect and replace the arms if necessary, free of charge.",
+      "gold": "recall:15V469000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a018",
+      "question": "Is there a recall on my 2016 Hyundai Sonata because the driver's air bag might not protect my neck properly in a crash?",
+      "reference": "Yes. Certain 2016 Sonatas built March 28 to April 12, 2016 have a driver-side frontal air bag that may not adequately protect the driver's neck, which fails FMVSS 208 and raises injury risk. Dealers will replace the driver's air bag module for free.",
+      "gold": "recall:16V615000",
+      "vehicle": "HYUNDAI|SONATA|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a019",
+      "question": "Is there a recall on my 2018 Jeep Wrangler Unlimited because the back passenger-side door might not stay latched?",
+      "reference": "Yes. Certain 2018 Jeep Wrangler four-door vehicles were recalled because the right rear door latch may be misplaced and not latch properly, so the door could open unexpectedly and raise injury risk. Dealers will repair the right rear door latch reinforcement free of charge.",
+      "gold": "recall:18V786000",
+      "vehicle": "JEEP|WRANGLER|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a020",
+      "question": "Is there a recall on my 2016 Jeep Wrangler for the passenger front air bag inflator possibly exploding, and should I keep driving it?",
+      "reference": "Yes. The passenger frontal air bag inflator can explode in a crash and send metal fragments at occupants, risking serious injury or death. Owners are advised not to drive the vehicle until the dealer replaces the inflator free of charge.",
+      "gold": "recall:19V018000",
+      "vehicle": "JEEP|WRANGLER|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a021",
+      "question": "Is there a recall on my 2022 F-150 because something under the truck could rub against the driveshaft and make it break?",
+      "reference": "Yes. Ford recalled certain 2021-2022 F-150 trucks because underbody heat and noise insulators can loosen and hit the aluminum driveshaft, which could fracture it and cause loss of drive power, loss of control, or unintended movement while parked. Dealers will inspect and repair the driveshaft as needed and properly attach the insulators for free.",
+      "gold": "recall:22V623000",
+      "vehicle": "FORD|F-150|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a022",
+      "question": "I replaced the battery in my 2015 RAV4 and heard there's a safety issue where it can shift around in the tray. Is that a recall, and what will the dealer do about it?",
+      "reference": "Yes, Toyota recalled certain 2013-2018 RAV4s because a replacement 12-volt battery may not fit the tray properly, letting it move and touch the hold-down bracket, which can short circuit and raise fire risk. Dealers will replace the battery clamp sub-assembly, battery tray, and positive terminal cover free of charge.",
+      "gold": "recall:23V734000",
+      "vehicle": "TOYOTA|RAV4|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a023",
+      "question": "Is there a recall on my 2015 RAM 1500 because the side airbags could go off on their own when I'm driving?",
+      "reference": "Yes. Chrysler (FCA US LLC) recalled 2013-2015 Ram 1500, 2500 and 3500 trucks because the side impact sensor calibration can be too sensitive, which may unexpectedly deploy the side curtain and seat airbags and activate the belt pre-tensioners. Dealers will update the Occupant Restraint Control module calibration for free.",
+      "gold": "recall:15V460000",
+      "vehicle": "RAM|1500|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a024",
+      "question": "Is there a recall on my 2023 Jeep Grand Cherokee because a safety sticker about the airbags might not be on the dash?",
+      "reference": "Yes. Certain 2022-2023 Jeep Grand Cherokee and Grand Cherokee L vehicles may be missing the air bag warning label on the dashboard, which violates FMVSS 208 and could raise injury risk in a crash. FCA US will mail owners the label information free of charge, and dealers will install the label on unsold vehicles.",
+      "gold": "recall:23V336000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a025",
+      "question": "Is there a recall on my 2018 Mazda CX-5 about the side curtain airbags not opening correctly in a rollover or side crash?",
+      "reference": "Yes. Certain 2018 CX-5s may have side curtain air bags that don't unfold properly in a side impact or rollover, which fails the ejection mitigation standard (FMVSS 226) and raises injury risk. Dealers will replace the curtain air bags free of charge.",
+      "gold": "recall:18V426000",
+      "vehicle": "MAZDA|CX-5|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a026",
+      "question": "Is there a recall on my 2023 Kia Soul for a problem with the engine pistons that could cause stalling or a fire?",
+      "reference": "Yes. Kia recalled certain 2021-2023 Soul and Seltos vehicles because the piston oil rings may have been made incorrectly, which can damage the engine and cause a stall or fire. Dealers will inspect and replace the engine if necessary and install piston-ring noise sensing software, all free of charge.",
+      "gold": "recall:25V099000",
+      "vehicle": "KIA|SOUL|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a027",
+      "question": "Is there a recall on my 2024 Jeep Grand Cherokee about the front bumper missing foam and affecting the airbags?",
+      "reference": "Yes. Some 2024 Grand Cherokees may have a front bumper missing energy-absorbing foam, which can keep the front air bags from deploying as intended and raises injury risk in a crash. Dealers will inspect and install the foam as needed, free of charge.",
+      "gold": "recall:24V346000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a028",
+      "question": "Is there a recall on my 2024 Jeep Grand Cherokee about loose bolts near the radiator that could affect airbags or cause a fuel leak in a crash?",
+      "reference": "Yes. Certain 2024 Grand Cherokee and Grand Cherokee L vehicles may have radiator crossmember bolts that aren't properly secured, which can cause improper airbag deployment and a fuel leak in a crash. Dealers will inspect and secure the bolts for free.",
+      "gold": "recall:24V926000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a029",
+      "question": "Is there a recall on the front seatbelts in my 2021 F-150 Super Cab? I heard the belt might be routed wrong and I'm not sure if it's safe to drive.",
+      "reference": "Yes. Ford recalled certain 2021 F-150 Super Cab trucks because the front seatbelt webbing may be misrouted, which could fail to restrain an occupant in a crash. Owners should self-inspect the belts; if the driver belt fails, don't drive the truck until it's fixed. Dealers will replace the retractor and pretensioner free if needed.",
+      "gold": "recall:21V653000",
+      "vehicle": "FORD|F-150|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a030",
+      "question": "Is there a recall on my 2017 Honda Civic hatchback because the owner's manual was missing or didn't have the right child seat anchor information?",
+      "reference": "Yes. Honda recalled certain 2017-2018 Civic Hatchback and Type R vehicles because the owner's guide may be missing or lack required child restraint anchorage information (FMVSS 225). Dealers will replace the owners information kit free of charge.",
+      "gold": "recall:18V817000",
+      "vehicle": "HONDA|CIVIC|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a031",
+      "question": "Is there a recall on my 2018 F-150 because the tailgate can pop open by itself while I'm driving?",
+      "reference": "Yes. Ford recalled certain 2018 F-150 trucks with manual and power release tailgates because the latches may unlatch unexpectedly while driving, which could let cargo fall out and become a road hazard. Dealers will replace the left and right tailgate latches free of charge.",
+      "gold": "recall:21V983000",
+      "vehicle": "FORD|F-150|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a032",
+      "question": "Is there a recall on my 2022 Kia Sorento because the backup camera picture might not show up on the screen?",
+      "reference": "Yes. Certain 2022-2023 Sorento models, including the hybrid and plug-in hybrid, have rearview camera mounting clips that can break, so the image may not display properly, which reduces rear visibility and raises crash risk. Dealers will inspect and replace the camera housing as needed, free of charge.",
+      "gold": "recall:23V610000",
+      "vehicle": "KIA|SORENTO|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a033",
+      "question": "Is there a recall on my 2020 Ford Explorer for a wiring harness that could rub against the A/C pulley and cause a fire, and what will the dealer do to fix it?",
+      "reference": "Yes. Certain 2020 Explorers with 2.3L or 3.3L engines may have a wiring harness that isn't properly secured and can rub on the A/C compressor pulley, which could cause a short circuit and increase fire risk. Dealers will install a tie strap on the harness at the shock tower clip, free of charge.",
+      "gold": "recall:19V687000",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a034",
+      "question": "Is there a recall on my 2015 Toyota Tacoma because the running boards or other dealer-installed accessories might not be bolted on tight enough and could fall off?",
+      "reference": "Yes. Southeast Toyota Distributors recalled certain 2014-2015 Tacomas (and other Toyota/Scion models) because accessories it installed, such as running boards, had fasteners with improper torque and could detach, risking a crash or injury. Dealers will inspect and tighten the bolts free of charge.",
+      "gold": "recall:14V828000",
+      "vehicle": "TOYOTA|TACOMA|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a035",
+      "question": "Is there a recall on the side curtain airbags for my 2019 RAM 1500, and what's the danger and the fix?",
+      "reference": "Yes, certain 2019 Ram 1500 Classic (plus Ram 2500/3500) vehicles are recalled because the left and right side curtain air bag inflators may rupture due to a manufacturing defect, potentially sending sharp metal fragments at occupants. Dealers will replace one or both curtain air bags free of charge.",
+      "gold": "recall:25V824000",
+      "vehicle": "RAM|1500|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a036",
+      "question": "Is there a recall on my 2024 F-150 because the gas tank might not be held on properly and could leak or fall off?",
+      "reference": "Yes. Ford is recalling certain 2023-2027 F-150 trucks because the fuel tank may be improperly secured, which can cause a fuel leak or let the tank detach while driving. Dealers will inspect and replace the fuel tank straps as needed, free of charge.",
+      "gold": "recall:26V578000",
+      "vehicle": "FORD|F-150|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a037",
+      "question": "Is there a recall on my 2017 Nissan Rogue related to the rear seats having bad welds, and what will the dealer do about it?",
+      "reference": "Yes. Certain 2016-2017 Rogues have improper welds on the recliner joints of the rear seat lower frame, which fails seating and belt anchorage safety standards and raises injury risk in a crash. Dealers will inspect the seat frames and replace any defective lower seat frames free of charge.",
+      "gold": "recall:17V663000",
+      "vehicle": "NISSAN|ROGUE|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a038",
+      "question": "My 2021 Elantra's backup camera sometimes shows nothing when I put it in reverse. Is there a recall for this, and what will the dealer do?",
+      "reference": "Yes. Hyundai recalled certain 2021-2022 Elantras because a damaged printed circuit board can keep the rearview camera image from displaying, which violates rear visibility standards and raises crash risk. Dealers will replace the rearview camera free of charge.",
+      "gold": "recall:24V879000",
+      "vehicle": "HYUNDAI|ELANTRA|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a039",
+      "question": "Is there a recall on my 2020 Ford Explorer about the middle seat belt in the second row not being attached to the seat properly?",
+      "reference": "Yes. Ford recalled certain 2020 Explorers because the second row center seat belt buckle may not be properly secured to the seat, which could keep it from restraining an occupant in a crash. Dealers will replace the second row center seat assembly free of charge.",
+      "gold": "recall:20V549000",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a040",
+      "question": "Is there a recall on my 2017 F-150 about the passenger seat belt anchor not being welded properly to the seat? What will the dealer do to fix it?",
+      "reference": "Yes. Ford recalled certain 2017 F-150 trucks with manually-adjusted front passenger seats because the seat belt anchor may not be adequately welded to the seat cushion frame, so the buckle weld could fail in a crash. Dealers will replace the front passenger manual seat track free of charge.",
+      "gold": "recall:17V599000",
+      "vehicle": "FORD|F-150|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a041",
+      "question": "Is there a recall on my 2015 Ford Focus because the engine could stall while I'm driving? I heard it has something to do with a valve in the fuel vapor system.",
+      "reference": "Yes. Ford recalled 2012-2018 Focus models with the 2.0L GDI or GTDI engine because the canister purge valve can malfunction and create excessive vacuum in the fuel vapor system, which may cause a sudden stall without restart. Dealers will reprogram the PCM and replace the valve and related parts as needed, and until then owners should keep the tank at least half full.",
+      "gold": "recall:18V735000",
+      "vehicle": "FORD|FOCUS|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a042",
+      "question": "I have a 2015 Ford Escape with the 2.0L engine and I sometimes plug in the engine block heater in winter. Is there a recall on that, and is it safe to keep using it?",
+      "reference": "Yes, Ford recalled certain 2013-2019 Escapes with the 2.0L engine because the block heater can crack, leak coolant and short circuit, which raises the risk of fire. Owners should not plug in the block heater until it is fixed; dealers will replace it free, or owners can choose to have the element replaced with a threaded plug and the cord removed.",
+      "gold": "recall:26V011000",
+      "vehicle": "FORD|ESCAPE|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a043",
+      "question": "Is there a recall on my 2020 Ford Explorer for loose bolts in the front seats that could mess up the side airbags?",
+      "reference": "Yes. Ford recalled certain 2020 Explorers because the side air bag and/or seat back module fasteners in the front seat backs may not have been tightened properly, which could affect side air bag deployment and raise injury risk in a crash. Dealers will remove the front seat back panels and check or tighten the fasteners for free.",
+      "gold": "recall:20V497000",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a044",
+      "question": "Was there a recall on my 2017 Subaru Outback for bolts that weren't tightened properly on the front brakes or suspension parts? What could happen and what's the fix?",
+      "reference": "Yes. Some 2017 Outbacks built June 20-23, 2016 may have improperly tightened bolts on the front brake calipers, wheel hubs, and the right stabilizer clamp, which could loosen and make the car unstable and reduce braking, raising crash risk. Dealers inspect the bolt torque and replace any loose bolts free of charge.",
+      "gold": "recall:16V576000",
+      "vehicle": "SUBARU|OUTBACK|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a045",
+      "question": "Is there a recall on my 2017 Nissan Sentra because the brake lights might not turn on when I press the pedal?",
+      "reference": "Yes. Nissan recalled certain 2016-2019 Sentras because the brake light switch can become contaminated, which stops the circuit from closing so the brake lights may not illuminate, raising crash risk. Dealers will replace the switch and add a protective grommet for free.",
+      "gold": "recall:21V135000",
+      "vehicle": "NISSAN|SENTRA|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a046",
+      "question": "I have a 2016 Mazda CX-5 and the rear hatch seems like it could drop on me if the lift supports fail. Is there a recall for that?",
+      "reference": "Yes. Certain 2013-2016 CX-5 vehicles built from Dec 2011 to Dec 2015 are recalled because the liftgate support struts can corrode and break, letting the liftgate fall unexpectedly and possibly injure someone. Dealers will replace both struts free of charge, though parts were initially unavailable.",
+      "gold": "recall:16V644000",
+      "vehicle": "MAZDA|CX-5|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a047",
+      "question": "Is there a recall on the factory tires of my 2021 Honda Pilot? I heard some Continental tires might have been baked too long during manufacturing.",
+      "reference": "Yes. Certain 2021 Pilots with Continental CrossContact LX Sport 245/50R20 tires from a specific DOT serial and mold batch may have been over-cured, risking sidewall breaks, sudden air loss, or tread/belt separation and loss of control. Dealers will inspect all four tires and replace affected ones free of charge.",
+      "gold": "recall:20V725000",
+      "vehicle": "HONDA|PILOT|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a048",
+      "question": "Is there a recall on my 2019 RAM 1500 about the front seat belts not holding me back properly in a crash?",
+      "reference": "Yes. Chrysler (FCA US LLC) recalled certain 2019-2020 Ram 1500 trucks because a front seat belt retractor may not properly slow the occupant's forward movement after locking, raising injury risk in a crash. Dealers will replace the front seat belt retractors free of charge.",
+      "gold": "recall:20V580000",
+      "vehicle": "RAM|1500|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a049",
+      "question": "Is there a recall on my 2018 Honda Pilot for engine bearings wearing out and possibly wrecking the engine?",
+      "reference": "Yes. Certain 2018-2019 Pilots are recalled because a manufacturing error can make the connecting rod bearing wear and seize, damaging the engine and possibly causing stalling, a fire, or a crash. Dealers will inspect and repair or replace the engine free of charge.",
+      "gold": "recall:23V751000",
+      "vehicle": "HONDA|PILOT|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a050",
+      "question": "Is there a recall on my 2019 Camry related to the passenger seat sensor possibly keeping the front passenger air bag from going off in a crash?",
+      "reference": "Yes. Certain 2019 Camrys had an improperly calibrated Occupant Classification System, which may prevent the front passenger air bag and knee air bag from deploying properly and raises injury risk. Dealers will recalibrate the system free of charge.",
+      "gold": "recall:19V567000",
+      "vehicle": "TOYOTA|CAMRY|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a051",
+      "question": "Is there a recall on my 2017 Chevy Silverado 1500 for the curtain airbags in the roof, and what's the danger and fix?",
+      "reference": "Yes. GM is recalling 2016-2017 Silverado 1500 trucks because the roof rail air bag inflator's end cap may detach or the inflator may rupture, which can send the end cap or fragments into the cabin and injure occupants. Dealers will replace both roof rail air bag modules free of charge.",
+      "gold": "recall:26V611000",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a052",
+      "question": "My 2015 Sonata's brake warning light would come on if something went wrong with the ABS, but is there a recall about the ABS light not turning on properly?",
+      "reference": "Yes. Certain 2015-2016 Sonatas built May 2014 to August 2015 have a flaw where an ABS malfunction only turns on the general Brake System light and not the ABS light, which violates FMVSS 135. Dealers will update the ABS control unit software for free.",
+      "gold": "recall:15V678000",
+      "vehicle": "HYUNDAI|SONATA|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a053",
+      "question": "My 2020 Ford Escape hybrid already had a engine fire recall repair done before. Is there a newer recall because that fix was done wrong, and what will the dealer do about it?",
+      "reference": "Yes. Ford is recalling 2020-2023 Escapes with the 2.5L hybrid or plug-in hybrid engine that were repaired incorrectly under an earlier recall, since an engine failure could release oil and fuel vapor that may ignite and cause an engine compartment fire. Dealers will update the powertrain control module software free of charge.",
+      "gold": "recall:25V345000",
+      "vehicle": "FORD|ESCAPE|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a054",
+      "question": "Is there a recall on my 2022 Ford Explorer about the gas filler tube coming loose in an accident, and what will the dealer do to fix it?",
+      "reference": "Yes. Ford recalled certain 2022 Explorers because the fuel filler tube may detach in a crash, which could cause a fuel leak and raise fire risk. Dealers will install a redundant locking clip on the fuel vapor line free of charge.",
+      "gold": "recall:22V088000",
+      "vehicle": "FORD|EXPLORER|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a055",
+      "question": "My 2022 Explorer has the 360-degree camera, and I'm worried the backup camera screen could go blank. Is there a recall for that, and what's the fix?",
+      "reference": "Yes. Ford recalled certain 2020-2023 Explorers with a 360-degree camera because the video output can fail, so the rearview image doesn't display and rear visibility drops, raising crash risk. Dealers will update the image processing module (IPMB) software for free, and vehicles previously repaired under the earlier recall need the new remedy.",
+      "gold": "recall:23V022000",
+      "vehicle": "FORD|EXPLORER|2022",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a056",
+      "question": "My 2017 F-150 has the big 8-inch center screen, and on cold mornings the dash gauges sometimes stay dark after I start it. Is there a recall for this, and what's the fix?",
+      "reference": "Yes, Ford recalled certain 2017 F-150 trucks with the eight-inch productivity screen because the instrument cluster may lose power after startup in cold weather, leaving gauges like the gear position indicator unlit. Dealers will reprogram the instrument cluster free of charge.",
+      "gold": "recall:17V053000",
+      "vehicle": "FORD|F-150|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a057",
+      "question": "Is there a recall on my 2021 F-150 because the windshield might not be glued in properly and could come off in an accident?",
+      "reference": "Yes. Ford recalled certain 2021 F-150 trucks because the windshield may not have been properly bonded during manufacturing, so it could detach in a crash and raise injury risk. Dealers will remove and reinstall the windshield free of charge.",
+      "gold": "recall:21V090000",
+      "vehicle": "FORD|F-150|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a058",
+      "question": "Is there a recall on my 2016 Chevy Malibu because the brake control computer could fail and shut off ABS and stability control?",
+      "reference": "Yes. GM recalled certain 2016 Malibus built March 7-12, 2016, because the memory chip in the electronic brake control module may fail, causing loss of ABS and electronic stability control and raising crash risk. Dealers will replace the EBCM free of charge, though the regular brakes still work if it fails.",
+      "gold": "recall:16V272000",
+      "vehicle": "CHEVROLET|MALIBU|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a059",
+      "question": "Is there a recall on my 2020 Ford Explorer about the parking brake not applying automatically when I put it in park, and something about the rear axle bolt breaking?",
+      "reference": "Yes. Ford recalled certain 2020-2022 Explorers because an earlier software update didn't include the automatic electronic parking brake when shifting to park, and the rear axle horizontal mounting bolt can fracture and disconnect the driveshaft, risking rollaway or loss of drive power. Dealers will update the PCM software free of charge.",
+      "gold": "recall:23V199000",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a060",
+      "question": "Is there a recall on my 2020 Honda CR-V about the rear subframe bolts coming loose, and what will the dealer do to fix it?",
+      "reference": "Yes. Certain 2019-2020 CR-Vs have rear subframe bolts that were improperly manufactured and may loosen, letting the subframe separate, which can hurt handling and suddenly disable the vehicle. Dealers will inspect the bolts and retorque or replace them as needed, free of charge.",
+      "gold": "recall:19V865000",
+      "vehicle": "HONDA|CR-V|2020",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a061",
+      "question": "Is there a recall on my 2023 Jeep Grand Cherokee because I can't turn on the high beams quickly when the headlight switch is in auto?",
+      "reference": "Yes. Certain 2023-2024 Jeep Grand Cherokee and Grand Cherokee L vehicles were recalled because, with the headlight switch in AUTO, the driver may be unable to quickly activate the high beams, which can reduce visibility and raise crash risk. Dealers will reconfigure the high beam parameters free of charge.",
+      "gold": "recall:24V130000",
+      "vehicle": "JEEP|GRAND CHEROKEE|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a062",
+      "question": "Is there a recall on my 2024 Chevrolet Equinox because a door could come open while I'm driving? What will the dealer do about it?",
+      "reference": "Yes. GM recalled certain 2024 Equinox (and Blazer, Blazer EV, GMC Terrain) vehicles because the door strikers may fracture, which could let a door open unexpectedly while driving. Dealers will replace all four door strikers and their attaching bolts free of charge.",
+      "gold": "recall:23V869000",
+      "vehicle": "CHEVROLET|EQUINOX|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a063",
+      "question": "Is there a recall on my 2015 Chevy Silverado 1500 for the side curtain airbag coming apart when it deploys?",
+      "reference": "Yes. GM recalled 2015-2016 Silverado 1500 trucks (among others) because the roof-rail air bag inflator end cap can detach, letting gas escape and the cap fly into the cabin, raising injury risk. Dealers will replace the roof-rail air bag modules free of charge, and the repair is now handled under the superseding recall 21V-504.",
+      "gold": "recall:20V736000",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a064",
+      "question": "My 2023 Ford Escape has a digital gauge display. Is there a recall because the display might not light up, and what will the dealer do about it?",
+      "reference": "Yes. Ford recalled certain 2023 Escapes with a digital instrument cluster because the module may have been improperly soldered, so the display may not illuminate and the speedometer and warning lights would not show. Dealers will replace the module or instrument panel free of charge.",
+      "gold": "recall:23V506000",
+      "vehicle": "FORD|ESCAPE|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a065",
+      "question": "Is there a recall on my 2018 Jeep Wrangler because the cruise control might not turn off? What's the fix?",
+      "reference": "Yes. A short circuit in the wiring could keep cruise control from disengaging, even with the brake or the off switch, so the vehicle could hold speed or accelerate. Dealers will inspect and flash the engine or powertrain control module software for free, and owners should avoid using cruise control until then.",
+      "gold": "recall:18V332000",
+      "vehicle": "JEEP|WRANGLER|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a066",
+      "question": "Is there a recall on my 2024 Ford Escape for a problem with the high voltage battery cells that could cause a short circuit or fire? What should I do about charging it?",
+      "reference": "Yes. Ford recalled certain 2020-2024 Escapes because a manufacturing defect in high voltage battery cells can cause an internal short circuit, battery failure, loss of drive power, and fire risk. Owners should not charge the battery until the remedy is done; dealers will update the BECM software and replace the battery pack if needed, free of charge.",
+      "gold": "recall:24V954000",
+      "vehicle": "FORD|ESCAPE|2024",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a067",
+      "question": "Is there a recall on my 2016 Toyota RAV4 about the load capacity label being wrong because of installed accessories, and what do they do to fix it?",
+      "reference": "Yes. Southeast Toyota Distributors recalled certain 2016 RAV4s built Jan 28 to Mar 14, 2016, because the Load Carrying Capacity Modification Label may not show the correct added accessory weight, which could lead to overloading and a crash. Owners get a corrected label to place over the old one, free of charge.",
+      "gold": "recall:16V236000",
+      "vehicle": "TOYOTA|RAV4|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a068",
+      "question": "Is there a recall on my 2016 Honda CR-V for the driver's air bag possibly rupturing and throwing metal pieces in a crash?",
+      "reference": "Yes. Certain 2016 CR-Vs built October 12-19, 2015 may have an incorrectly manufactured metal housing around the driver's air bag inflator, which could rupture and send metal fragments at occupants. Dealers will replace the driver frontal air bag module free of charge.",
+      "gold": "recall:15V714000",
+      "vehicle": "HONDA|CR-V|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a069",
+      "question": "My 2021 Chevy Bolt EV already had the battery software fix done earlier. Is there a newer recall saying that fix might not have been installed right, and what should I do in the meantime?",
+      "reference": "Yes. GM recalled 2020-2022 Bolt EVs previously repaired under the earlier battery recall because the diagnostic software may have been incorrectly installed and could miss defective battery modules, risking a fire. Until the dealer reinstalls the software for free, limit charge to 90%, charge more often, avoid dropping to about 70 miles of range, park outside after charging, and don't charge indoors overnight.",
+      "gold": "recall:24V481000",
+      "vehicle": "CHEVROLET|BOLT EV|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a070",
+      "question": "My 2015 Sorento had its engine replaced under a previous recall. Is there a recall about a possible fuel leak from the fuel pipe after that engine swap?",
+      "reference": "Yes. Kia recalled certain 2012-2017 Sorentos that had an engine replacement because the high pressure fuel pipe at the fuel pump outlet may have been damaged, misaligned or improperly torqued, risking a fuel leak and fire. Dealers will inspect and replace the pipe as needed for free.",
+      "gold": "recall:18V907000",
+      "vehicle": "KIA|SORENTO|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a071",
+      "question": "Is there a recall on my 2021 Ford Explorer for the windshield wipers quitting, and what will the dealer do about it?",
+      "reference": "Yes. Ford is recalling certain 2020-2022 Explorers because the front wiper motor may fail, reducing visibility and raising crash risk. Dealers will inspect and replace the front wiper motors as necessary for free, with interim letters already mailed and the final remedy expected around October 2026.",
+      "gold": "recall:26V117000",
+      "vehicle": "FORD|EXPLORER|2021",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a072",
+      "question": "Is there a recall on my 2019 Silverado 1500 because the seat belt tensioners could set the carpet on fire when they go off?",
+      "reference": "Yes. GM recalled certain 2019-2020 Silverado 1500 trucks with carpet flooring because hot gas from a deploying front seat belt pretensioner can vent through an opening in the bracket and ignite the carpet, risking a vehicle fire. Dealers will close off the opening in the bracket free of charge.",
+      "gold": "recall:19V814000",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2019",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a073",
+      "question": "Is there a recall on my 2016 Jeep Wrangler (right-hand drive) because dust could get into a part in the steering wheel and stop the driver's air bag from going off in a crash?",
+      "reference": "Yes. Chrysler (FCA) recalled 2011-2016 right-hand-drive Wranglers because the clockspring can get contaminated with dust, causing the air bag circuit to fail and possibly preventing the driver's frontal air bag from deploying. Dealers will replace the clockspring, wheel back cover, and column shroud free of charge.",
+      "gold": "recall:16V288000",
+      "vehicle": "JEEP|WRANGLER|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a074",
+      "question": "I have a 2016 Ford Focus hatchback with a manual transmission, and the back hatch seems to pop open really easily from the inside button. Is there a recall for that?",
+      "reference": "Yes. Ford recalled 2013-2017 Focus hatchbacks with manual transmissions because the hatch can unlatch with a single press of the interior release button, which could let the hatch open accidentally and endanger unsecured rear passengers. Dealers will reprogram the Body Control Module software for free.",
+      "gold": "recall:16V698000",
+      "vehicle": "FORD|FOCUS|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a075",
+      "question": "Is there a recall on my 2017 Kia Soul involving the airbag control module that could stop the airbags from going off in a crash?",
+      "reference": "Yes. Kia recalled certain 2017 Souls because the air bag control unit cover can touch a memory chip on the circuit board and damage the circuit, which may deactivate the air bags so they won't deploy. Dealers will inspect the unit and either update the software or replace it free of charge.",
+      "gold": "recall:22V031000",
+      "vehicle": "KIA|SOUL|2017",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a076",
+      "question": "Is there a recall on the front seat belts in my 2023 Nissan Rogue? I heard something about them not holding people properly in a crash.",
+      "reference": "Yes. Certain 2023 Rogues may have driver and front passenger seat belt pretensioners that were incorrectly manufactured, so the belts may not properly restrain occupants and injury risk rises in a crash. Dealers will replace the front seat belt assemblies as necessary, free of charge.",
+      "gold": "recall:24V156000",
+      "vehicle": "NISSAN|ROGUE|2023",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a077",
+      "question": "I bought my 2015 Honda Accord (4-cylinder with the CVT) in a state where roads get salted in winter. Is there a recall about the axle shafts breaking and losing drive power?",
+      "reference": "Yes. Honda recalled 2013-2015 4-cylinder CVT Accords sold or registered in many salted-road states because the drive shaft lubricant may have degraded the protective coating, making the shafts prone to corrosion and breakage. Dealers will inspect and, if necessary, replace both left and right drive shafts free of charge.",
+      "gold": "recall:20V769000",
+      "vehicle": "HONDA|ACCORD|2015",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a078",
+      "question": "Has there been a recall on my 2018 F-150 with the 3.5L engine over missing oil passages in the cylinder heads that could make the engine fail?",
+      "reference": "Yes. Ford recalled certain 2018 F-150s with 3.5L engines because the cylinder heads may have been machined without lubrication supply holes for the camshaft bearing journals, which can cause engine failure, a stall, and a higher crash risk. The remedy is engine replacement at a Ford or Lincoln dealer, and Ford says no affected vehicles are known to be outside dealer control.",
+      "gold": "recall:17V672000",
+      "vehicle": "FORD|F-150|2018",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a079",
+      "question": "I had an aftermarket upper ball joint put on the front suspension of my 2016 Ford F-150. Is there a recall on those parts, and what could go wrong if it was installed wrong?",
+      "reference": "Yes. Tenneco Automotive (DRiV) recalled certain MOOG K500359 aftermarket ball joints for 2015-2018 F-150s because a misaligned dust boot and a missing alignment hole and warning tag can lead to improper installation. The ball joint stud could then break, compromising front wheel control and raising crash risk. DRiV will inspect and replace the part free of charge.",
+      "gold": "recall:21E027000",
+      "vehicle": "FORD|F-150|2016",
+      "source": "recall",
+      "answerable": true
+    },
+    {
+      "id": "a080",
+      "question": "Has anyone else with a 2018 Toyota Corolla reported a driver sitting idling in the car and dumping a pile of trash out the door outside a parking garage?",
+      "reference": "Yes, one owner complaint describes a 2018 Corolla idling outside an apartment building's parking garage for over 30 minutes while the driver dumped garbage out the driver-side door, then backed up and drove off leaving a big pile of trash. It is a behavior complaint, not a vehicle defect.",
+      "gold": "complaint:11155482",
+      "vehicle": "TOYOTA|COROLLA|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a081",
+      "question": "Has anyone else with a 2020 Toyota Prius had a bulge show up on the side of a tire at low mileage? Mine is bulging and I'm wondering if it's a known problem.",
+      "reference": "Yes, one owner of a 2020 Prius reported a ballooning bulge on a tire sidewall at about 24k miles, with only half of those miles on those tires. The dealer found the other three tires had the same problem to a lesser degree and called it a serious safety danger.",
+      "gold": "complaint:11469447",
+      "vehicle": "TOYOTA|PRIUS|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a082",
+      "question": "Has anyone else with a 2022 Nissan Sentra found water droplets and a damp carpet on the passenger side, maybe from the A/C running?",
+      "reference": "Yes. One owner of a 2022 Sentra reported water droplets and wet carpet on the passenger side, with no smell and no visible pooling behind the glove compartment. The owner noticed it when the A/C was on and suspected A/C condensation leaking into the cabin.",
+      "gold": "complaint:11689612",
+      "vehicle": "NISSAN|SENTRA|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a083",
+      "question": "Has anyone else with a 2016 Jeep Grand Cherokee had it stop accelerating from a stoplight or refuse to go above about 20 mph, with a dealer saying the transmission needed replacing?",
+      "reference": "Yes. One owner reported that their 2016 Grand Cherokee wouldn't accelerate from a red light and wouldn't exceed 20 mph even after restarting. Two dealers diagnosed a failing transmission that needed replacement, at roughly 62,000 miles.",
+      "gold": "complaint:11222529",
+      "vehicle": "JEEP|GRAND CHEROKEE|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a084",
+      "question": "Has anyone else with a 2015 Nissan Sentra had it stop responding to the gas pedal at a red light, with the brake, oil and battery warning lights coming on, and then refuse to restart?",
+      "reference": "Yes, one owner reported that at a green light the 2015 Sentra didn't respond to the accelerator, and the brake, oil and battery lights came on. They shifted to neutral and pushed it to safety, and afterward the engine turned over but would not start.",
+      "gold": "complaint:11243292",
+      "vehicle": "NISSAN|SENTRA|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a085",
+      "question": "Have other owners of the 2016 Hyundai Elantra reported the front suspension control arm rusting away from the subframe and causing a sudden loss of steering?",
+      "reference": "Yes. One owner reported that the control arm on their 2016 Elantra rusted off the subframe while driving, causing a sudden loss of steering control. The car swerved into a curb and the front end was damaged, and the complaint was reported as a crash.",
+      "gold": "complaint:11638816",
+      "vehicle": "HYUNDAI|ELANTRA|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a086",
+      "question": "Has anyone else with a 2016 Toyota RAV4 had it suddenly surge forward at a stoplight even while pressing hard on the brake?",
+      "reference": "Yes. One owner reported their 2016 RAV4 was stopped at a red light with the brake applied when it suddenly accelerated at high RPM and lunged forward, and hard braking did not hold it back. It was filed as a vehicle speed control complaint.",
+      "gold": "complaint:11192558",
+      "vehicle": "TOYOTA|RAV4|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a087",
+      "question": "Has anyone else with a 2024 Subaru Forester had the windshield crack on its own without being hit by anything, and then spread across the driver's side?",
+      "reference": "Yes. One owner of a 2024 Forester reported a small crack that appeared on the driver's side of the windshield with no known impact, on 6/10/2025. It kept growing and began blocking the driver's view, and the owner noted a lawsuit over similar windshield cracking on 2019-2022 Subarus.",
+      "gold": "complaint:11668431",
+      "vehicle": "SUBARU|FORESTER|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a088",
+      "question": "My 2018 Chevy Malibu's auto stop feature quit working, and the dash keeps saying to shift to park even though it's already in park. Have other owners reported this?",
+      "reference": "Yes, an owner of a 2018 Chevrolet Malibu complained to NHTSA that the auto stop feature stopped working and the display showed 'Shift to Park' even though the car was already in park. The complaint lists the power train, electronic stability control and engine as affected.",
+      "gold": "complaint:11325558",
+      "vehicle": "CHEVROLET|MALIBU|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a089",
+      "question": "Has anyone else with a 2017 Subaru Forester had the key fob get stuck in the ignition so it won't come out unless you keep shifting in and out of park?",
+      "reference": "Yes, an owner of a 2017 Forester reported the key fob getting stuck in the ignition and not being removable. They had to move the console shifter in and out of park repeatedly until the fob finally turned and released, and they referenced a technical service bulletin (TSB 16-112-18R) about it.",
+      "gold": "complaint:11329083",
+      "vehicle": "SUBARU|FORESTER|2017",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a090",
+      "question": "Have other owners of the 2018 Mazda CX-5 reported the rear differential leaking oil, and what kind of repair cost did they get quoted?",
+      "reference": "Yes. One owner of a 2018 CX-5 AWD with the 2.5L engine reported the rear differential leaking oil at about 98,900 miles. The dealer said it needed replacement for roughly $5,003, and the owner noted the manual lists no fluid change interval (\"lifetime\" oil).",
+      "gold": "complaint:11742164",
+      "vehicle": "MAZDA|CX-5|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a091",
+      "question": "Has anyone else with a 2022 Ford Escape had it refuse to shift into park and show a powertrain fault message, with the transmission ending up needing replacement?",
+      "reference": "Yes. One owner reported that her 2022 Escape wouldn't shift into park, showed \"Powertrain Fault\" and a \"Service Powertrain\" light, and the problem kept recurring after restarts. The dealer diagnosed a transmission failure and replaced the transmission at about 81,000 miles.",
+      "gold": "complaint:11633364",
+      "vehicle": "FORD|ESCAPE|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a092",
+      "question": "My 2023 Kia Soul keeps showing warnings for the front and rear cameras, then ABS and stability lights, and then it goes into limp mode until I turn it off for a while. Have other owners reported this?",
+      "reference": "Yes. One owner of a 2023 Kia Soul reported front and rear camera safety warnings followed by ABS and skid/stability warning lights, after which the car went into limp mode. Shutting the car off and restarting about 10 minutes later cleared the warnings, but the problem was never found or fixed, even though the car had only about 2,500 miles.",
+      "gold": "complaint:11679044",
+      "vehicle": "KIA|SOUL|2023",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a093",
+      "question": "Has anyone else with a 2020 Ford Fusion had the battery keep dying and need repeated jump-starts, even after putting in a brand new battery?",
+      "reference": "Yes, one owner reported that their 2020 Fusion's battery drains very quickly and has to be jump-started repeatedly. A new battery installed earlier in the same month had already drained too, and the vehicle is part of a fleet.",
+      "gold": "complaint:11395771",
+      "vehicle": "FORD|FUSION|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a094",
+      "question": "Has anyone else with a 2017 RAM 1500 had the brakes lock up when a rear tire blew out, leading to a rollover?",
+      "reference": "Yes. One owner reported that the driver-side rear tire blew out on their 2017 RAM 1500, the brakes locked up, and the truck rolled over and was totaled. The complaint was filed as a crash involving the service brakes.",
+      "gold": "complaint:11489217",
+      "vehicle": "RAM|1500|2017",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a095",
+      "question": "Has anyone else with a 2018 Silverado 1500 had the side curtain airbags go off on their own while the truck was parked and empty?",
+      "reference": "Yes. One owner reported that both the driver's and passenger's side roof rail airbags deployed by themselves while the truck was parked, at about 65,000 miles. The manufacturer offered to buy the vehicle back, and the owner linked it to a recall campaign on air bags.",
+      "gold": "complaint:11666148",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a096",
+      "question": "Have other owners of the 2016 Elantra had brake light bulbs burning out again and again, and then a drained battery or ABS warning light afterward?",
+      "reference": "Yes. One owner reported the left and center brake bulbs burning out within about 3 months, apparently from too much current. After replacing them, the battery drained and they had to pull the brake lamp fuse, which then turned on the ABS light. The owner says the problem seems widespread across many Hyundai and Kia years and urges a recall investigation.",
+      "gold": "complaint:11711743",
+      "vehicle": "HYUNDAI|ELANTRA|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a097",
+      "question": "My 2020 RAV4 just showed a message saying engine maintenance is required. Have other owners reported this, and what was the cause?",
+      "reference": "Yes. One 2020 RAV4 owner reported an \"Engine Maintenance Required\" notification, and the Toyota dealer diagnosed a faulty coolant bypass valve. The owner said the parts were back-ordered for about two weeks, that the problem seemed common, and that no recall had been issued.",
+      "gold": "complaint:11600071",
+      "vehicle": "TOYOTA|RAV4|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a098",
+      "question": "Have other owners of the 2022 Toyota Camry reported the driver-assist features, radio, and backup camera all quitting at once with a bunch of warning lights on?",
+      "reference": "Yes. One owner of a brand-new 2022 Camry LE with about 15 miles reported adaptive cruise, automatic emergency braking, blind spot, lane departure/keeping, and cross traffic warnings all showing as non-operational, along with a dead infotainment system and backup camera. The dealer said a component called the \"PIL\" had to be replaced.",
+      "gold": "complaint:11445583",
+      "vehicle": "TOYOTA|CAMRY|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a099",
+      "question": "Have other owners of the 2020 Ford Explorer reported the transmission shifting hard or late and then suddenly losing power while accelerating?",
+      "reference": "Yes. One owner of a 2020 Explorer reported hard, delayed shifts between about 10 and 75 mph, followed by sudden loss of power with a loud rattle while accelerating. The engine revved in one instance and not in another, no warning lamps came on, and they feared being rear-ended.",
+      "gold": "complaint:11672556",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a100",
+      "question": "Have other owners of the 2019 F-150 reported the transmission failing well before 70,000 miles, and have they also had engine problems like oil consumption?",
+      "reference": "Yes. One owner of a 2019 F-150 reported needing a new transmission before 70K miles, blaming a defective drum and outer shell in the transmission that Ford corrected on 2022+ trucks without a recall. The same truck needed timing components and an oil pump replaced at 61K miles due to oil consumption.",
+      "gold": "complaint:11756866",
+      "vehicle": "FORD|F-150|2019",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a101",
+      "question": "Have other owners of the 2017 Hyundai Sonata reported the front end shaking at speed because of tire problems, like the steel belts showing through on the front tires?",
+      "reference": "Yes. One owner reported front-end shaking and vibration at various speeds. The dealer found exposed steel belts on the front driver-side Kumho tire and replaced it, but the same failure later happened on the front passenger-side tire, at around 23,000 miles.",
+      "gold": "complaint:11436888",
+      "vehicle": "HYUNDAI|SONATA|2017",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a102",
+      "question": "Have other owners of the 2018 F-150 complained about the 10-speed automatic shifting harshly, getting stuck in gear, or losing second gear?",
+      "reference": "Yes. One 2018 F-150 owner reported the 10R80 10-speed transmission shifting harshly and erratically, hanging in gear, and losing 2nd gear. It needed a teardown (damaged clutch, input shaft, torque converter hub), a valve body repair under a TSB, and further rebuilds, with codes for incorrect gear ratio (P0732, P076F, P07F6). The same truck also had engine timing chain failures and a full engine replacement.",
+      "gold": "complaint:11766549",
+      "vehicle": "FORD|F-150|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a103",
+      "question": "Has anyone else with a 2018 Toyota Corolla heard a rattling noise from the steering wheel when going over bumps, and been told the steering column had to be replaced?",
+      "reference": "Yes. One owner reported a rattling sound from the steering wheel over a speed bump at about 35,000 miles, with no warning light. A mechanic said the steering column needed replacement, but the dealer said the part was out of stock nationwide, and Toyota said the VIN was not under recall.",
+      "gold": "complaint:11520329",
+      "vehicle": "TOYOTA|COROLLA|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a104",
+      "question": "Have other owners of the 2015 Kia Soul with the 1.6 engine reported catalytic converter problems, and is a big repair bill like $2,500 normal?",
+      "reference": "Yes. One owner complained that the catalytic converter fails on the 1.6 engine in the 2015 Soul and said a neighbor has the same problem. They felt Kia should replace these parts instead of charging around $2,500 for repairs.",
+      "gold": "complaint:11581457",
+      "vehicle": "KIA|SOUL|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a105",
+      "question": "My 2021 Malibu keeps showing a 'Shift to Park' warning on the dash even though I've already put it in park. Have other owners reported this, and what did dealers say?",
+      "reference": "Yes. An owner of a 2021 Chevrolet Malibu reported a recurring 'Shift To Park' message after the car was already in park, at about 113,674 miles. The dealer said it was a known condition with repairs pending, and the vehicle had not been fixed.",
+      "gold": "complaint:11749345",
+      "vehicle": "CHEVROLET|MALIBU|2021",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a106",
+      "question": "Has anyone else with a 2023 Toyota Camry had a wheel come off while driving, or a loud noise followed by losing control of the car?",
+      "reference": "Yes. One owner of a 2023 Camry reported a loud noise at speed, then the front passenger-side wheel detached and the car became uncontrollable. It hit a highway divider and a concrete wall, was declared a total loss, and the owner suffered back injuries. This happened at about 30,000 miles.",
+      "gold": "complaint:11737599",
+      "vehicle": "TOYOTA|CAMRY|2023",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a107",
+      "question": "Has anyone else with a 2023 Nissan Altima had the rear window suddenly shatter with a loud bang while driving on the highway?",
+      "reference": "Yes. One owner of a 2023 Altima reported that the rear windshield spontaneously shattered with a loud bang while driving on the highway, with no warning signs. They called it a major safety concern and said they had seen similar reports from other Nissan owners.",
+      "gold": "complaint:11562878",
+      "vehicle": "NISSAN|ALTIMA|2023",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a108",
+      "question": "Has anyone else with a 2022 Subaru Outback found a crack in the windshield that appeared on its own, like after being parked, with no impact they noticed?",
+      "reference": "Yes. One owner of a 2022 Outback reported a large Y-shaped crack in the windshield that appeared while the car was parked during a store visit. It wasn't there when they arrived. They had owned the used car (under 14K miles) for less than a week.",
+      "gold": "complaint:11610772",
+      "vehicle": "SUBARU|OUTBACK|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a109",
+      "question": "Has anyone else with a 2024 Mazda CX-5 had the engine suddenly rev way above idle on its own right after shifting into park, even though their foot wasn't on the gas?",
+      "reference": "Yes, one owner of a 2024 CX-5 reported that after backing up, pressing the brake and shifting into park, the engine RPMs jumped thousands above idle as if the accelerator were pressed, though the pedal and floor mat weren't interfering. It returned to normal idle when shifted back to drive, and the owner said it had happened about four times.",
+      "gold": "complaint:11658705",
+      "vehicle": "MAZDA|CX-5|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a110",
+      "question": "Has anyone else with a 2022 Toyota RAV4 had the automatic emergency braking grab in highway stop-and-go traffic and then refuse to let go, so the car wouldn't accelerate until it was restarted?",
+      "reference": "Yes, one owner of a 2022 RAV4 reported that in stop-and-go highway traffic the auto braking engaged and wouldn't release, the car stopped abruptly and the gas pedal wouldn't respond. They had to shut off, put it in park and restart to drive again, and a dash message about the EPB (electronic parking brake) appeared.",
+      "gold": "complaint:11619738",
+      "vehicle": "TOYOTA|RAV4|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a111",
+      "question": "My 2018 Toyota Tacoma's RPM bounces around when I start it with my foot on the brake, and a warning light came on. I also got a fuel system recall notice but the dealer says parts aren't available. Have other owners reported this?",
+      "reference": "Yes. One owner of a 2018 Tacoma reported RPM fluctuating at startup with the brake pedal pressed and an unidentified warning light, at about 12,000 miles. They had received a fuel system recall notice, but the repair parts were unavailable and the wait was considered unreasonably long.",
+      "gold": "complaint:11322020",
+      "vehicle": "TOYOTA|TACOMA|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a112",
+      "question": "Has anyone else with a 2022 Tesla Model 3 had the car brake suddenly on the highway by itself while cruise control was on and no traffic was nearby?",
+      "reference": "Yes, one owner reported that their 2022 Model 3 braked automatically twice on the highway while cruise control was engaged, even though there were no other cars around.",
+      "gold": "complaint:11474596",
+      "vehicle": "TESLA|MODEL 3|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a113",
+      "question": "Has anyone else with a 2018 Toyota Tacoma had a rear wheel lock up on its own after parking and putting it in gear, with no warning light?",
+      "reference": "Yes. One owner reported that after parking and shifting into gear while releasing the clutch, the rear passenger-side tire locked up, with no warning light. The owner and his son replaced the rear brake springs, retainers and pins themselves at about 102,500 miles, without a dealer diagnosis.",
+      "gold": "complaint:11456959",
+      "vehicle": "TOYOTA|TACOMA|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a114",
+      "question": "Has anyone else with a 2016 Nissan Altima had the transmission suddenly lose power, with the engine revving high but the car barely moving, and then work normally again after cooling off?",
+      "reference": "Yes. One owner reported their 2016 Altima's transmission slipped with the engine revving to about 6000 RPM while the car crawled at around 5 mph, then returned to normal after about 30 minutes. A shop pulled code P0776, but the dealer couldn't reproduce it, and this was roughly the tenth slip episode.",
+      "gold": "complaint:11175015",
+      "vehicle": "NISSAN|ALTIMA|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a115",
+      "question": "Have other 2018 Ford Fusion owners reported the engine shaking at startup, then overheating and losing power because coolant leaked into the engine?",
+      "reference": "Yes. One owner reported the car shaking for about 30 seconds after starting, followed by a check engine light, an engine coolant over-temperature warning, and loss of acceleration. A shop found coolant had leaked into the engine, which required replacement. The dealer eventually repaired it at no charge but would not provide a loaner or rental.",
+      "gold": "complaint:11538608",
+      "vehicle": "FORD|FUSION|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a116",
+      "question": "Have other 2016 RAV4 owners had the ABS and traction control lights come on when braking, and been quoted a big repair bill for the ABS actuator?",
+      "reference": "Yes. One owner of a 2016 RAV4 XLE reported the ABS and traction control warning lights coming on while braking on the interstate at about 14 months old. The dealer quoted around $2,800 to repair the ABS actuator and said it wasn't covered because the vehicle was past the mileage limit of the warranty.",
+      "gold": "complaint:10986033",
+      "vehicle": "TOYOTA|RAV4|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a117",
+      "question": "Have other owners of the 2022 Kia Sorento complained about the blower motor wiring fire recall having no fix yet, and dealers refusing to provide a rental or say if it's safe to drive?",
+      "reference": "Yes. One owner reported an active fire-risk recall for a potentially inadequate HVAC blower motor wiring harness on a 2022 Sorento, with the remedy not yet available. The dealer would not provide a rental or alternative transportation or confirm the vehicle was safe to drive, and the owner asked NHTSA to review.",
+      "gold": "complaint:11701337",
+      "vehicle": "KIA|SORENTO|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a118",
+      "question": "Has anyone else with a 2024 Toyota Corolla had it barely move in drive or reverse with a drive start control malfunction warning and check engine light coming on?",
+      "reference": "Yes, one owner of a 2024 Corolla with about 5,358 miles reported the drive start control malfunction and check engine lights coming on, the car barely moving forward or reverse as if the brakes were applied, and clicking from the engine. It was towed, the mechanic found nothing and reset the computer modules, and the dealer couldn't guarantee it wouldn't recur.",
+      "gold": "complaint:11681092",
+      "vehicle": "TOYOTA|COROLLA|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a119",
+      "question": "Has anyone else with a 2016 Nissan Altima had the hood pop open while driving on the highway and smash into the windshield?",
+      "reference": "Yes. One owner reported that at about 70 MPH the hood unlatched, flew up and cracked the windshield, with no warning light. The hood was badly bent, and the car also wouldn't restart until it was jumpstarted. The VIN was covered by a latch-related recall campaign, but the dealer still said the repair would be at the owner's expense.",
+      "gold": "complaint:11461156",
+      "vehicle": "NISSAN|ALTIMA|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a120",
+      "question": "Have other owners of the 2020 Kia Soul reported the engine burning through all its oil between changes, causing starting and running problems, even after the dealer's oil consumption test passed?",
+      "reference": "Yes. One owner reported that the 2020 Soul burned off its entire oil supply before the next oil change, leading to trouble starting and running. Kia ran a 1,000-mile oil consumption test, which the car passed, so the dealer said it could do nothing, even though independent mechanics pointed to recalls for the same issue.",
+      "gold": "complaint:11701403",
+      "vehicle": "KIA|SOUL|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a121",
+      "question": "Has anyone else with a 2022 Tesla Model 3 had the car suddenly brake hard on the highway when there's nothing around it?",
+      "reference": "Yes. An owner of a 2022 Model 3 reported phantom braking on the highway with no vehicles in their lane or adjacent lanes; the car slammed on the brakes and sounded a warning chime.",
+      "gold": "complaint:11453144",
+      "vehicle": "TESLA|MODEL 3|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a122",
+      "question": "Have other owners of the 2015 Honda CR-V complained about a vibration at idle and at 40-50 mph, and steering that got heavy after the dealer tried to fix it?",
+      "reference": "Yes. One owner of a 2015 CR-V LX reported a vibration at a stop and a studded-snow-tire feeling at 40-50 mph. Honda added a shorter headrest post and bushings under the radiator, tailgate, transmission and engine, after which the steering became hard, almost manual, which the owner considers a safety problem.",
+      "gold": "complaint:10818610",
+      "vehicle": "HONDA|CR-V|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a123",
+      "question": "Has anyone else with a 2018 Nissan Rogue noticed a loud knocking noise from the engine at idle after the car sits for a few hours, which fades after a few minutes? The dealer couldn't figure out what's wrong on mine.",
+      "reference": "Yes, an owner of a 2018 Rogue reported a loud engine knock while idling after the vehicle sat unused for a few hours, which went away after a few minutes. The dealership was unable to diagnose the cause.",
+      "gold": "complaint:11196082",
+      "vehicle": "NISSAN|ROGUE|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a124",
+      "question": "Have other owners of the 2021 Ford Escape reported problems like sluggish acceleration, a clunking noise near the transmission, and power windows or door locks acting up along with random dash warnings?",
+      "reference": "Yes, one owner of a 2021 Escape reported windows that sometimes won't move, driver-side doors that won't lock, very slow acceleration as if fuel isn't getting through, and a clunking noise from the transmission area. They also reported a rear sensor that fell out and beeps constantly, false side-mirror alerts, and dash warning lights that go off randomly.",
+      "gold": "complaint:11764550",
+      "vehicle": "FORD|ESCAPE|2021",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a125",
+      "question": "Has anyone else with a 2024 Nissan Rogue had the engine suddenly fail while driving, with a strange noise and smoke from the tailpipes and no warning lights beforehand?",
+      "reference": "Yes. One owner reported that their 2024 Rogue made an abnormal noise and put out smoke from the exhaust while driving, with no warning lights on. An independent mechanic diagnosed engine failure and said the engine needed replacing. This happened at about 19,500 miles.",
+      "gold": "complaint:11726300",
+      "vehicle": "NISSAN|ROGUE|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a126",
+      "question": "Have other owners of the 2018 Jeep Wrangler JL had the front end and steering wheel start shaking violently while driving at road speeds?",
+      "reference": "Yes. One owner of a new 2018 Wrangler JL reported three episodes of the front end and steering wheel shaking uncontrollably, at about 45 mph and about 70 mph. The dealer called it a \"death wobble.\"",
+      "gold": "complaint:11160937",
+      "vehicle": "JEEP|WRANGLER|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a127",
+      "question": "Has anyone else with a 2016 Honda Accord complained about the steering feeling loose and choppy when it returns to center, like the tires are skating on the road, even though dealers say nothing is wrong?",
+      "reference": "Yes. One owner of a 2016 Accord reported loose, choppy steering when returning to center, a sensation of the tires gliding over the road, and a feeling of lacking control. Two dealerships inspected the car and found no issue, and there were no warnings or messages.",
+      "gold": "complaint:11460112",
+      "vehicle": "HONDA|ACCORD|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a128",
+      "question": "Have other owners of the 2018 Toyota Corolla complained that the cruise control makes the car speed up well past the set speed, with the engine revving high, and that braking doesn't stop it?",
+      "reference": "Yes. One owner of a 2018 Corolla reported that with cruise set at 65 mph the car downshifts, revs to about 5000 RPM and accelerates 10 to 15 mph over the set speed, and braking doesn't stop it. The only fix was turning off cruise control, and the dealer had them file an unintended acceleration report.",
+      "gold": "complaint:11187384",
+      "vehicle": "TOYOTA|COROLLA|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a129",
+      "question": "Have other owners of the 2015 Chevy Silverado 1500 reported paint peeling off around 44,000 miles, and what did GM do about it?",
+      "reference": "Yes, one owner reported paint peeling at about 44,000 miles. The dealer's body shop and three other shops said the truck had been painted twice at the factory, but GM denied any record of that and offered only $1,000 toward the repair.",
+      "gold": "complaint:11043075",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a130",
+      "question": "Has anyone else had their 2016 Subaru Outbacks key get stuck in the ignition so it won't come out and the doors can't be locked?",
+      "reference": "Yes, one 2016 Outbacks owner reported the key intermittently sticking in the ignition, worsening until it happened about every other time and took a few tries up to 10 minutes to remove, and the doors couldn't be locked with the key stuck. The owner noted it is a known issue covered by a Subaru service bulletin (16-112-18R).",
+      "gold": "complaint:11534395",
+      "vehicle": "SUBARU|OUTBACK|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a131",
+      "question": "Has anyone else with a 2016 Subaru Forester had the windshield crack on its own after a loud pop, without a rock chip or impact?",
+      "reference": "Yes, one owner reported a loud cracking noise from the upper passenger-side corner of the windshield while driving on a smooth highway in Utah. No chip was visible then, but hours later a 4-inch crack appeared there, possibly related to big temperature swings between cold nights and mild days.",
+      "gold": "complaint:11196017",
+      "vehicle": "SUBARU|FORESTER|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a132",
+      "question": "Has anyone else with a 2017 Ford Explorer seen a low oil pressure warning and chime when pressing the brake pedal that goes away when they accelerate?",
+      "reference": "Yes. One owner reported a chime and a \"Low Oil Pressure\" message when braking that cleared on accelerating, at about 67,000 miles. The dealer found no fault in diagnostics but said the oil pressure sensor needed replacing, and Ford said no recalls applied.",
+      "gold": "complaint:11656558",
+      "vehicle": "FORD|EXPLORER|2017",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a133",
+      "question": "Have other owners of the 2022 Kia Sorento complained about brake rotors warping early, even with low mileage, and Kia not covering it under warranty?",
+      "reference": "Yes. One owner reported warped brake rotors on a 2022 Sorento with under 10,000 miles, saying the rotors are undersized and overheat under normal braking. The dealer and Kia Motors USA reportedly did not replace them under warranty, and the owner noted a similar issue on another Sorento.",
+      "gold": "complaint:11467379",
+      "vehicle": "KIA|SORENTO|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a134",
+      "question": "Has anyone else with a 2016 Jeep Wrangler had the plastic oil housing crack in cold weather and drain all the oil? Is it a known problem?",
+      "reference": "Yes, one owner reported the original plastic oil housing cracked when temperatures fell to about 28\u00b0F, draining all the oil. The dealer said it's a common problem on 2014-2017 Jeeps, not covered by warranty, about $1,200 to repair, with updated non-plastic replacement parts available.",
+      "gold": "complaint:11499201",
+      "vehicle": "JEEP|WRANGLER|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a135",
+      "question": "Has anyone else with a 2021 Kia Soul had it suddenly lose power while driving with no warning light, and was it tied to an engine recall where the repair part wasn't available yet?",
+      "reference": "Yes. One owner of a 2021 Kia Soul reported losing power while pressing the accelerator, with no warning light, around 72,000 miles. The car was towed and found to have low engine oil. The owner linked it to an engine recall whose repair part wasn't yet available, and complained the wait was unreasonably long.",
+      "gold": "complaint:11747628",
+      "vehicle": "KIA|SOUL|2021",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a136",
+      "question": "Has anyone else with a 2022 Nissan Altima had it refuse to start until jump-started, even though a shop's test said the battery was fine?",
+      "reference": "Yes, one owner of a 2022 Altima reported (January 2025) that the car wouldn't start until it was jump-started, and Advance Auto tested the battery and found nothing wrong with it.",
+      "gold": "complaint:11638395",
+      "vehicle": "NISSAN|ALTIMA|2022",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a137",
+      "question": "Have other owners of the 2015 Fusion with the 1.5L EcoBoost reported coolant getting into the cylinders and needing a whole new engine?",
+      "reference": "Yes. One 2015 Fusion owner with the 1.5L EcoBoost reported a check engine light, then coolant leaking into the cylinders, and the engine had to be replaced for about $8,300. The owner said Ford service and a repair shop described it as a common problem on Fusions and Escapes, and noted earlier symptoms like power loss, exhaust smoke and rough cold starts.",
+      "gold": "complaint:11447566",
+      "vehicle": "FORD|FUSION|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a138",
+      "question": "Has anyone else with a 2018 Subaru Outback had the battery die and the car not start because of a problem with the rear liftgate?",
+      "reference": "Yes. One owner reported repeated no-start and dead battery episodes that the dealer traced to the liftgate draining the battery. Resetting the liftgate and recharging only helped temporarily, and the battery later failed outright. The dealer reportedly said they knew of battery problems among many recent Subaru owners.",
+      "gold": "complaint:11337784",
+      "vehicle": "SUBARU|OUTBACK|2018",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a139",
+      "question": "Have other owners of the 2020 Tacoma reported the steering rack cracking and needing replacement more than once, maybe with a groaning noise when turning at low speed?",
+      "reference": "Yes, one owner reported the original steering rack cracked by about 53,000 miles, and the replacement also cracked within roughly 7,000 miles, with groaning during low-speed turns and no warning lights. The dealer then found the second replacement deficient too and swapped in a third rack by 60,000 miles.",
+      "gold": "complaint:11771190",
+      "vehicle": "TOYOTA|TACOMA|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a140",
+      "question": "Has anyone else with a 2020 Honda Accord had the car suddenly brake hard on its own at highway speed when there was nothing in the road?",
+      "reference": "Yes. One owner reported their 2020 Accord braked by itself (phantom braking) while traveling about 60 mph on a highway at night. The complaint was filed under service brakes and forward collision avoidance.",
+      "gold": "complaint:11691456",
+      "vehicle": "HONDA|ACCORD|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a141",
+      "question": "Has anyone else with a 2024 Ford Escape had the backup camera image stay frozen on the touchscreen while driving forward, locking up other screen controls?",
+      "reference": "Yes, one owner of a 2024 Escape reported the backup camera froze on the touchscreen while driving forward, for the second time. Other touchscreen functions were unusable, it stayed frozen after a restart, and it only reset the next day. The owner noted Ford had recalled other models, such as the 2023 Maverick, for the same problem but not yet this Escape.",
+      "gold": "complaint:11694794",
+      "vehicle": "FORD|ESCAPE|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a142",
+      "question": "Have other owners of the 2020 Toyota Tacoma reported the truck sputtering like it's out of fuel with the check engine light on, and then being told the fuel pump failed?",
+      "reference": "Yes. One 2020 Tacoma owner reported the truck acting like it was running out of fuel while driving, with the check engine light and a warning symbol coming on. The dealer diagnosed a bad fuel pump and quoted about $1,400, even though the owner believed a fuel pump recall existed that did not cover their truck.",
+      "gold": "complaint:11631869",
+      "vehicle": "TOYOTA|TACOMA|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a143",
+      "question": "Has anyone else with a 2016 Kia Sorento had the engine start tapping on the highway and then lose all power, with the oil gone and no warning light first?",
+      "reference": "Yes. One owner reported a tapping noise on the highway, then total loss of power about twenty minutes later. The dipstick showed no oil, and what was on it was burnt. The engine was ruined at only 74,000 miles, no warning light came on, and Kia would not help.",
+      "gold": "complaint:11471630",
+      "vehicle": "KIA|SORENTO|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a144",
+      "question": "Have other owners of the 2020 Corolla reported Bluetooth calls cutting out with a clicking noise and a 'connected device is not compatible' message while the SOS button flashes?",
+      "reference": "Yes, one owner reported that the message and a flashing red/green SOS button came with the microphone dropping 1-3 seconds of speech every 5-15 seconds, causing clicking on Bluetooth calls. It reportedly delayed a 911 call, and the fix is typically a DCM reset and firmware update under a TSB, covered by basic warranty.",
+      "gold": "complaint:11632056",
+      "vehicle": "TOYOTA|COROLLA|2020",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a145",
+      "question": "Has anyone else with a 2016 Altima had the hood fly open while driving on the highway and block their view? Mine popped up and I'm not sure what caused it.",
+      "reference": "Yes, an owner of a 2016 Nissan Altima reported the hood popping up on the highway and blocking visibility, causing them to swerve off the road and blow a rear tire in a crash. They said the hood then wouldn't reopen and believed an unaddressed hood recall was the cause.",
+      "gold": "complaint:11587060",
+      "vehicle": "NISSAN|ALTIMA|2016",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a146",
+      "question": "Have other owners of the 2015 Hyundai Tucson reported the engine dying after a loud noise, even when they kept up with regular oil changes?",
+      "reference": "Yes. One owner reported engine failure on a 2015 Tucson despite changing oil and filter every 3,000 miles. A loud engine noise led a mechanic to say it needed oil, and after an oil change the car stopped running within about a mile.",
+      "gold": "complaint:11425640",
+      "vehicle": "HYUNDAI|TUCSON|2015",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a147",
+      "question": "Has anyone else with a 2019 Toyota Prius reported the airbags not going off in a crash? Mine was hit on the passenger side and nothing deployed.",
+      "reference": "Yes, one owner reported that their 2019 Prius was totaled in a front-to-passenger-side collision and neither the side airbag nor the passenger airbag deployed, even though those areas took the impact.",
+      "gold": "complaint:11266798",
+      "vehicle": "TOYOTA|PRIUS|2019",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a148",
+      "question": "Has anyone else with a 2019 Subaru Forester had the windshield crack on its own after a tiny pebble strike, and wondered if it's a defect?",
+      "reference": "Yes. One owner reported that a small pebble hit the windshield at about 30 mph with no visible damage, and later a crack about 18 inches long spread from the driver's side edge toward the center. The owner had read that Foresters have windshield cracking problems and was concerned about paying a deductible and a rate increase for a possible manufacturer defect.",
+      "gold": "complaint:11276881",
+      "vehicle": "SUBARU|FORESTER|2019",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a149",
+      "question": "Have other owners of the 2024 Chevy Malibu reported that it sometimes won't start when I press the brake, along with harsh braking and a distorted backup camera?",
+      "reference": "Yes, one owner of a 2024 Malibu reported that the car often wouldn't start when pressing the brake and they had to wait until it would. The same owner also described very hard braking that jolts passengers forward, a distorted backup camera view, a feeling of the transmission shifting gears oddly, and a misaligned trunk and loose front carpet.",
+      "gold": "complaint:11741882",
+      "vehicle": "CHEVROLET|MALIBU|2024",
+      "source": "complaint",
+      "answerable": true
+    },
+    {
+      "id": "a150",
+      "question": "What gas mileage can I expect from my 2021 Hyundai Sonata with the 2.5L four-cylinder and front-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2021 Sonata 2.5L 4-cylinder FWD with the 8-speed automatic at 27 mpg city, 37 mpg highway and 31 mpg combined, with an estimated annual fuel cost of about $2,150 on regular gas.",
+      "gold": "fuel:42796",
+      "vehicle": "HYUNDAI|SONATA|2021",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a151",
+      "question": "What gas mileage does my 2019 Ford F-150 get with the 2.7L V6 and rear-wheel drive, in the heavier GVWR class?",
+      "reference": "The EPA rates the 2019 F-150 2.7L 2WD (GVWR over 6,649 lbs, 10-speed automatic) at 19 city / 25 highway / 21 combined MPG on regular fuel, with an estimated annual fuel cost of about $3,200.",
+      "gold": "fuel:41022",
+      "vehicle": "FORD|F-150|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a152",
+      "question": "What gas mileage can I expect from my 2020 Kia Sorento with the 3.3L V6 and all-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2020 Kia Sorento AWD with the 3.3L 6-cylinder and 8-speed automatic at 18 city, 24 highway and 20 combined MPG on regular fuel, with an estimated annual fuel cost of about $3,350.",
+      "gold": "fuel:41604",
+      "vehicle": "KIA|SORENTO|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a153",
+      "question": "What gas mileage can I expect from my 2022 Chevrolet Silverado 1500 4WD with the 2.7L 4-cylinder engine in city and highway driving?",
+      "reference": "The EPA rates the 2022 Silverado 4WD with the 2.7L 4-cylinder and 8-speed automatic at 17 mpg city, 20 mpg highway and 18 mpg combined, with an estimated annual fuel cost of about $3,700 on regular gas.",
+      "gold": "fuel:44743",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2022",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a154",
+      "question": "What gas mileage should I expect from my 2017 Honda Pilot with all-wheel drive and the 9-speed automatic, in the city and on the highway?",
+      "reference": "The EPA rates the 2017 Honda Pilot AWD with the 9-speed automatic at 19 mpg city, 26 mpg highway, and 22 mpg combined, on regular fuel.",
+      "gold": "fuel:38450",
+      "vehicle": "HONDA|PILOT|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a155",
+      "question": "What efficiency and driving range does the EPA list for my 2020 Tesla Model 3 Long Range Performance with the 18-inch wheels?",
+      "reference": "The EPA rates the 2020 Model 3 Long Range Performance AWD (18in) at 124 MPGe city, 116 highway and 121 combined, with an estimated range of 322 miles.",
+      "gold": "fuel:42279",
+      "vehicle": "TESLA|MODEL 3|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a156",
+      "question": "What gas mileage should I expect from my 2023 Ford F-150 4WD with the 3.5L V6 and 10-speed automatic, in city and highway driving?",
+      "reference": "The EPA rates that 2023 F-150 4WD with the 3.5L 6-cylinder and 10-speed automatic at 18 MPG city, 23 highway and 20 combined. It runs on regular fuel, with an estimated annual fuel cost of about $3,350.",
+      "gold": "fuel:46172",
+      "vehicle": "FORD|F-150|2023",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a157",
+      "question": "What gas mileage can I expect from my 2021 Jeep Wrangler 2-door 4WD with the 2.0L turbo four and the 8-speed automatic?",
+      "reference": "The EPA rates the 2021 Wrangler 2-door 4WD with the 2.0L 4-cylinder and 8-speed automatic at 22 city / 24 highway / 23 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,900.",
+      "gold": "fuel:42907",
+      "vehicle": "JEEP|WRANGLER|2021",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a158",
+      "question": "What gas mileage can I expect from my 2016 Chevy Silverado 1500 2WD with the 5.3L V8 and 8-speed automatic?",
+      "reference": "The EPA rates the 2016 Silverado 1500 2WD with the 5.3L V8 and 8-speed automatic at 16 mpg city, 22 highway and 18 combined, with an estimated annual fuel cost of about $3,700 on regular gas.",
+      "gold": "fuel:37007",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2016",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a159",
+      "question": "What gas mileage should I expect from my 2015 Hyundai Tucson, the front-wheel drive one with the 2.4L engine, in city and highway driving?",
+      "reference": "The EPA rates the 2015 Hyundai Tucson 2WD (2.4L 4-cylinder, 6-speed automatic) at 21 mpg city, 28 mpg highway and 23 mpg combined, with an estimated annual fuel cost of about $2,900 on regular fuel.",
+      "gold": "fuel:35135",
+      "vehicle": "HYUNDAI|TUCSON|2015",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a160",
+      "question": "What kind of gas mileage can I expect from my 2023 Ford F-150 Tremor with the 3.5L V6 and 4WD, in the city and on the highway?",
+      "reference": "The EPA rates the 2023 F-150 Tremor 4WD with the 3.5L 6-cylinder and 10-speed automatic at 16 mpg city, 20 highway and 18 combined. Estimated annual fuel cost is about $3,700 using regular gas.",
+      "gold": "fuel:46177",
+      "vehicle": "FORD|F-150|2023",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a161",
+      "question": "What gas mileage should I expect from my 2017 Ford Explorer with the 3.5L V6 and all-wheel drive?",
+      "reference": "The EPA rates the 2017 Explorer AWD with the 3.5L 6-cylinder and 6-speed automatic at 16 city, 22 highway and 18 combined MPG on regular fuel, with an estimated annual fuel cost of about $3,700.",
+      "gold": "fuel:37601",
+      "vehicle": "FORD|EXPLORER|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a162",
+      "question": "What kind of gas mileage should I expect from my 2016 Chevrolet Silverado 1500 4WD with the 4.3L V6 and 6-speed automatic?",
+      "reference": "The EPA rates the 2016 Silverado 4WD with the 4.3L V6 and 6-speed automatic at 17 mpg city, 22 mpg highway and 19 mpg combined, with an estimated annual fuel cost of about $3,550.",
+      "gold": "fuel:37015",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2016",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a163",
+      "question": "What gas mileage should I expect from my 2019 Ford Fusion with the 2.7L V6 and all-wheel drive?",
+      "reference": "The EPA rates the 2019 Fusion AWD with the 2.7 L 6-cylinder and 6-speed automatic at 17 MPG city, 26 highway and 20 combined, with an estimated annual fuel cost of about $3,350 on regular fuel.",
+      "gold": "fuel:40702",
+      "vehicle": "FORD|FUSION|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a164",
+      "question": "What kind of gas mileage can I expect from my 2024 Hyundai Sonata with the 2.5 L engine and front-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2024 Hyundai Sonata FWD with the 2.5 L 4-cylinder and 8-speed automatic at 25 mpg city, 36 mpg highway and 29 mpg combined, with an estimated annual fuel cost of about $2,300 on regular gas.",
+      "gold": "fuel:47357",
+      "vehicle": "HYUNDAI|SONATA|2024",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a165",
+      "question": "What gas mileage can I expect from my 2020 Kia Sorento with the 2.4L four-cylinder and all-wheel drive?",
+      "reference": "The EPA rates the 2020 Kia Sorento AWD with the 2.4L 4-cylinder and 6-speed automatic at 21 city, 26 highway and 23 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,900.",
+      "gold": "fuel:41603",
+      "vehicle": "KIA|SORENTO|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a166",
+      "question": "What gas mileage should I expect from my 2017 Ford Focus with the 2.0L engine and automatic transmission, front-wheel drive?",
+      "reference": "The EPA rates the 2017 Ford Focus FWD 2.0L automatic (AM6) at 26 mpg city, 38 mpg highway and 31 mpg combined, with an estimated annual fuel cost of about $2,150 on regular gas.",
+      "gold": "fuel:38471",
+      "vehicle": "FORD|FOCUS|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a167",
+      "question": "What gas mileage does my 2021 Ford F-150 hybrid 4WD with the 3.5L V6 get according to the EPA?",
+      "reference": "The EPA rates the 2021 F-150 4WD hybrid (3.5 L 6-cylinder, 10-speed automatic) at 24 MPG city, 24 highway and 24 combined, with an estimated annual fuel cost of about $2,800.",
+      "gold": "fuel:43465",
+      "vehicle": "FORD|F-150|2021",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a168",
+      "question": "What kind of gas mileage should I expect from my 2016 Nissan Rogue with all-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2016 Nissan Rogue AWD (2.5L 4-cylinder, CVT automatic) at 25 mpg city, 31 mpg highway and 27 mpg combined, with an estimated annual fuel cost of about $2,500 on regular gas.",
+      "gold": "fuel:36941",
+      "vehicle": "NISSAN|ROGUE|2016",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a169",
+      "question": "What gas mileage can I expect from my 2019 Hyundai Elantra with the 1.6L engine and the 7-speed automatic, front-wheel drive?",
+      "reference": "The EPA rates that 2019 Elantra (1.6L 4-cylinder, automatic AM7, FWD) at 26 city / 33 highway / 29 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,300.",
+      "gold": "fuel:41047",
+      "vehicle": "HYUNDAI|ELANTRA|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a170",
+      "question": "What gas mileage does the EPA list for my 2022 Toyota Prius with all-wheel drive, in city and highway driving?",
+      "reference": "The EPA rates the 2022 Toyota Prius AWD at 51 MPG city, 47 MPG highway and 49 MPG combined, with an estimated annual fuel cost of about $1,350.",
+      "gold": "fuel:44080",
+      "vehicle": "TOYOTA|PRIUS|2022",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a171",
+      "question": "What gas mileage can I expect from my 2020 Toyota Tacoma with the 2.7 liter 4-cylinder and rear-wheel drive?",
+      "reference": "The EPA rates the 2020 Tacoma 2WD with the 2.7L 4-cylinder and 6-speed automatic at 20 mpg city, 23 highway and 21 combined, with an estimated annual fuel cost of about $3,200 on regular gas.",
+      "gold": "fuel:42031",
+      "vehicle": "TOYOTA|TACOMA|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a172",
+      "question": "What gas mileage does my 2018 Ford Fusion Hybrid get in the city and on the highway, and about how much should I expect to spend on fuel per year?",
+      "reference": "The EPA rates the 2018 Ford Fusion Hybrid FWD at 43 mpg city, 41 mpg highway and 42 mpg combined, with an estimated annual fuel cost of about $1,600.",
+      "gold": "fuel:39298",
+      "vehicle": "FORD|FUSION|2018",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a173",
+      "question": "What gas mileage should I expect from my 2023 Chevrolet Silverado 1500 cab chassis 4WD with the 5.3L V8 and 10-speed automatic?",
+      "reference": "The EPA rates it at 15 mpg city, 17 mpg highway and 16 mpg combined on regular fuel, with an estimated annual fuel cost of about $4,200.",
+      "gold": "fuel:45819",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2023",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a174",
+      "question": "What gas mileage should I expect from my 2020 Ram 1500 Classic with the 3.6L V6 and rear-wheel drive, in city and highway driving?",
+      "reference": "The EPA rates the 2020 Ram 1500 Classic 2WD with the 3.6L 6-cylinder and 8-speed automatic at 17 MPG city, 25 highway and 20 combined, with an estimated annual fuel cost of $3350.",
+      "gold": "fuel:42398",
+      "vehicle": "RAM|1500|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a175",
+      "question": "What gas mileage should I expect from my 2015 Ford Explorer with the 3.5 L V6 and all-wheel drive, the flex-fuel version?",
+      "reference": "The EPA rates the 2015 Ford Explorer AWD FFV with the 3.5 L 6-cylinder and 6-speed automatic at 17 mpg city, 23 highway and 19 combined, with an estimated annual fuel cost of about $3,550.",
+      "gold": "fuel:35068",
+      "vehicle": "FORD|EXPLORER|2015",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a176",
+      "question": "What efficiency and driving range does the EPA list for my 2020 Tesla Model 3 Standard Range, the rear-wheel drive one?",
+      "reference": "The EPA rates the 2020 Model 3 Standard Range at 131 MPGe combined (138 city / 124 highway) with an estimated range of 220 miles. Estimated annual fuel cost is about $600.",
+      "gold": "fuel:42277",
+      "vehicle": "TESLA|MODEL 3|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a177",
+      "question": "What gas mileage should I expect from my 2017 Chevrolet Silverado 1500 4WD with the 5.3L V8 and 6-speed automatic, in city and highway driving?",
+      "reference": "The EPA rates the 2017 Silverado K15 4WD with the 5.3L V8 and 6-speed automatic at 16 city, 22 highway and 18 combined MPG, with an estimated annual fuel cost of about $3,700 on regular fuel.",
+      "gold": "fuel:37652",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a178",
+      "question": "What gas mileage does the EPA list for my 2017 Nissan Rogue Hybrid with front-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2017 Nissan Rogue Hybrid FWD at 33 mpg city, 35 mpg highway and 34 mpg combined, with an estimated annual fuel cost of about $1,950.",
+      "gold": "fuel:38510",
+      "vehicle": "NISSAN|ROGUE|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a179",
+      "question": "What gas mileage does the diesel version of my 2019 Mazda CX-5 with all-wheel drive get in the city and on the highway?",
+      "reference": "The EPA rates the 2019 Mazda CX-5 4WD with the 2.2 L diesel engine and 6-speed automatic at 27 city, 30 highway and 28 combined MPG, with an estimated annual fuel cost of about $3,400.",
+      "gold": "fuel:41594",
+      "vehicle": "MAZDA|CX-5|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a180",
+      "question": "What gas mileage should I expect from my 2017 Toyota Corolla with the 1.8L engine and the 7-speed automatic (CVT)? I'd like the city, highway and combined numbers.",
+      "reference": "The EPA rates the 2017 Toyota Corolla 1.8L with the automatic (AV-S7) at 28 mpg city, 35 mpg highway and 31 mpg combined, using regular fuel. The estimated annual fuel cost is about $2,150.",
+      "gold": "fuel:38154",
+      "vehicle": "TOYOTA|COROLLA|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a181",
+      "question": "What gas mileage should I expect from my 2017 Chevrolet Silverado 1500 2WD with the 5.3L V8 and 6-speed automatic in city, highway, and combined driving?",
+      "reference": "The EPA rates the 2017 Silverado C15 2WD with the 5.3L V8 and 6-speed automatic at 16 city, 23 highway and 19 combined MPG, with an estimated annual fuel cost of $3550.",
+      "gold": "fuel:37944",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a182",
+      "question": "What gas mileage should I expect from my 2018 Ford F-150 with the 2.7L engine and 4WD, in the heavier GVWR version?",
+      "reference": "The EPA rates the 2018 F-150 2.7L 4WD (GVWR over 6,799 lbs, 10-speed automatic) at 19 city, 24 highway and 21 combined MPG, with an estimated annual fuel cost of about $3,200 on regular fuel.",
+      "gold": "fuel:39257",
+      "vehicle": "FORD|F-150|2018",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a183",
+      "question": "What gas mileage should I expect from my 2020 Jeep Grand Cherokee 4WD with the 5.7L V8, in city and highway driving?",
+      "reference": "The EPA rates the 2020 Grand Cherokee 4WD with the 5.7L V8 and 8-speed automatic at 14 city / 22 highway / 17 combined MPG, with an estimated annual fuel cost of about $4,450 (midgrade fuel).",
+      "gold": "fuel:41781",
+      "vehicle": "JEEP|GRAND CHEROKEE|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a184",
+      "question": "What gas mileage does the hybrid version of my 2020 Ford Explorer get in the EPA ratings, in the city and on the highway?",
+      "reference": "The 2020 Explorer Hybrid RWD is rated at 27 MPG city, 29 MPG highway and 28 MPG combined, with an estimated annual fuel cost of about $2,400.",
+      "gold": "fuel:41937",
+      "vehicle": "FORD|EXPLORER|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a185",
+      "question": "What gas mileage can I expect from my 2019 Toyota Camry LE with the 4-cylinder engine in city and highway driving?",
+      "reference": "The EPA rates the 2019 Camry LE/SE with the 2.5L 4-cylinder, 8-speed automatic and front-wheel drive at 28 city, 39 highway and 32 combined MPG, with an estimated annual fuel cost of about $2,100.",
+      "gold": "fuel:40605",
+      "vehicle": "TOYOTA|CAMRY|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a186",
+      "question": "What gas mileage does the EPA list for my 2021 Nissan Rogue AWD in the SV, SL or Platinum trim?",
+      "reference": "The EPA rates the 2021 Nissan Rogue AWD (SV/SL/Platinum) at 25 MPG city, 32 highway and 28 combined. Estimated annual fuel cost is about $2,400 on regular gas.",
+      "gold": "fuel:43376",
+      "vehicle": "NISSAN|ROGUE|2021",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a187",
+      "question": "What's the EPA efficiency rating and driving range for my 2018 Tesla Model 3 Long Range with dual motors?",
+      "reference": "The 2018 Tesla Model 3 Long Range AWD is rated at 116 MPGe combined (120 city / 112 highway) with an EPA range of 310 miles. Estimated annual fuel cost is about $650.",
+      "gold": "fuel:40385",
+      "vehicle": "TESLA|MODEL 3|2018",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a188",
+      "question": "What gas mileage should I expect from my 2020 Subaru Outback with the 2.4 L engine and all-wheel drive in city and highway driving?",
+      "reference": "The EPA rates the 2020 Outback AWD with the 2.4 L 4-cylinder and automatic (AV-S8) at 23 mpg city, 30 mpg highway and 26 mpg combined. Estimated annual fuel cost is about $2,600 on regular gas.",
+      "gold": "fuel:41570",
+      "vehicle": "SUBARU|OUTBACK|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a189",
+      "question": "What gas mileage does the EPA list for my 2024 Hyundai Elantra Hybrid Blue in city and highway driving?",
+      "reference": "The EPA rates the 2024 Elantra Hybrid Blue at 51 mpg city, 58 mpg highway and 54 mpg combined, with an estimated annual fuel cost of about $1,250.",
+      "gold": "fuel:47350",
+      "vehicle": "HYUNDAI|ELANTRA|2024",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a190",
+      "question": "What gas mileage can I expect from my 2024 Honda Civic sedan with the 1.5L engine and automatic CVT, in the city and on the highway?",
+      "reference": "The EPA rates the 2024 Honda Civic 4-door with the 1.5L 4-cylinder, CVT automatic and front-wheel drive at 33 city / 42 highway / 36 combined MPG. Estimated annual fuel cost is about $1,850 on regular gas.",
+      "gold": "fuel:47068",
+      "vehicle": "HONDA|CIVIC|2024",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a191",
+      "question": "What gas mileage should I expect from my 2019 Toyota Tacoma TRD Pro with the 6-speed manual and 4WD?",
+      "reference": "The EPA rates the 2019 Tacoma 4WD TRD Pro with the 6-speed manual (3.5L V6, regular fuel) at 17 city, 20 highway and 18 combined MPG, with an estimated annual fuel cost of about $3,700.",
+      "gold": "fuel:41167",
+      "vehicle": "TOYOTA|TACOMA|2019",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a192",
+      "question": "What kind of gas mileage should I expect from my 2016 Hyundai Tucson with all-wheel drive and the 2.0L engine, in city and highway driving?",
+      "reference": "The EPA rates the 2016 Hyundai Tucson AWD with the 2.0L 4-cylinder and 6-speed automatic at 21 city, 26 highway and 23 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,900.",
+      "gold": "fuel:36296",
+      "vehicle": "HYUNDAI|TUCSON|2016",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a193",
+      "question": "What gas mileage should I expect from my 2017 Kia Sorento FE with all-wheel drive and the V6? Looking for city, highway and combined numbers.",
+      "reference": "The EPA rates the 2017 Kia Sorento FE AWD with the 3.3L V6 and 6-speed automatic at 18 city, 25 highway and 21 combined MPG on regular fuel, with an estimated annual fuel cost of about $3,200.",
+      "gold": "fuel:37398",
+      "vehicle": "KIA|SORENTO|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a194",
+      "question": "What gas mileage should I expect from my 2023 Subaru Outback with the 2.5 liter engine in city and highway driving?",
+      "reference": "The EPA rates the 2023 Subaru Outback AWD with the 2.5L 4-cylinder at 26 city, 32 highway and 28 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,400.",
+      "gold": "fuel:45408",
+      "vehicle": "SUBARU|OUTBACK|2023",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a195",
+      "question": "What gas mileage can I expect from my 2020 Chevy Silverado 1500 4WD with the 2.7 liter 4-cylinder engine?",
+      "reference": "The EPA rates it at 19 mpg city, 22 highway and 20 combined, using regular fuel. Estimated annual fuel cost is about $3,350.",
+      "gold": "fuel:41837",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2020",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a196",
+      "question": "What gas mileage can I expect from my 2016 Mazda CX-5 with all-wheel drive and the 2.5 liter engine in city and highway driving?",
+      "reference": "The EPA rates the 2016 Mazda CX-5 4WD with the 2.5L 4-cylinder and 6-speed automatic at 24 city, 29 highway and 26 combined MPG, with an estimated annual fuel cost of about $2,600 on regular gas.",
+      "gold": "fuel:35993",
+      "vehicle": "MAZDA|CX-5|2016",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a197",
+      "question": "What kind of gas mileage should I expect from my 2015 Chevrolet Malibu with the 2.5 L four-cylinder and automatic transmission in city and highway driving?",
+      "reference": "The EPA rates the 2015 Malibu 2.5 L 4-cylinder automatic (front-wheel drive) at 25 city / 36 highway / 29 combined MPG on regular fuel, with an estimated annual fuel cost of about $2,300.",
+      "gold": "fuel:35014",
+      "vehicle": "CHEVROLET|MALIBU|2015",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a198",
+      "question": "What gas mileage does my 2021 Chevrolet Silverado 1500 cab chassis with the 5.3 liter V8 and rear-wheel drive get according to the EPA?",
+      "reference": "The EPA rates it at 14 mpg city, 18 mpg highway and 15 mpg combined, with an estimated annual fuel cost of about $4,450 on regular fuel.",
+      "gold": "fuel:43197",
+      "vehicle": "CHEVROLET|SILVERADO 1500|2021",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "a199",
+      "question": "What gas mileage should I expect from my 2017 Honda CR-V with the 1.5L turbo engine and front-wheel drive, in the city and on the highway?",
+      "reference": "The EPA rates the 2017 Honda CR-V FWD with the 1.5L 4-cylinder and CVT at 28 mpg city, 34 mpg highway and 30 mpg combined, with an estimated annual fuel cost of about $2,250 on regular gas.",
+      "gold": "fuel:38449",
+      "vehicle": "HONDA|CR-V|2017",
+      "source": "fuel",
+      "answerable": true
+    },
+    {
+      "id": "u000",
+      "question": "Are there any open recalls on my 2019 BMW 330i?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u001",
+      "question": "What's the EPA combined MPG for a 2021 Volkswagen Golf GTI?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u002",
+      "question": "My 2017 Lexus RX 350 has a rattling noise from the dash. Are other owners complaining about this?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u003",
+      "question": "Did Mercedes-Benz recall the 2020 C300 for airbag problems?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u004",
+      "question": "How many miles per gallon does a 2016 Dodge Charger get on the highway?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u005",
+      "question": "I own a 2022 Audi Q5 and the infotainment screen keeps freezing. Is there a recall?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u006",
+      "question": "Which is more fuel efficient, a 2018 Acura MDX or a 2018 Infiniti QX60?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u007",
+      "question": "Has there been a safety recall for the 2023 Rivian R1T?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u008",
+      "question": "Any complaints about transmission failure on the 2015 Mini Cooper?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u009",
+      "question": "Is my 2020 Volvo XC90 affected by any recall for seat belts?",
+      "kind": "uncovered_make",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u010",
+      "question": "How often should I change the oil in my 2020 Toyota Camry?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u011",
+      "question": "What's the average price of a used 2019 Honda CR-V in my area?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u012",
+      "question": "How much does insurance usually cost for a 2022 Ford F-150?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u013",
+      "question": "What's the correct tire pressure for a 2018 Subaru Outback?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u014",
+      "question": "How do I set up a trailer hitch and weight distribution for towing with my 2021 Ram 1500?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u015",
+      "question": "What will my 2017 Mazda CX-5 be worth in three years?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u016",
+      "question": "When is the 60,000-mile service due on a 2016 Hyundai Sonata and what does it include?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u017",
+      "question": "How do I reset the maintenance light on my 2020 Kia Soul?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u018",
+      "question": "Is a 2023 Tesla Model 3 cheaper to insure than a 2023 Toyota Prius?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u019",
+      "question": "What's the best way to jump-start a 2019 Jeep Wrangler?",
+      "kind": "off_topic",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u020",
+      "question": "Are there any recalls on my 2008 Honda Accord?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u021",
+      "question": "What was the EPA fuel economy for a 2010 Toyota Corolla?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u022",
+      "question": "Do 2006 Ford F-150s have a lot of complaints about spark plugs blowing out?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u023",
+      "question": "Was the 2011 Chevrolet Silverado 1500 recalled for anything related to the brakes?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u024",
+      "question": "How many MPG did a 2007 Toyota Prius get in the city?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u025",
+      "question": "My 2012 Nissan Altima has CVT problems. Are other owners reporting this?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u026",
+      "question": "Is there an airbag recall for a 2005 Honda Civic?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u027",
+      "question": "What are the common complaints for the 2009 Jeep Grand Cherokee?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u028",
+      "question": "Gas mileage for a 2011 Ford Escape with the V6?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    },
+    {
+      "id": "u029",
+      "question": "Did the 2008 Subaru Forester have any recalls for head gaskets or engine issues?",
+      "kind": "uncovered_year",
+      "gold": null,
+      "answerable": false
+    }
+  ]
+}
