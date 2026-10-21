@@ -37,3 +37,4 @@ ignore = ["E501"]  # the formatter wraps code; long lines left are prompt text
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
